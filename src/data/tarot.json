@@ -1,0 +1,2066 @@
+{
+  "cards": [
+    {
+      "id": 0,
+      "name": "The Fool",
+      "nameZh": "愚者",
+      "arcana": "major",
+      "suit": null,
+      "uprightMeaning": "New beginnings, innocence, spontaneity, free spirit. A leap of faith into the unknown. Embrace the journey ahead without overthinking.",
+      "uprightMeaningZh": "新的开始，纯真，随性，自由精神。向未知一跃。不必过度思考，拥抱前方的旅程。",
+      "reversedMeaning": "Recklessness, risk-taking, holding back out of fear. A warning against naivety and poor judgment.",
+      "reversedMeaningZh": "鲁莽，冒险，因恐惧而止步不前。警惕天真和不当的判断。",
+      "keywords": [
+        "beginnings",
+        "freedom",
+        "innocence",
+        "journey",
+        "faith"
+      ],
+      "keywordsZh": [
+        "开始",
+        "自由",
+        "纯真",
+        "旅程",
+        "信念"
+      ]
+    },
+    {
+      "id": 1,
+      "name": "The Magician",
+      "nameZh": "魔术师",
+      "arcana": "major",
+      "suit": null,
+      "uprightMeaning": "Willpower, resourcefulness, skill, manifestation. You have all the tools you need to succeed. Channel your focus and take action.",
+      "uprightMeaningZh": "意志力，足智多谋，技能，显化。你拥有成功所需的一切工具。集中注意力，采取行动。",
+      "reversedMeaning": "Manipulation, untapped potential, trickery. Misuse of power or lack of direction.",
+      "reversedMeaningZh": "操纵，未开发的潜力，欺骗。滥用权力或缺乏方向。",
+      "keywords": [
+        "power",
+        "skill",
+        "manifestation",
+        "focus",
+        "action"
+      ],
+      "keywordsZh": [
+        "力量",
+        "技能",
+        "显化",
+        "专注",
+        "行动"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "The High Priestess",
+      "nameZh": "女祭司",
+      "arcana": "major",
+      "suit": null,
+      "uprightMeaning": "Intuition, mystery, subconscious mind, inner wisdom. Trust your gut feelings. Look beneath the surface.",
+      "uprightMeaningZh": "直觉，神秘，潜意识，内在智慧。相信你的直觉。看穿表象之下。",
+      "reversedMeaning": "Secrets, withdrawal, silenced intuition. Disconnection from inner voice or hidden agendas.",
+      "reversedMeaningZh": "秘密，退缩，沉默的直觉。与内在声音失去连接，或隐藏的议程。",
+      "keywords": [
+        "intuition",
+        "mystery",
+        "wisdom",
+        "subconscious",
+        "stillness"
+      ],
+      "keywordsZh": [
+        "直觉",
+        "神秘",
+        "智慧",
+        "潜意识",
+        "静默"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "The Empress",
+      "nameZh": "女皇",
+      "arcana": "major",
+      "suit": null,
+      "uprightMeaning": "Abundance, nurturing, fertility, nature. A time of growth and creativity. Connect with beauty and the senses.",
+      "uprightMeaningZh": "丰盛，滋养，繁育，自然。成长与创造力的时期。与美和感官连接。",
+      "reversedMeaning": "Dependence, neglect, creative block. Smothering or emotional emptiness.",
+      "reversedMeaningZh": "依赖，忽视，创意障碍。窒息或情感空虚。",
+      "keywords": [
+        "abundance",
+        "nurture",
+        "creativity",
+        "nature",
+        "beauty"
+      ],
+      "keywordsZh": [
+        "丰盛",
+        "滋养",
+        "创造力",
+        "自然",
+        "美"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "The Emperor",
+      "nameZh": "皇帝",
+      "arcana": "major",
+      "suit": null,
+      "uprightMeaning": "Authority, structure, stability, leadership. Establish order and take command. Discipline brings success.",
+      "uprightMeaningZh": "权威，结构，稳定，领导力。建立秩序，掌控全局。纪律带来成功。",
+      "reversedMeaning": "Tyranny, rigidity, abuse of power. Lack of control or excessive control.",
+      "reversedMeaningZh": "暴政，僵化，滥用权力。缺乏控制或控制过度。",
+      "keywords": [
+        "authority",
+        "structure",
+        "leadership",
+        "discipline",
+        "order"
+      ],
+      "keywordsZh": [
+        "权威",
+        "结构",
+        "领导力",
+        "纪律",
+        "秩序"
+      ]
+    },
+    {
+      "id": 5,
+      "name": "The Hierophant",
+      "nameZh": "教皇",
+      "arcana": "major",
+      "suit": null,
+      "uprightMeaning": "Tradition, spiritual guidance, education, conformity. Seek wisdom from established sources. Follow the tried and true path.",
+      "uprightMeaningZh": "传统，精神指引，教育，遵从。从既定来源寻求智慧。走经过验证的道路。",
+      "reversedMeaning": "Rebellion, unconventionality, hypocrisy. Breaking from tradition or dogmatic thinking.",
+      "reversedMeaningZh": "反叛，非传统，虚伪。打破传统或教条式思维。",
+      "keywords": [
+        "tradition",
+        "guidance",
+        "education",
+        "belief",
+        "conformity"
+      ],
+      "keywordsZh": [
+        "传统",
+        "指引",
+        "教育",
+        "信仰",
+        "遵从"
+      ]
+    },
+    {
+      "id": 6,
+      "name": "The Lovers",
+      "nameZh": "恋人",
+      "arcana": "major",
+      "suit": null,
+      "uprightMeaning": "Love, harmony, choices, alignment. A meaningful partnership or critical life decision guided by values.",
+      "uprightMeaningZh": "爱情，和谐，选择，一致。有意义的伙伴关系或由价值观引导的关键人生决定。",
+      "reversedMeaning": "Disharmony, imbalance, misalignment. Poor choices or separation from values.",
+      "reversedMeaningZh": "不和谐，失衡，不一致。糟糕的选择或与价值观背离。",
+      "keywords": [
+        "love",
+        "choice",
+        "harmony",
+        "partnership",
+        "values"
+      ],
+      "keywordsZh": [
+        "爱情",
+        "选择",
+        "和谐",
+        "伙伴关系",
+        "价值观"
+      ]
+    },
+    {
+      "id": 7,
+      "name": "The Chariot",
+      "nameZh": "战车",
+      "arcana": "major",
+      "suit": null,
+      "uprightMeaning": "Determination, victory, willpower, momentum. Charge forward with confidence. Overcome obstacles through sheer drive.",
+      "uprightMeaningZh": "决心，胜利，意志力，冲劲。充满信心地前进。以纯粹的驱动力克服障碍。",
+      "reversedMeaning": "Lack of direction, aggression, loss of control. Scattered energy or defeat.",
+      "reversedMeaningZh": "缺乏方向，侵略性，失控。能量分散或失败。",
+      "keywords": [
+        "victory",
+        "determination",
+        "drive",
+        "control",
+        "momentum"
+      ],
+      "keywordsZh": [
+        "胜利",
+        "决心",
+        "驱动力",
+        "控制",
+        "冲劲"
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Strength",
+      "nameZh": "力量",
+      "arcana": "major",
+      "suit": null,
+      "uprightMeaning": "Courage, inner power, compassion, patience. Gentle strength over brute force. Master your emotions through grace.",
+      "uprightMeaningZh": "勇气，内在力量，慈悲，耐心。以柔克刚。以优雅驾驭情感。",
+      "reversedMeaning": "Self-doubt, weakness, insecurity. Raw emotion overwhelming reason.",
+      "reversedMeaningZh": "自我怀疑，软弱，不安。原始情感压倒理智。",
+      "keywords": [
+        "courage",
+        "patience",
+        "compassion",
+        "inner-strength",
+        "resilience"
+      ],
+      "keywordsZh": [
+        "勇气",
+        "耐心",
+        "慈悲",
+        "内在力量",
+        "韧性"
+      ]
+    },
+    {
+      "id": 9,
+      "name": "The Hermit",
+      "nameZh": "隐士",
+      "arcana": "major",
+      "suit": null,
+      "uprightMeaning": "Solitude, introspection, inner guidance, contemplation. Step back and reflect. The answer lies within.",
+      "uprightMeaningZh": "独处，内省，内在指引，沉思。退后一步反思。答案存于内心。",
+      "reversedMeaning": "Isolation, loneliness, withdrawal. Avoiding necessary introspection or excessive seclusion.",
+      "reversedMeaningZh": "孤立，孤独，退缩。逃避必要的内省或过度封闭。",
+      "keywords": [
+        "solitude",
+        "wisdom",
+        "introspection",
+        "guidance",
+        "reflection"
+      ],
+      "keywordsZh": [
+        "独处",
+        "智慧",
+        "内省",
+        "指引",
+        "反思"
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Wheel of Fortune",
+      "nameZh": "命运之轮",
+      "arcana": "major",
+      "suit": null,
+      "uprightMeaning": "Change, cycles, destiny, luck. A turning point. Ride the wave of fortune and embrace the unknown.",
+      "uprightMeaningZh": "变化，周期，命运，运气。一个转折点。乘风破浪，拥抱未知。",
+      "reversedMeaning": "Bad luck, resistance to change, setbacks. Fighting against inevitable cycles.",
+      "reversedMeaningZh": "厄运，抗拒变化，挫折。与不可避免的周期抗争。",
+      "keywords": [
+        "change",
+        "destiny",
+        "luck",
+        "cycles",
+        "turning-point"
+      ],
+      "keywordsZh": [
+        "变化",
+        "命运",
+        "运气",
+        "周期",
+        "转折点"
+      ]
+    },
+    {
+      "id": 11,
+      "name": "Justice",
+      "nameZh": "正义",
+      "arcana": "major",
+      "suit": null,
+      "uprightMeaning": "Fairness, truth, accountability, cause and effect. The truth will prevail. Make decisions with integrity.",
+      "uprightMeaningZh": "公平，真相，责任，因果。真相终将获胜。以正直做出决定。",
+      "reversedMeaning": "Injustice, dishonesty, lack of accountability. Unfair outcomes or avoidance of truth.",
+      "reversedMeaningZh": "不公，不诚实，缺乏责任感。不公平的结果或逃避真相。",
+      "keywords": [
+        "justice",
+        "truth",
+        "balance",
+        "accountability",
+        "fairness"
+      ],
+      "keywordsZh": [
+        "正义",
+        "真相",
+        "平衡",
+        "责任",
+        "公平"
+      ]
+    },
+    {
+      "id": 12,
+      "name": "The Hanged Man",
+      "nameZh": "倒吊人",
+      "arcana": "major",
+      "suit": null,
+      "uprightMeaning": "Surrender, new perspective, pause, letting go. See things differently. Suspension brings enlightenment.",
+      "uprightMeaningZh": "臣服，新视角，暂停，放手。以不同的方式看待事物。悬置带来启迪。",
+      "reversedMeaning": "Stalling, resistance, martyrdom. Unwillingness to change perspective.",
+      "reversedMeaningZh": "停滞，抗拒，牺牲。不愿改变视角。",
+      "keywords": [
+        "surrender",
+        "perspective",
+        "pause",
+        "sacrifice",
+        "release"
+      ],
+      "keywordsZh": [
+        "臣服",
+        "视角",
+        "暂停",
+        "牺牲",
+        "释放"
+      ]
+    },
+    {
+      "id": 13,
+      "name": "Death",
+      "nameZh": "死神",
+      "arcana": "major",
+      "suit": null,
+      "uprightMeaning": "Transformation, endings, rebirth, transition. Something must end for something new to begin. Embrace the metamorphosis.",
+      "uprightMeaningZh": "转变，终结，重生，过渡。旧的不去新的不来。拥抱蜕变。",
+      "reversedMeaning": "Fear of change, stagnation, clinging to the past. Resisting necessary endings.",
+      "reversedMeaningZh": "害怕改变，停滞，执着过去。抗拒必要的终结。",
+      "keywords": [
+        "transformation",
+        "ending",
+        "rebirth",
+        "change",
+        "release"
+      ],
+      "keywordsZh": [
+        "转变",
+        "终结",
+        "重生",
+        "变化",
+        "释放"
+      ]
+    },
+    {
+      "id": 14,
+      "name": "Temperance",
+      "nameZh": "节制",
+      "arcana": "major",
+      "suit": null,
+      "uprightMeaning": "Balance, moderation, patience, harmony. Blend opposing forces. Find the middle way through calm integration.",
+      "uprightMeaningZh": "平衡，适度，耐心，和谐。融合对立的力量。通过平静的整合找到中道。",
+      "reversedMeaning": "Excess, imbalance, lack of harmony. Discord or overindulgence.",
+      "reversedMeaningZh": "过度，失衡，缺乏和谐。冲突或放纵。",
+      "keywords": [
+        "balance",
+        "patience",
+        "moderation",
+        "harmony",
+        "healing"
+      ],
+      "keywordsZh": [
+        "平衡",
+        "耐心",
+        "适度",
+        "和谐",
+        "疗愈"
+      ]
+    },
+    {
+      "id": 15,
+      "name": "The Devil",
+      "nameZh": "恶魔",
+      "arcana": "major",
+      "suit": null,
+      "uprightMeaning": "Attachment, materialism, shadow self, temptation. Examine what binds you. Confront your fears and unhealthy patterns.",
+      "uprightMeaningZh": "执念，物质主义，阴影自我，诱惑。审视什么束缚了你。直面恐惧和不健康模式。",
+      "reversedMeaning": "Release, breaking free, reclaiming power. Overcoming addiction or toxic bonds.",
+      "reversedMeaningZh": "释放，挣脱，重获力量。克服成瘾或有毒的关系。",
+      "keywords": [
+        "bondage",
+        "temptation",
+        "shadow",
+        "materialism",
+        "addiction"
+      ],
+      "keywordsZh": [
+        "束缚",
+        "诱惑",
+        "阴影",
+        "物质主义",
+        "成瘾"
+      ]
+    },
+    {
+      "id": 16,
+      "name": "The Tower",
+      "nameZh": "高塔",
+      "arcana": "major",
+      "suit": null,
+      "uprightMeaning": "Sudden upheaval, destruction, revelation, awakening. The false must crumble. Though painful, this clearing makes way for truth.",
+      "uprightMeaningZh": "突然的剧变，摧毁，启示，觉醒。虚假的必须崩塌。虽然痛苦，但这场清理为真相铺路。",
+      "reversedMeaning": "Averted disaster, denial, resisting collapse. Delaying inevitable change or minimizing damage.",
+      "reversedMeaningZh": "避开的灾难，否认，抗拒崩塌。拖延不可避免的变化或最小化损害。",
+      "keywords": [
+        "upheaval",
+        "revelation",
+        "collapse",
+        "awakening",
+        "truth"
+      ],
+      "keywordsZh": [
+        "剧变",
+        "启示",
+        "崩塌",
+        "觉醒",
+        "真相"
+      ]
+    },
+    {
+      "id": 17,
+      "name": "The Star",
+      "nameZh": "星星",
+      "arcana": "major",
+      "suit": null,
+      "uprightMeaning": "Hope, inspiration, healing, serenity. A period of calm renewal. Trust in the universe and your path forward.",
+      "uprightMeaningZh": "希望，灵感，疗愈，宁静。一段平静的更新期。信任宇宙和你前行的道路。",
+      "reversedMeaning": "Despair, hopelessness, disconnection. Loss of faith or creative drought.",
+      "reversedMeaningZh": "绝望，无望，失联。失去信念或创造力枯竭。",
+      "keywords": [
+        "hope",
+        "healing",
+        "inspiration",
+        "peace",
+        "renewal"
+      ],
+      "keywordsZh": [
+        "希望",
+        "疗愈",
+        "灵感",
+        "平静",
+        "更新"
+      ]
+    },
+    {
+      "id": 18,
+      "name": "The Moon",
+      "nameZh": "月亮",
+      "arcana": "major",
+      "suit": null,
+      "uprightMeaning": "Illusion, intuition, dreams, the subconscious. Things are not what they seem. Navigate uncertainty with inner guidance.",
+      "uprightMeaningZh": "幻象，直觉，梦境，潜意识。事物并非表面所见。以内在指引穿越不确定性。",
+      "reversedMeaning": "Clarity, confusion lifting, repressed fears emerging. Unveiling deception.",
+      "reversedMeaningZh": "清晰，困惑消散，压抑的恐惧浮现。揭开欺骗。",
+      "keywords": [
+        "illusion",
+        "intuition",
+        "fear",
+        "subconscious",
+        "mystery"
+      ],
+      "keywordsZh": [
+        "幻象",
+        "直觉",
+        "恐惧",
+        "潜意识",
+        "神秘"
+      ]
+    },
+    {
+      "id": 19,
+      "name": "The Sun",
+      "nameZh": "太阳",
+      "arcana": "major",
+      "suit": null,
+      "uprightMeaning": "Joy, success, vitality, clarity. Radiant energy and achievement. Bask in the warmth of a positive outcome.",
+      "uprightMeaningZh": "喜悦，成功，活力，清晰。灿烂的能量与成就。沐浴在积极成果的温暖中。",
+      "reversedMeaning": "Diminished joy, blocked success, pessimism. Temporary setbacks or clouded vision.",
+      "reversedMeaningZh": "减弱的喜悦，受阻的成功，悲观。暂时的挫折或模糊的视野。",
+      "keywords": [
+        "joy",
+        "success",
+        "vitality",
+        "clarity",
+        "positivity"
+      ],
+      "keywordsZh": [
+        "喜悦",
+        "成功",
+        "活力",
+        "清晰",
+        "积极"
+      ]
+    },
+    {
+      "id": 20,
+      "name": "Judgement",
+      "nameZh": "审判",
+      "arcana": "major",
+      "suit": null,
+      "uprightMeaning": "Rebirth, inner calling, absolution, awakening. A profound realization. Answer the call to a higher purpose.",
+      "uprightMeaningZh": "重生，内心召唤，赦免，觉醒。深刻的领悟。回应更高使命的召唤。",
+      "reversedMeaning": "Self-doubt, refusal of calling, harsh judgment. Avoiding self-evaluation or ignoring the wake-up call.",
+      "reversedMeaningZh": "自我怀疑，拒绝召唤，严厉审判。逃避自我评估或忽视觉醒的呼唤。",
+      "keywords": [
+        "awakening",
+        "calling",
+        "rebirth",
+        "forgiveness",
+        "purpose"
+      ],
+      "keywordsZh": [
+        "觉醒",
+        "召唤",
+        "重生",
+        "宽恕",
+        "使命"
+      ]
+    },
+    {
+      "id": 21,
+      "name": "The World",
+      "nameZh": "世界",
+      "arcana": "major",
+      "suit": null,
+      "uprightMeaning": "Completion, fulfillment, wholeness, accomplishment. A cycle reaches its satisfying conclusion. Celebrate and integrate.",
+      "uprightMeaningZh": "完成，圆满，完整，成就。一个周期达到圆满的终点。庆祝并整合。",
+      "reversedMeaning": "Incompletion, lack of closure, delays. Unfinished business or unfulfilled goals.",
+      "reversedMeaningZh": "未完成，缺乏完结，拖延。未竟之事或未实现的目标。",
+      "keywords": [
+        "completion",
+        "fulfillment",
+        "wholeness",
+        "achievement",
+        "integration"
+      ],
+      "keywordsZh": [
+        "完成",
+        "圆满",
+        "完整",
+        "成就",
+        "整合"
+      ]
+    },
+    {
+      "id": 22,
+      "name": "Ace of Cups",
+      "nameZh": "圣杯王牌",
+      "arcana": "minor",
+      "suit": "cups",
+      "uprightMeaning": "A powerful new beginning. Pure potential and the seed of something meaningful. In the realm of Cups (Water), this card speaks to emotions, relationships, and creativity.",
+      "uprightMeaningZh": "一个强有力的新开始。纯粹的可能性，有意义的种子。 在圣杯（水元素）的领域中，这张牌关乎情感、人际关系与创造力。",
+      "reversedMeaning": "Blocked new beginning. Missed opportunity or creative stagnation. The Water energy is blocked or misdirected, causing challenges in emotional and relational matters.",
+      "reversedMeaningZh": "受阻的新开始。错失机会或创意停滞。 水元素能量受阻或被误导，在情感与人际关系方面带来挑战。",
+      "keywords": [
+        "ace",
+        "cups",
+        "emotions",
+        "relationships",
+        "heart",
+        "intuition"
+      ],
+      "keywordsZh": [
+        "王牌",
+        "圣杯",
+        "情感",
+        "关系",
+        "心灵",
+        "直觉"
+      ]
+    },
+    {
+      "id": 23,
+      "name": "Two of Cups",
+      "nameZh": "圣杯二",
+      "arcana": "minor",
+      "suit": "cups",
+      "uprightMeaning": "Duality and balance. A choice or partnership is forming. Weigh your options carefully. In the realm of Cups (Water), this card speaks to emotions, relationships, and creativity.",
+      "uprightMeaningZh": "二元与平衡。一个选择或伙伴关系正在形成。谨慎权衡你的选项。 在圣杯（水元素）的领域中，这张牌关乎情感、人际关系与创造力。",
+      "reversedMeaning": "Imbalance, indecision, or disharmony in a partnership. The Water energy is blocked or misdirected, causing challenges in emotional and relational matters.",
+      "reversedMeaningZh": "失衡，优柔寡断，或伙伴关系中的不和谐。 水元素能量受阻或被误导，在情感与人际关系方面带来挑战。",
+      "keywords": [
+        "two",
+        "cups",
+        "emotions",
+        "relationships",
+        "heart",
+        "intuition"
+      ],
+      "keywordsZh": [
+        "二",
+        "圣杯",
+        "情感",
+        "关系",
+        "心灵",
+        "直觉"
+      ]
+    },
+    {
+      "id": 24,
+      "name": "Three of Cups",
+      "nameZh": "圣杯三",
+      "arcana": "minor",
+      "suit": "cups",
+      "uprightMeaning": "Collaboration and growth. Things are coming together. Celebrate progress. In the realm of Cups (Water), this card speaks to emotions, relationships, and creativity.",
+      "uprightMeaningZh": "合作与成长。事情正在汇聚成型。庆祝进展。 在圣杯（水元素）的领域中，这张牌关乎情感、人际关系与创造力。",
+      "reversedMeaning": "Overindulgence, lack of teamwork, or delays in progress. The Water energy is blocked or misdirected, causing challenges in emotional and relational matters.",
+      "reversedMeaningZh": "过度放纵，缺乏团队合作，或进展延迟。 水元素能量受阻或被误导，在情感与人际关系方面带来挑战。",
+      "keywords": [
+        "three",
+        "cups",
+        "emotions",
+        "relationships",
+        "heart",
+        "intuition"
+      ],
+      "keywordsZh": [
+        "三",
+        "圣杯",
+        "情感",
+        "关系",
+        "心灵",
+        "直觉"
+      ]
+    },
+    {
+      "id": 25,
+      "name": "Four of Cups",
+      "nameZh": "圣杯四",
+      "arcana": "minor",
+      "suit": "cups",
+      "uprightMeaning": "Stability and rest. A moment of pause and consolidation. Enjoy the calm. In the realm of Cups (Water), this card speaks to emotions, relationships, and creativity.",
+      "uprightMeaningZh": "稳定与休息。一个暂停和巩固的时刻。享受平静。 在圣杯（水元素）的领域中，这张牌关乎情感、人际关系与创造力。",
+      "reversedMeaning": "Restlessness, instability, or inability to appreciate what you have. The Water energy is blocked or misdirected, causing challenges in emotional and relational matters.",
+      "reversedMeaningZh": "不安，不稳定，或无法欣赏所拥有的。 水元素能量受阻或被误导，在情感与人际关系方面带来挑战。",
+      "keywords": [
+        "four",
+        "cups",
+        "emotions",
+        "relationships",
+        "heart",
+        "intuition"
+      ],
+      "keywordsZh": [
+        "四",
+        "圣杯",
+        "情感",
+        "关系",
+        "心灵",
+        "直觉"
+      ]
+    },
+    {
+      "id": 26,
+      "name": "Five of Cups",
+      "nameZh": "圣杯五",
+      "arcana": "minor",
+      "suit": "cups",
+      "uprightMeaning": "Conflict and challenge. A test of resilience. Growth through adversity. In the realm of Cups (Water), this card speaks to emotions, relationships, and creativity.",
+      "uprightMeaningZh": "冲突与挑战。对韧性的考验。在逆境中成长。 在圣杯（水元素）的领域中，这张牌关乎情感、人际关系与创造力。",
+      "reversedMeaning": "Reconciliation, recovery, or avoiding necessary conflict. The Water energy is blocked or misdirected, causing challenges in emotional and relational matters.",
+      "reversedMeaningZh": "和解，恢复，或回避必要的冲突。 水元素能量受阻或被误导，在情感与人际关系方面带来挑战。",
+      "keywords": [
+        "five",
+        "cups",
+        "emotions",
+        "relationships",
+        "heart",
+        "intuition"
+      ],
+      "keywordsZh": [
+        "五",
+        "圣杯",
+        "情感",
+        "关系",
+        "心灵",
+        "直觉"
+      ]
+    },
+    {
+      "id": 27,
+      "name": "Six of Cups",
+      "nameZh": "圣杯六",
+      "arcana": "minor",
+      "suit": "cups",
+      "uprightMeaning": "Harmony and generosity. Past efforts bring rewards. Share your abundance. In the realm of Cups (Water), this card speaks to emotions, relationships, and creativity.",
+      "uprightMeaningZh": "和谐与慷慨。过往的努力带来回报。分享你的丰盛。 在圣杯（水元素）的领域中，这张牌关乎情感、人际关系与创造力。",
+      "reversedMeaning": "Selfishness, unfulfilled promises, or nostalgia holding you back. The Water energy is blocked or misdirected, causing challenges in emotional and relational matters.",
+      "reversedMeaningZh": "自私，未兑现的承诺，或因怀旧而停滞不前。 水元素能量受阻或被误导，在情感与人际关系方面带来挑战。",
+      "keywords": [
+        "six",
+        "cups",
+        "emotions",
+        "relationships",
+        "heart",
+        "intuition"
+      ],
+      "keywordsZh": [
+        "六",
+        "圣杯",
+        "情感",
+        "关系",
+        "心灵",
+        "直觉"
+      ]
+    },
+    {
+      "id": 28,
+      "name": "Seven of Cups",
+      "nameZh": "圣杯七",
+      "arcana": "minor",
+      "suit": "cups",
+      "uprightMeaning": "Reflection and assessment. Look deeper before acting. Not all is as it seems. In the realm of Cups (Water), this card speaks to emotions, relationships, and creativity.",
+      "uprightMeaningZh": "反思与评估。行动前深入观察。并非一切如表面所见。 在圣杯（水元素）的领域中，这张牌关乎情感、人际关系与创造力。",
+      "reversedMeaning": "Clarity emerging, decisive action, or overthinking paralysis. The Water energy is blocked or misdirected, causing challenges in emotional and relational matters.",
+      "reversedMeaningZh": "清晰浮现，果断行动，或过度思考而瘫痪。 水元素能量受阻或被误导，在情感与人际关系方面带来挑战。",
+      "keywords": [
+        "seven",
+        "cups",
+        "emotions",
+        "relationships",
+        "heart",
+        "intuition"
+      ],
+      "keywordsZh": [
+        "七",
+        "圣杯",
+        "情感",
+        "关系",
+        "心灵",
+        "直觉"
+      ]
+    },
+    {
+      "id": 29,
+      "name": "Eight of Cups",
+      "nameZh": "圣杯八",
+      "arcana": "minor",
+      "suit": "cups",
+      "uprightMeaning": "Movement and progress. Leaving behind what no longer serves. Forward momentum. In the realm of Cups (Water), this card speaks to emotions, relationships, and creativity.",
+      "uprightMeaningZh": "行动与进步。放下不再有益的事物。向前推进。 在圣杯（水元素）的领域中，这张牌关乎情感、人际关系与创造力。",
+      "reversedMeaning": "Stagnation, fear of moving on, or being stuck in old patterns. The Water energy is blocked or misdirected, causing challenges in emotional and relational matters.",
+      "reversedMeaningZh": "停滞，害怕前进，或困于旧模式中。 水元素能量受阻或被误导，在情感与人际关系方面带来挑战。",
+      "keywords": [
+        "eight",
+        "cups",
+        "emotions",
+        "relationships",
+        "heart",
+        "intuition"
+      ],
+      "keywordsZh": [
+        "八",
+        "圣杯",
+        "情感",
+        "关系",
+        "心灵",
+        "直觉"
+      ]
+    },
+    {
+      "id": 30,
+      "name": "Nine of Cups",
+      "nameZh": "圣杯九",
+      "arcana": "minor",
+      "suit": "cups",
+      "uprightMeaning": "Fulfillment and nearing completion. A wish fulfilled. Almost at the finish line. In the realm of Cups (Water), this card speaks to emotions, relationships, and creativity.",
+      "uprightMeaningZh": "满足与即将完成。心愿得偿。接近终点线。 在圣杯（水元素）的领域中，这张牌关乎情感、人际关系与创造力。",
+      "reversedMeaning": "Disappointment, unmet expectations, or the final hurdle proving difficult. The Water energy is blocked or misdirected, causing challenges in emotional and relational matters.",
+      "reversedMeaningZh": "失望，未达预期，或最后一道障碍异常艰难。 水元素能量受阻或被误导，在情感与人际关系方面带来挑战。",
+      "keywords": [
+        "nine",
+        "cups",
+        "emotions",
+        "relationships",
+        "heart",
+        "intuition"
+      ],
+      "keywordsZh": [
+        "九",
+        "圣杯",
+        "情感",
+        "关系",
+        "心灵",
+        "直觉"
+      ]
+    },
+    {
+      "id": 31,
+      "name": "Ten of Cups",
+      "nameZh": "圣杯十",
+      "arcana": "minor",
+      "suit": "cups",
+      "uprightMeaning": "Completion and culmination. The end of a cycle. Harvest what you have sown. In the realm of Cups (Water), this card speaks to emotions, relationships, and creativity.",
+      "uprightMeaningZh": "完成与高潮。一个周期的终结。收获你所播种的。 在圣杯（水元素）的领域中，这张牌关乎情感、人际关系与创造力。",
+      "reversedMeaning": "Unfinished business, resistance to closure, or burden from the past. The Water energy is blocked or misdirected, causing challenges in emotional and relational matters.",
+      "reversedMeaningZh": "未竟之事，抗拒结束，或过去的负担。 水元素能量受阻或被误导，在情感与人际关系方面带来挑战。",
+      "keywords": [
+        "ten",
+        "cups",
+        "emotions",
+        "relationships",
+        "heart",
+        "intuition"
+      ],
+      "keywordsZh": [
+        "十",
+        "圣杯",
+        "情感",
+        "关系",
+        "心灵",
+        "直觉"
+      ]
+    },
+    {
+      "id": 32,
+      "name": "Page of Cups",
+      "nameZh": "圣杯侍从",
+      "arcana": "minor",
+      "suit": "cups",
+      "uprightMeaning": "Curiosity and new learning. A fresh message or opportunity. Embrace the beginner's mind. In the realm of Cups (Water), this card speaks to emotions, relationships, and creativity.",
+      "uprightMeaningZh": "好奇心与新的学习。一个新的消息或机会。拥抱初学者心态。 在圣杯（水元素）的领域中，这张牌关乎情感、人际关系与创造力。",
+      "reversedMeaning": "Immaturity, missed messages, or lack of direction in learning. The Water energy is blocked or misdirected, causing challenges in emotional and relational matters.",
+      "reversedMeaningZh": "不成熟，错失消息，或学习上缺乏方向。 水元素能量受阻或被误导，在情感与人际关系方面带来挑战。",
+      "keywords": [
+        "page",
+        "cups",
+        "emotions",
+        "relationships",
+        "heart",
+        "intuition"
+      ],
+      "keywordsZh": [
+        "侍从",
+        "圣杯",
+        "情感",
+        "关系",
+        "心灵",
+        "直觉"
+      ]
+    },
+    {
+      "id": 33,
+      "name": "Knight of Cups",
+      "nameZh": "圣杯骑士",
+      "arcana": "minor",
+      "suit": "cups",
+      "uprightMeaning": "Action and pursuit. Charging forward with passion. An adventure or challenge awaits. In the realm of Cups (Water), this card speaks to emotions, relationships, and creativity.",
+      "uprightMeaningZh": "行动与追求。满怀激情向前冲锋。冒险或挑战在等待。 在圣杯（水元素）的领域中，这张牌关乎情感、人际关系与创造力。",
+      "reversedMeaning": "Recklessness, delays, or misguided enthusiasm. The Water energy is blocked or misdirected, causing challenges in emotional and relational matters.",
+      "reversedMeaningZh": "鲁莽，延误，或被误导的热情。 水元素能量受阻或被误导，在情感与人际关系方面带来挑战。",
+      "keywords": [
+        "knight",
+        "cups",
+        "emotions",
+        "relationships",
+        "heart",
+        "intuition"
+      ],
+      "keywordsZh": [
+        "骑士",
+        "圣杯",
+        "情感",
+        "关系",
+        "心灵",
+        "直觉"
+      ]
+    },
+    {
+      "id": 34,
+      "name": "Queen of Cups",
+      "nameZh": "圣杯皇后",
+      "arcana": "minor",
+      "suit": "cups",
+      "uprightMeaning": "Nurturing mastery and inner security. Lead with compassion and emotional intelligence. In the realm of Cups (Water), this card speaks to emotions, relationships, and creativity.",
+      "uprightMeaningZh": "滋养的掌控力与内在安全感。以慈悲和情商引领。 在圣杯（水元素）的领域中，这张牌关乎情感、人际关系与创造力。",
+      "reversedMeaning": "Insecurity, emotional manipulation, or neglecting self-care. The Water energy is blocked or misdirected, causing challenges in emotional and relational matters.",
+      "reversedMeaningZh": "不安，情感操控，或忽视自我关怀。 水元素能量受阻或被误导，在情感与人际关系方面带来挑战。",
+      "keywords": [
+        "queen",
+        "cups",
+        "emotions",
+        "relationships",
+        "heart",
+        "intuition"
+      ],
+      "keywordsZh": [
+        "皇后",
+        "圣杯",
+        "情感",
+        "关系",
+        "心灵",
+        "直觉"
+      ]
+    },
+    {
+      "id": 35,
+      "name": "King of Cups",
+      "nameZh": "圣杯国王",
+      "arcana": "minor",
+      "suit": "cups",
+      "uprightMeaning": "Mastery and authority. Lead with experience and confidence. Take full responsibility. In the realm of Cups (Water), this card speaks to emotions, relationships, and creativity.",
+      "uprightMeaningZh": "精通与权威。以经验和信心引领。承担全部责任。 在圣杯（水元素）的领域中，这张牌关乎情感、人际关系与创造力。",
+      "reversedMeaning": "Abuse of power, lack of leadership, or emotional coldness. The Water energy is blocked or misdirected, causing challenges in emotional and relational matters.",
+      "reversedMeaningZh": "滥用权力，缺乏领导力，或情感冷漠。 水元素能量受阻或被误导，在情感与人际关系方面带来挑战。",
+      "keywords": [
+        "king",
+        "cups",
+        "emotions",
+        "relationships",
+        "heart",
+        "intuition"
+      ],
+      "keywordsZh": [
+        "国王",
+        "圣杯",
+        "情感",
+        "关系",
+        "心灵",
+        "直觉"
+      ]
+    },
+    {
+      "id": 36,
+      "name": "Ace of Wands",
+      "nameZh": "权杖王牌",
+      "arcana": "minor",
+      "suit": "wands",
+      "uprightMeaning": "A powerful new beginning. Pure potential and the seed of something meaningful. In the realm of Wands (Fire), this card speaks to passion, ambition, and spiritual growth.",
+      "uprightMeaningZh": "一个强有力的新开始。纯粹的可能性，有意义的种子。 在权杖（火元素）的领域中，这张牌关乎激情、野心与精神成长。",
+      "reversedMeaning": "Blocked new beginning. Missed opportunity or creative stagnation. The Fire energy is blocked or misdirected, causing challenges in creative and spiritual pursuits.",
+      "reversedMeaningZh": "受阻的新开始。错失机会或创意停滞。 火元素能量受阻或被误导，在创造力与精神追求方面带来挑战。",
+      "keywords": [
+        "ace",
+        "wands",
+        "passion",
+        "action",
+        "creativity",
+        "ambition"
+      ],
+      "keywordsZh": [
+        "王牌",
+        "权杖",
+        "激情",
+        "行动",
+        "创造力",
+        "野心"
+      ]
+    },
+    {
+      "id": 37,
+      "name": "Two of Wands",
+      "nameZh": "权杖二",
+      "arcana": "minor",
+      "suit": "wands",
+      "uprightMeaning": "Duality and balance. A choice or partnership is forming. Weigh your options carefully. In the realm of Wands (Fire), this card speaks to passion, ambition, and spiritual growth.",
+      "uprightMeaningZh": "二元与平衡。一个选择或伙伴关系正在形成。谨慎权衡你的选项。 在权杖（火元素）的领域中，这张牌关乎激情、野心与精神成长。",
+      "reversedMeaning": "Imbalance, indecision, or disharmony in a partnership. The Fire energy is blocked or misdirected, causing challenges in creative and spiritual pursuits.",
+      "reversedMeaningZh": "失衡，优柔寡断，或伙伴关系中的不和谐。 火元素能量受阻或被误导，在创造力与精神追求方面带来挑战。",
+      "keywords": [
+        "two",
+        "wands",
+        "passion",
+        "action",
+        "creativity",
+        "ambition"
+      ],
+      "keywordsZh": [
+        "二",
+        "权杖",
+        "激情",
+        "行动",
+        "创造力",
+        "野心"
+      ]
+    },
+    {
+      "id": 38,
+      "name": "Three of Wands",
+      "nameZh": "权杖三",
+      "arcana": "minor",
+      "suit": "wands",
+      "uprightMeaning": "Collaboration and growth. Things are coming together. Celebrate progress. In the realm of Wands (Fire), this card speaks to passion, ambition, and spiritual growth.",
+      "uprightMeaningZh": "合作与成长。事情正在汇聚成型。庆祝进展。 在权杖（火元素）的领域中，这张牌关乎激情、野心与精神成长。",
+      "reversedMeaning": "Overindulgence, lack of teamwork, or delays in progress. The Fire energy is blocked or misdirected, causing challenges in creative and spiritual pursuits.",
+      "reversedMeaningZh": "过度放纵，缺乏团队合作，或进展延迟。 火元素能量受阻或被误导，在创造力与精神追求方面带来挑战。",
+      "keywords": [
+        "three",
+        "wands",
+        "passion",
+        "action",
+        "creativity",
+        "ambition"
+      ],
+      "keywordsZh": [
+        "三",
+        "权杖",
+        "激情",
+        "行动",
+        "创造力",
+        "野心"
+      ]
+    },
+    {
+      "id": 39,
+      "name": "Four of Wands",
+      "nameZh": "权杖四",
+      "arcana": "minor",
+      "suit": "wands",
+      "uprightMeaning": "Stability and rest. A moment of pause and consolidation. Enjoy the calm. In the realm of Wands (Fire), this card speaks to passion, ambition, and spiritual growth.",
+      "uprightMeaningZh": "稳定与休息。一个暂停和巩固的时刻。享受平静。 在权杖（火元素）的领域中，这张牌关乎激情、野心与精神成长。",
+      "reversedMeaning": "Restlessness, instability, or inability to appreciate what you have. The Fire energy is blocked or misdirected, causing challenges in creative and spiritual pursuits.",
+      "reversedMeaningZh": "不安，不稳定，或无法欣赏所拥有的。 火元素能量受阻或被误导，在创造力与精神追求方面带来挑战。",
+      "keywords": [
+        "four",
+        "wands",
+        "passion",
+        "action",
+        "creativity",
+        "ambition"
+      ],
+      "keywordsZh": [
+        "四",
+        "权杖",
+        "激情",
+        "行动",
+        "创造力",
+        "野心"
+      ]
+    },
+    {
+      "id": 40,
+      "name": "Five of Wands",
+      "nameZh": "权杖五",
+      "arcana": "minor",
+      "suit": "wands",
+      "uprightMeaning": "Conflict and challenge. A test of resilience. Growth through adversity. In the realm of Wands (Fire), this card speaks to passion, ambition, and spiritual growth.",
+      "uprightMeaningZh": "冲突与挑战。对韧性的考验。在逆境中成长。 在权杖（火元素）的领域中，这张牌关乎激情、野心与精神成长。",
+      "reversedMeaning": "Reconciliation, recovery, or avoiding necessary conflict. The Fire energy is blocked or misdirected, causing challenges in creative and spiritual pursuits.",
+      "reversedMeaningZh": "和解，恢复，或回避必要的冲突。 火元素能量受阻或被误导，在创造力与精神追求方面带来挑战。",
+      "keywords": [
+        "five",
+        "wands",
+        "passion",
+        "action",
+        "creativity",
+        "ambition"
+      ],
+      "keywordsZh": [
+        "五",
+        "权杖",
+        "激情",
+        "行动",
+        "创造力",
+        "野心"
+      ]
+    },
+    {
+      "id": 41,
+      "name": "Six of Wands",
+      "nameZh": "权杖六",
+      "arcana": "minor",
+      "suit": "wands",
+      "uprightMeaning": "Harmony and generosity. Past efforts bring rewards. Share your abundance. In the realm of Wands (Fire), this card speaks to passion, ambition, and spiritual growth.",
+      "uprightMeaningZh": "和谐与慷慨。过往的努力带来回报。分享你的丰盛。 在权杖（火元素）的领域中，这张牌关乎激情、野心与精神成长。",
+      "reversedMeaning": "Selfishness, unfulfilled promises, or nostalgia holding you back. The Fire energy is blocked or misdirected, causing challenges in creative and spiritual pursuits.",
+      "reversedMeaningZh": "自私，未兑现的承诺，或因怀旧而停滞不前。 火元素能量受阻或被误导，在创造力与精神追求方面带来挑战。",
+      "keywords": [
+        "six",
+        "wands",
+        "passion",
+        "action",
+        "creativity",
+        "ambition"
+      ],
+      "keywordsZh": [
+        "六",
+        "权杖",
+        "激情",
+        "行动",
+        "创造力",
+        "野心"
+      ]
+    },
+    {
+      "id": 42,
+      "name": "Seven of Wands",
+      "nameZh": "权杖七",
+      "arcana": "minor",
+      "suit": "wands",
+      "uprightMeaning": "Reflection and assessment. Look deeper before acting. Not all is as it seems. In the realm of Wands (Fire), this card speaks to passion, ambition, and spiritual growth.",
+      "uprightMeaningZh": "反思与评估。行动前深入观察。并非一切如表面所见。 在权杖（火元素）的领域中，这张牌关乎激情、野心与精神成长。",
+      "reversedMeaning": "Clarity emerging, decisive action, or overthinking paralysis. The Fire energy is blocked or misdirected, causing challenges in creative and spiritual pursuits.",
+      "reversedMeaningZh": "清晰浮现，果断行动，或过度思考而瘫痪。 火元素能量受阻或被误导，在创造力与精神追求方面带来挑战。",
+      "keywords": [
+        "seven",
+        "wands",
+        "passion",
+        "action",
+        "creativity",
+        "ambition"
+      ],
+      "keywordsZh": [
+        "七",
+        "权杖",
+        "激情",
+        "行动",
+        "创造力",
+        "野心"
+      ]
+    },
+    {
+      "id": 43,
+      "name": "Eight of Wands",
+      "nameZh": "权杖八",
+      "arcana": "minor",
+      "suit": "wands",
+      "uprightMeaning": "Movement and progress. Leaving behind what no longer serves. Forward momentum. In the realm of Wands (Fire), this card speaks to passion, ambition, and spiritual growth.",
+      "uprightMeaningZh": "行动与进步。放下不再有益的事物。向前推进。 在权杖（火元素）的领域中，这张牌关乎激情、野心与精神成长。",
+      "reversedMeaning": "Stagnation, fear of moving on, or being stuck in old patterns. The Fire energy is blocked or misdirected, causing challenges in creative and spiritual pursuits.",
+      "reversedMeaningZh": "停滞，害怕前进，或困于旧模式中。 火元素能量受阻或被误导，在创造力与精神追求方面带来挑战。",
+      "keywords": [
+        "eight",
+        "wands",
+        "passion",
+        "action",
+        "creativity",
+        "ambition"
+      ],
+      "keywordsZh": [
+        "八",
+        "权杖",
+        "激情",
+        "行动",
+        "创造力",
+        "野心"
+      ]
+    },
+    {
+      "id": 44,
+      "name": "Nine of Wands",
+      "nameZh": "权杖九",
+      "arcana": "minor",
+      "suit": "wands",
+      "uprightMeaning": "Fulfillment and nearing completion. A wish fulfilled. Almost at the finish line. In the realm of Wands (Fire), this card speaks to passion, ambition, and spiritual growth.",
+      "uprightMeaningZh": "满足与即将完成。心愿得偿。接近终点线。 在权杖（火元素）的领域中，这张牌关乎激情、野心与精神成长。",
+      "reversedMeaning": "Disappointment, unmet expectations, or the final hurdle proving difficult. The Fire energy is blocked or misdirected, causing challenges in creative and spiritual pursuits.",
+      "reversedMeaningZh": "失望，未达预期，或最后一道障碍异常艰难。 火元素能量受阻或被误导，在创造力与精神追求方面带来挑战。",
+      "keywords": [
+        "nine",
+        "wands",
+        "passion",
+        "action",
+        "creativity",
+        "ambition"
+      ],
+      "keywordsZh": [
+        "九",
+        "权杖",
+        "激情",
+        "行动",
+        "创造力",
+        "野心"
+      ]
+    },
+    {
+      "id": 45,
+      "name": "Ten of Wands",
+      "nameZh": "权杖十",
+      "arcana": "minor",
+      "suit": "wands",
+      "uprightMeaning": "Completion and culmination. The end of a cycle. Harvest what you have sown. In the realm of Wands (Fire), this card speaks to passion, ambition, and spiritual growth.",
+      "uprightMeaningZh": "完成与高潮。一个周期的终结。收获你所播种的。 在权杖（火元素）的领域中，这张牌关乎激情、野心与精神成长。",
+      "reversedMeaning": "Unfinished business, resistance to closure, or burden from the past. The Fire energy is blocked or misdirected, causing challenges in creative and spiritual pursuits.",
+      "reversedMeaningZh": "未竟之事，抗拒结束，或过去的负担。 火元素能量受阻或被误导，在创造力与精神追求方面带来挑战。",
+      "keywords": [
+        "ten",
+        "wands",
+        "passion",
+        "action",
+        "creativity",
+        "ambition"
+      ],
+      "keywordsZh": [
+        "十",
+        "权杖",
+        "激情",
+        "行动",
+        "创造力",
+        "野心"
+      ]
+    },
+    {
+      "id": 46,
+      "name": "Page of Wands",
+      "nameZh": "权杖侍从",
+      "arcana": "minor",
+      "suit": "wands",
+      "uprightMeaning": "Curiosity and new learning. A fresh message or opportunity. Embrace the beginner's mind. In the realm of Wands (Fire), this card speaks to passion, ambition, and spiritual growth.",
+      "uprightMeaningZh": "好奇心与新的学习。一个新的消息或机会。拥抱初学者心态。 在权杖（火元素）的领域中，这张牌关乎激情、野心与精神成长。",
+      "reversedMeaning": "Immaturity, missed messages, or lack of direction in learning. The Fire energy is blocked or misdirected, causing challenges in creative and spiritual pursuits.",
+      "reversedMeaningZh": "不成熟，错失消息，或学习上缺乏方向。 火元素能量受阻或被误导，在创造力与精神追求方面带来挑战。",
+      "keywords": [
+        "page",
+        "wands",
+        "passion",
+        "action",
+        "creativity",
+        "ambition"
+      ],
+      "keywordsZh": [
+        "侍从",
+        "权杖",
+        "激情",
+        "行动",
+        "创造力",
+        "野心"
+      ]
+    },
+    {
+      "id": 47,
+      "name": "Knight of Wands",
+      "nameZh": "权杖骑士",
+      "arcana": "minor",
+      "suit": "wands",
+      "uprightMeaning": "Action and pursuit. Charging forward with passion. An adventure or challenge awaits. In the realm of Wands (Fire), this card speaks to passion, ambition, and spiritual growth.",
+      "uprightMeaningZh": "行动与追求。满怀激情向前冲锋。冒险或挑战在等待。 在权杖（火元素）的领域中，这张牌关乎激情、野心与精神成长。",
+      "reversedMeaning": "Recklessness, delays, or misguided enthusiasm. The Fire energy is blocked or misdirected, causing challenges in creative and spiritual pursuits.",
+      "reversedMeaningZh": "鲁莽，延误，或被误导的热情。 火元素能量受阻或被误导，在创造力与精神追求方面带来挑战。",
+      "keywords": [
+        "knight",
+        "wands",
+        "passion",
+        "action",
+        "creativity",
+        "ambition"
+      ],
+      "keywordsZh": [
+        "骑士",
+        "权杖",
+        "激情",
+        "行动",
+        "创造力",
+        "野心"
+      ]
+    },
+    {
+      "id": 48,
+      "name": "Queen of Wands",
+      "nameZh": "权杖皇后",
+      "arcana": "minor",
+      "suit": "wands",
+      "uprightMeaning": "Nurturing mastery and inner security. Lead with compassion and emotional intelligence. In the realm of Wands (Fire), this card speaks to passion, ambition, and spiritual growth.",
+      "uprightMeaningZh": "滋养的掌控力与内在安全感。以慈悲和情商引领。 在权杖（火元素）的领域中，这张牌关乎激情、野心与精神成长。",
+      "reversedMeaning": "Insecurity, emotional manipulation, or neglecting self-care. The Fire energy is blocked or misdirected, causing challenges in creative and spiritual pursuits.",
+      "reversedMeaningZh": "不安，情感操控，或忽视自我关怀。 火元素能量受阻或被误导，在创造力与精神追求方面带来挑战。",
+      "keywords": [
+        "queen",
+        "wands",
+        "passion",
+        "action",
+        "creativity",
+        "ambition"
+      ],
+      "keywordsZh": [
+        "皇后",
+        "权杖",
+        "激情",
+        "行动",
+        "创造力",
+        "野心"
+      ]
+    },
+    {
+      "id": 49,
+      "name": "King of Wands",
+      "nameZh": "权杖国王",
+      "arcana": "minor",
+      "suit": "wands",
+      "uprightMeaning": "Mastery and authority. Lead with experience and confidence. Take full responsibility. In the realm of Wands (Fire), this card speaks to passion, ambition, and spiritual growth.",
+      "uprightMeaningZh": "精通与权威。以经验和信心引领。承担全部责任。 在权杖（火元素）的领域中，这张牌关乎激情、野心与精神成长。",
+      "reversedMeaning": "Abuse of power, lack of leadership, or emotional coldness. The Fire energy is blocked or misdirected, causing challenges in creative and spiritual pursuits.",
+      "reversedMeaningZh": "滥用权力，缺乏领导力，或情感冷漠。 火元素能量受阻或被误导，在创造力与精神追求方面带来挑战。",
+      "keywords": [
+        "king",
+        "wands",
+        "passion",
+        "action",
+        "creativity",
+        "ambition"
+      ],
+      "keywordsZh": [
+        "国王",
+        "权杖",
+        "激情",
+        "行动",
+        "创造力",
+        "野心"
+      ]
+    },
+    {
+      "id": 50,
+      "name": "Ace of Swords",
+      "nameZh": "宝剑王牌",
+      "arcana": "minor",
+      "suit": "swords",
+      "uprightMeaning": "A powerful new beginning. Pure potential and the seed of something meaningful. In the realm of Swords (Air), this card speaks to intellect, truth, and mental clarity.",
+      "uprightMeaningZh": "一个强有力的新开始。纯粹的可能性，有意义的种子。 在宝剑（风元素）的领域中，这张牌关乎理智、真相与心智清晰。",
+      "reversedMeaning": "Blocked new beginning. Missed opportunity or creative stagnation. The Air energy is blocked or misdirected, causing challenges in communication and mental clarity.",
+      "reversedMeaningZh": "受阻的新开始。错失机会或创意停滞。 风元素能量受阻或被误导，在沟通与心智清晰方面带来挑战。",
+      "keywords": [
+        "ace",
+        "swords",
+        "intellect",
+        "truth",
+        "clarity",
+        "conflict"
+      ],
+      "keywordsZh": [
+        "王牌",
+        "宝剑",
+        "理智",
+        "真相",
+        "清晰",
+        "冲突"
+      ]
+    },
+    {
+      "id": 51,
+      "name": "Two of Swords",
+      "nameZh": "宝剑二",
+      "arcana": "minor",
+      "suit": "swords",
+      "uprightMeaning": "Duality and balance. A choice or partnership is forming. Weigh your options carefully. In the realm of Swords (Air), this card speaks to intellect, truth, and mental clarity.",
+      "uprightMeaningZh": "二元与平衡。一个选择或伙伴关系正在形成。谨慎权衡你的选项。 在宝剑（风元素）的领域中，这张牌关乎理智、真相与心智清晰。",
+      "reversedMeaning": "Imbalance, indecision, or disharmony in a partnership. The Air energy is blocked or misdirected, causing challenges in communication and mental clarity.",
+      "reversedMeaningZh": "失衡，优柔寡断，或伙伴关系中的不和谐。 风元素能量受阻或被误导，在沟通与心智清晰方面带来挑战。",
+      "keywords": [
+        "two",
+        "swords",
+        "intellect",
+        "truth",
+        "clarity",
+        "conflict"
+      ],
+      "keywordsZh": [
+        "二",
+        "宝剑",
+        "理智",
+        "真相",
+        "清晰",
+        "冲突"
+      ]
+    },
+    {
+      "id": 52,
+      "name": "Three of Swords",
+      "nameZh": "宝剑三",
+      "arcana": "minor",
+      "suit": "swords",
+      "uprightMeaning": "Collaboration and growth. Things are coming together. Celebrate progress. In the realm of Swords (Air), this card speaks to intellect, truth, and mental clarity.",
+      "uprightMeaningZh": "合作与成长。事情正在汇聚成型。庆祝进展。 在宝剑（风元素）的领域中，这张牌关乎理智、真相与心智清晰。",
+      "reversedMeaning": "Overindulgence, lack of teamwork, or delays in progress. The Air energy is blocked or misdirected, causing challenges in communication and mental clarity.",
+      "reversedMeaningZh": "过度放纵，缺乏团队合作，或进展延迟。 风元素能量受阻或被误导，在沟通与心智清晰方面带来挑战。",
+      "keywords": [
+        "three",
+        "swords",
+        "intellect",
+        "truth",
+        "clarity",
+        "conflict"
+      ],
+      "keywordsZh": [
+        "三",
+        "宝剑",
+        "理智",
+        "真相",
+        "清晰",
+        "冲突"
+      ]
+    },
+    {
+      "id": 53,
+      "name": "Four of Swords",
+      "nameZh": "宝剑四",
+      "arcana": "minor",
+      "suit": "swords",
+      "uprightMeaning": "Stability and rest. A moment of pause and consolidation. Enjoy the calm. In the realm of Swords (Air), this card speaks to intellect, truth, and mental clarity.",
+      "uprightMeaningZh": "稳定与休息。一个暂停和巩固的时刻。享受平静。 在宝剑（风元素）的领域中，这张牌关乎理智、真相与心智清晰。",
+      "reversedMeaning": "Restlessness, instability, or inability to appreciate what you have. The Air energy is blocked or misdirected, causing challenges in communication and mental clarity.",
+      "reversedMeaningZh": "不安，不稳定，或无法欣赏所拥有的。 风元素能量受阻或被误导，在沟通与心智清晰方面带来挑战。",
+      "keywords": [
+        "four",
+        "swords",
+        "intellect",
+        "truth",
+        "clarity",
+        "conflict"
+      ],
+      "keywordsZh": [
+        "四",
+        "宝剑",
+        "理智",
+        "真相",
+        "清晰",
+        "冲突"
+      ]
+    },
+    {
+      "id": 54,
+      "name": "Five of Swords",
+      "nameZh": "宝剑五",
+      "arcana": "minor",
+      "suit": "swords",
+      "uprightMeaning": "Conflict and challenge. A test of resilience. Growth through adversity. In the realm of Swords (Air), this card speaks to intellect, truth, and mental clarity.",
+      "uprightMeaningZh": "冲突与挑战。对韧性的考验。在逆境中成长。 在宝剑（风元素）的领域中，这张牌关乎理智、真相与心智清晰。",
+      "reversedMeaning": "Reconciliation, recovery, or avoiding necessary conflict. The Air energy is blocked or misdirected, causing challenges in communication and mental clarity.",
+      "reversedMeaningZh": "和解，恢复，或回避必要的冲突。 风元素能量受阻或被误导，在沟通与心智清晰方面带来挑战。",
+      "keywords": [
+        "five",
+        "swords",
+        "intellect",
+        "truth",
+        "clarity",
+        "conflict"
+      ],
+      "keywordsZh": [
+        "五",
+        "宝剑",
+        "理智",
+        "真相",
+        "清晰",
+        "冲突"
+      ]
+    },
+    {
+      "id": 55,
+      "name": "Six of Swords",
+      "nameZh": "宝剑六",
+      "arcana": "minor",
+      "suit": "swords",
+      "uprightMeaning": "Harmony and generosity. Past efforts bring rewards. Share your abundance. In the realm of Swords (Air), this card speaks to intellect, truth, and mental clarity.",
+      "uprightMeaningZh": "和谐与慷慨。过往的努力带来回报。分享你的丰盛。 在宝剑（风元素）的领域中，这张牌关乎理智、真相与心智清晰。",
+      "reversedMeaning": "Selfishness, unfulfilled promises, or nostalgia holding you back. The Air energy is blocked or misdirected, causing challenges in communication and mental clarity.",
+      "reversedMeaningZh": "自私，未兑现的承诺，或因怀旧而停滞不前。 风元素能量受阻或被误导，在沟通与心智清晰方面带来挑战。",
+      "keywords": [
+        "six",
+        "swords",
+        "intellect",
+        "truth",
+        "clarity",
+        "conflict"
+      ],
+      "keywordsZh": [
+        "六",
+        "宝剑",
+        "理智",
+        "真相",
+        "清晰",
+        "冲突"
+      ]
+    },
+    {
+      "id": 56,
+      "name": "Seven of Swords",
+      "nameZh": "宝剑七",
+      "arcana": "minor",
+      "suit": "swords",
+      "uprightMeaning": "Reflection and assessment. Look deeper before acting. Not all is as it seems. In the realm of Swords (Air), this card speaks to intellect, truth, and mental clarity.",
+      "uprightMeaningZh": "反思与评估。行动前深入观察。并非一切如表面所见。 在宝剑（风元素）的领域中，这张牌关乎理智、真相与心智清晰。",
+      "reversedMeaning": "Clarity emerging, decisive action, or overthinking paralysis. The Air energy is blocked or misdirected, causing challenges in communication and mental clarity.",
+      "reversedMeaningZh": "清晰浮现，果断行动，或过度思考而瘫痪。 风元素能量受阻或被误导，在沟通与心智清晰方面带来挑战。",
+      "keywords": [
+        "seven",
+        "swords",
+        "intellect",
+        "truth",
+        "clarity",
+        "conflict"
+      ],
+      "keywordsZh": [
+        "七",
+        "宝剑",
+        "理智",
+        "真相",
+        "清晰",
+        "冲突"
+      ]
+    },
+    {
+      "id": 57,
+      "name": "Eight of Swords",
+      "nameZh": "宝剑八",
+      "arcana": "minor",
+      "suit": "swords",
+      "uprightMeaning": "Movement and progress. Leaving behind what no longer serves. Forward momentum. In the realm of Swords (Air), this card speaks to intellect, truth, and mental clarity.",
+      "uprightMeaningZh": "行动与进步。放下不再有益的事物。向前推进。 在宝剑（风元素）的领域中，这张牌关乎理智、真相与心智清晰。",
+      "reversedMeaning": "Stagnation, fear of moving on, or being stuck in old patterns. The Air energy is blocked or misdirected, causing challenges in communication and mental clarity.",
+      "reversedMeaningZh": "停滞，害怕前进，或困于旧模式中。 风元素能量受阻或被误导，在沟通与心智清晰方面带来挑战。",
+      "keywords": [
+        "eight",
+        "swords",
+        "intellect",
+        "truth",
+        "clarity",
+        "conflict"
+      ],
+      "keywordsZh": [
+        "八",
+        "宝剑",
+        "理智",
+        "真相",
+        "清晰",
+        "冲突"
+      ]
+    },
+    {
+      "id": 58,
+      "name": "Nine of Swords",
+      "nameZh": "宝剑九",
+      "arcana": "minor",
+      "suit": "swords",
+      "uprightMeaning": "Fulfillment and nearing completion. A wish fulfilled. Almost at the finish line. In the realm of Swords (Air), this card speaks to intellect, truth, and mental clarity.",
+      "uprightMeaningZh": "满足与即将完成。心愿得偿。接近终点线。 在宝剑（风元素）的领域中，这张牌关乎理智、真相与心智清晰。",
+      "reversedMeaning": "Disappointment, unmet expectations, or the final hurdle proving difficult. The Air energy is blocked or misdirected, causing challenges in communication and mental clarity.",
+      "reversedMeaningZh": "失望，未达预期，或最后一道障碍异常艰难。 风元素能量受阻或被误导，在沟通与心智清晰方面带来挑战。",
+      "keywords": [
+        "nine",
+        "swords",
+        "intellect",
+        "truth",
+        "clarity",
+        "conflict"
+      ],
+      "keywordsZh": [
+        "九",
+        "宝剑",
+        "理智",
+        "真相",
+        "清晰",
+        "冲突"
+      ]
+    },
+    {
+      "id": 59,
+      "name": "Ten of Swords",
+      "nameZh": "宝剑十",
+      "arcana": "minor",
+      "suit": "swords",
+      "uprightMeaning": "Completion and culmination. The end of a cycle. Harvest what you have sown. In the realm of Swords (Air), this card speaks to intellect, truth, and mental clarity.",
+      "uprightMeaningZh": "完成与高潮。一个周期的终结。收获你所播种的。 在宝剑（风元素）的领域中，这张牌关乎理智、真相与心智清晰。",
+      "reversedMeaning": "Unfinished business, resistance to closure, or burden from the past. The Air energy is blocked or misdirected, causing challenges in communication and mental clarity.",
+      "reversedMeaningZh": "未竟之事，抗拒结束，或过去的负担。 风元素能量受阻或被误导，在沟通与心智清晰方面带来挑战。",
+      "keywords": [
+        "ten",
+        "swords",
+        "intellect",
+        "truth",
+        "clarity",
+        "conflict"
+      ],
+      "keywordsZh": [
+        "十",
+        "宝剑",
+        "理智",
+        "真相",
+        "清晰",
+        "冲突"
+      ]
+    },
+    {
+      "id": 60,
+      "name": "Page of Swords",
+      "nameZh": "宝剑侍从",
+      "arcana": "minor",
+      "suit": "swords",
+      "uprightMeaning": "Curiosity and new learning. A fresh message or opportunity. Embrace the beginner's mind. In the realm of Swords (Air), this card speaks to intellect, truth, and mental clarity.",
+      "uprightMeaningZh": "好奇心与新的学习。一个新的消息或机会。拥抱初学者心态。 在宝剑（风元素）的领域中，这张牌关乎理智、真相与心智清晰。",
+      "reversedMeaning": "Immaturity, missed messages, or lack of direction in learning. The Air energy is blocked or misdirected, causing challenges in communication and mental clarity.",
+      "reversedMeaningZh": "不成熟，错失消息，或学习上缺乏方向。 风元素能量受阻或被误导，在沟通与心智清晰方面带来挑战。",
+      "keywords": [
+        "page",
+        "swords",
+        "intellect",
+        "truth",
+        "clarity",
+        "conflict"
+      ],
+      "keywordsZh": [
+        "侍从",
+        "宝剑",
+        "理智",
+        "真相",
+        "清晰",
+        "冲突"
+      ]
+    },
+    {
+      "id": 61,
+      "name": "Knight of Swords",
+      "nameZh": "宝剑骑士",
+      "arcana": "minor",
+      "suit": "swords",
+      "uprightMeaning": "Action and pursuit. Charging forward with passion. An adventure or challenge awaits. In the realm of Swords (Air), this card speaks to intellect, truth, and mental clarity.",
+      "uprightMeaningZh": "行动与追求。满怀激情向前冲锋。冒险或挑战在等待。 在宝剑（风元素）的领域中，这张牌关乎理智、真相与心智清晰。",
+      "reversedMeaning": "Recklessness, delays, or misguided enthusiasm. The Air energy is blocked or misdirected, causing challenges in communication and mental clarity.",
+      "reversedMeaningZh": "鲁莽，延误，或被误导的热情。 风元素能量受阻或被误导，在沟通与心智清晰方面带来挑战。",
+      "keywords": [
+        "knight",
+        "swords",
+        "intellect",
+        "truth",
+        "clarity",
+        "conflict"
+      ],
+      "keywordsZh": [
+        "骑士",
+        "宝剑",
+        "理智",
+        "真相",
+        "清晰",
+        "冲突"
+      ]
+    },
+    {
+      "id": 62,
+      "name": "Queen of Swords",
+      "nameZh": "宝剑皇后",
+      "arcana": "minor",
+      "suit": "swords",
+      "uprightMeaning": "Nurturing mastery and inner security. Lead with compassion and emotional intelligence. In the realm of Swords (Air), this card speaks to intellect, truth, and mental clarity.",
+      "uprightMeaningZh": "滋养的掌控力与内在安全感。以慈悲和情商引领。 在宝剑（风元素）的领域中，这张牌关乎理智、真相与心智清晰。",
+      "reversedMeaning": "Insecurity, emotional manipulation, or neglecting self-care. The Air energy is blocked or misdirected, causing challenges in communication and mental clarity.",
+      "reversedMeaningZh": "不安，情感操控，或忽视自我关怀。 风元素能量受阻或被误导，在沟通与心智清晰方面带来挑战。",
+      "keywords": [
+        "queen",
+        "swords",
+        "intellect",
+        "truth",
+        "clarity",
+        "conflict"
+      ],
+      "keywordsZh": [
+        "皇后",
+        "宝剑",
+        "理智",
+        "真相",
+        "清晰",
+        "冲突"
+      ]
+    },
+    {
+      "id": 63,
+      "name": "King of Swords",
+      "nameZh": "宝剑国王",
+      "arcana": "minor",
+      "suit": "swords",
+      "uprightMeaning": "Mastery and authority. Lead with experience and confidence. Take full responsibility. In the realm of Swords (Air), this card speaks to intellect, truth, and mental clarity.",
+      "uprightMeaningZh": "精通与权威。以经验和信心引领。承担全部责任。 在宝剑（风元素）的领域中，这张牌关乎理智、真相与心智清晰。",
+      "reversedMeaning": "Abuse of power, lack of leadership, or emotional coldness. The Air energy is blocked or misdirected, causing challenges in communication and mental clarity.",
+      "reversedMeaningZh": "滥用权力，缺乏领导力，或情感冷漠。 风元素能量受阻或被误导，在沟通与心智清晰方面带来挑战。",
+      "keywords": [
+        "king",
+        "swords",
+        "intellect",
+        "truth",
+        "clarity",
+        "conflict"
+      ],
+      "keywordsZh": [
+        "国王",
+        "宝剑",
+        "理智",
+        "真相",
+        "清晰",
+        "冲突"
+      ]
+    },
+    {
+      "id": 64,
+      "name": "Ace of Pentacles",
+      "nameZh": "钱币王牌",
+      "arcana": "minor",
+      "suit": "pentacles",
+      "uprightMeaning": "A powerful new beginning. Pure potential and the seed of something meaningful. In the realm of Pentacles (Earth), this card speaks to material world, career, and physical health.",
+      "uprightMeaningZh": "一个强有力的新开始。纯粹的可能性，有意义的种子。 在钱币（土元素）的领域中，这张牌关乎物质世界、事业与身体健康。",
+      "reversedMeaning": "Blocked new beginning. Missed opportunity or creative stagnation. The Earth energy is blocked or misdirected, causing challenges in financial and physical wellbeing.",
+      "reversedMeaningZh": "受阻的新开始。错失机会或创意停滞。 土元素能量受阻或被误导，在财务与身体健康方面带来挑战。",
+      "keywords": [
+        "ace",
+        "pentacles",
+        "material",
+        "health",
+        "wealth",
+        "stability"
+      ],
+      "keywordsZh": [
+        "王牌",
+        "钱币",
+        "物质",
+        "健康",
+        "财富",
+        "稳定"
+      ]
+    },
+    {
+      "id": 65,
+      "name": "Two of Pentacles",
+      "nameZh": "钱币二",
+      "arcana": "minor",
+      "suit": "pentacles",
+      "uprightMeaning": "Duality and balance. A choice or partnership is forming. Weigh your options carefully. In the realm of Pentacles (Earth), this card speaks to material world, career, and physical health.",
+      "uprightMeaningZh": "二元与平衡。一个选择或伙伴关系正在形成。谨慎权衡你的选项。 在钱币（土元素）的领域中，这张牌关乎物质世界、事业与身体健康。",
+      "reversedMeaning": "Imbalance, indecision, or disharmony in a partnership. The Earth energy is blocked or misdirected, causing challenges in financial and physical wellbeing.",
+      "reversedMeaningZh": "失衡，优柔寡断，或伙伴关系中的不和谐。 土元素能量受阻或被误导，在财务与身体健康方面带来挑战。",
+      "keywords": [
+        "two",
+        "pentacles",
+        "material",
+        "health",
+        "wealth",
+        "stability"
+      ],
+      "keywordsZh": [
+        "二",
+        "钱币",
+        "物质",
+        "健康",
+        "财富",
+        "稳定"
+      ]
+    },
+    {
+      "id": 66,
+      "name": "Three of Pentacles",
+      "nameZh": "钱币三",
+      "arcana": "minor",
+      "suit": "pentacles",
+      "uprightMeaning": "Collaboration and growth. Things are coming together. Celebrate progress. In the realm of Pentacles (Earth), this card speaks to material world, career, and physical health.",
+      "uprightMeaningZh": "合作与成长。事情正在汇聚成型。庆祝进展。 在钱币（土元素）的领域中，这张牌关乎物质世界、事业与身体健康。",
+      "reversedMeaning": "Overindulgence, lack of teamwork, or delays in progress. The Earth energy is blocked or misdirected, causing challenges in financial and physical wellbeing.",
+      "reversedMeaningZh": "过度放纵，缺乏团队合作，或进展延迟。 土元素能量受阻或被误导，在财务与身体健康方面带来挑战。",
+      "keywords": [
+        "three",
+        "pentacles",
+        "material",
+        "health",
+        "wealth",
+        "stability"
+      ],
+      "keywordsZh": [
+        "三",
+        "钱币",
+        "物质",
+        "健康",
+        "财富",
+        "稳定"
+      ]
+    },
+    {
+      "id": 67,
+      "name": "Four of Pentacles",
+      "nameZh": "钱币四",
+      "arcana": "minor",
+      "suit": "pentacles",
+      "uprightMeaning": "Stability and rest. A moment of pause and consolidation. Enjoy the calm. In the realm of Pentacles (Earth), this card speaks to material world, career, and physical health.",
+      "uprightMeaningZh": "稳定与休息。一个暂停和巩固的时刻。享受平静。 在钱币（土元素）的领域中，这张牌关乎物质世界、事业与身体健康。",
+      "reversedMeaning": "Restlessness, instability, or inability to appreciate what you have. The Earth energy is blocked or misdirected, causing challenges in financial and physical wellbeing.",
+      "reversedMeaningZh": "不安，不稳定，或无法欣赏所拥有的。 土元素能量受阻或被误导，在财务与身体健康方面带来挑战。",
+      "keywords": [
+        "four",
+        "pentacles",
+        "material",
+        "health",
+        "wealth",
+        "stability"
+      ],
+      "keywordsZh": [
+        "四",
+        "钱币",
+        "物质",
+        "健康",
+        "财富",
+        "稳定"
+      ]
+    },
+    {
+      "id": 68,
+      "name": "Five of Pentacles",
+      "nameZh": "钱币五",
+      "arcana": "minor",
+      "suit": "pentacles",
+      "uprightMeaning": "Conflict and challenge. A test of resilience. Growth through adversity. In the realm of Pentacles (Earth), this card speaks to material world, career, and physical health.",
+      "uprightMeaningZh": "冲突与挑战。对韧性的考验。在逆境中成长。 在钱币（土元素）的领域中，这张牌关乎物质世界、事业与身体健康。",
+      "reversedMeaning": "Reconciliation, recovery, or avoiding necessary conflict. The Earth energy is blocked or misdirected, causing challenges in financial and physical wellbeing.",
+      "reversedMeaningZh": "和解，恢复，或回避必要的冲突。 土元素能量受阻或被误导，在财务与身体健康方面带来挑战。",
+      "keywords": [
+        "five",
+        "pentacles",
+        "material",
+        "health",
+        "wealth",
+        "stability"
+      ],
+      "keywordsZh": [
+        "五",
+        "钱币",
+        "物质",
+        "健康",
+        "财富",
+        "稳定"
+      ]
+    },
+    {
+      "id": 69,
+      "name": "Six of Pentacles",
+      "nameZh": "钱币六",
+      "arcana": "minor",
+      "suit": "pentacles",
+      "uprightMeaning": "Harmony and generosity. Past efforts bring rewards. Share your abundance. In the realm of Pentacles (Earth), this card speaks to material world, career, and physical health.",
+      "uprightMeaningZh": "和谐与慷慨。过往的努力带来回报。分享你的丰盛。 在钱币（土元素）的领域中，这张牌关乎物质世界、事业与身体健康。",
+      "reversedMeaning": "Selfishness, unfulfilled promises, or nostalgia holding you back. The Earth energy is blocked or misdirected, causing challenges in financial and physical wellbeing.",
+      "reversedMeaningZh": "自私，未兑现的承诺，或因怀旧而停滞不前。 土元素能量受阻或被误导，在财务与身体健康方面带来挑战。",
+      "keywords": [
+        "six",
+        "pentacles",
+        "material",
+        "health",
+        "wealth",
+        "stability"
+      ],
+      "keywordsZh": [
+        "六",
+        "钱币",
+        "物质",
+        "健康",
+        "财富",
+        "稳定"
+      ]
+    },
+    {
+      "id": 70,
+      "name": "Seven of Pentacles",
+      "nameZh": "钱币七",
+      "arcana": "minor",
+      "suit": "pentacles",
+      "uprightMeaning": "Reflection and assessment. Look deeper before acting. Not all is as it seems. In the realm of Pentacles (Earth), this card speaks to material world, career, and physical health.",
+      "uprightMeaningZh": "反思与评估。行动前深入观察。并非一切如表面所见。 在钱币（土元素）的领域中，这张牌关乎物质世界、事业与身体健康。",
+      "reversedMeaning": "Clarity emerging, decisive action, or overthinking paralysis. The Earth energy is blocked or misdirected, causing challenges in financial and physical wellbeing.",
+      "reversedMeaningZh": "清晰浮现，果断行动，或过度思考而瘫痪。 土元素能量受阻或被误导，在财务与身体健康方面带来挑战。",
+      "keywords": [
+        "seven",
+        "pentacles",
+        "material",
+        "health",
+        "wealth",
+        "stability"
+      ],
+      "keywordsZh": [
+        "七",
+        "钱币",
+        "物质",
+        "健康",
+        "财富",
+        "稳定"
+      ]
+    },
+    {
+      "id": 71,
+      "name": "Eight of Pentacles",
+      "nameZh": "钱币八",
+      "arcana": "minor",
+      "suit": "pentacles",
+      "uprightMeaning": "Movement and progress. Leaving behind what no longer serves. Forward momentum. In the realm of Pentacles (Earth), this card speaks to material world, career, and physical health.",
+      "uprightMeaningZh": "行动与进步。放下不再有益的事物。向前推进。 在钱币（土元素）的领域中，这张牌关乎物质世界、事业与身体健康。",
+      "reversedMeaning": "Stagnation, fear of moving on, or being stuck in old patterns. The Earth energy is blocked or misdirected, causing challenges in financial and physical wellbeing.",
+      "reversedMeaningZh": "停滞，害怕前进，或困于旧模式中。 土元素能量受阻或被误导，在财务与身体健康方面带来挑战。",
+      "keywords": [
+        "eight",
+        "pentacles",
+        "material",
+        "health",
+        "wealth",
+        "stability"
+      ],
+      "keywordsZh": [
+        "八",
+        "钱币",
+        "物质",
+        "健康",
+        "财富",
+        "稳定"
+      ]
+    },
+    {
+      "id": 72,
+      "name": "Nine of Pentacles",
+      "nameZh": "钱币九",
+      "arcana": "minor",
+      "suit": "pentacles",
+      "uprightMeaning": "Fulfillment and nearing completion. A wish fulfilled. Almost at the finish line. In the realm of Pentacles (Earth), this card speaks to material world, career, and physical health.",
+      "uprightMeaningZh": "满足与即将完成。心愿得偿。接近终点线。 在钱币（土元素）的领域中，这张牌关乎物质世界、事业与身体健康。",
+      "reversedMeaning": "Disappointment, unmet expectations, or the final hurdle proving difficult. The Earth energy is blocked or misdirected, causing challenges in financial and physical wellbeing.",
+      "reversedMeaningZh": "失望，未达预期，或最后一道障碍异常艰难。 土元素能量受阻或被误导，在财务与身体健康方面带来挑战。",
+      "keywords": [
+        "nine",
+        "pentacles",
+        "material",
+        "health",
+        "wealth",
+        "stability"
+      ],
+      "keywordsZh": [
+        "九",
+        "钱币",
+        "物质",
+        "健康",
+        "财富",
+        "稳定"
+      ]
+    },
+    {
+      "id": 73,
+      "name": "Ten of Pentacles",
+      "nameZh": "钱币十",
+      "arcana": "minor",
+      "suit": "pentacles",
+      "uprightMeaning": "Completion and culmination. The end of a cycle. Harvest what you have sown. In the realm of Pentacles (Earth), this card speaks to material world, career, and physical health.",
+      "uprightMeaningZh": "完成与高潮。一个周期的终结。收获你所播种的。 在钱币（土元素）的领域中，这张牌关乎物质世界、事业与身体健康。",
+      "reversedMeaning": "Unfinished business, resistance to closure, or burden from the past. The Earth energy is blocked or misdirected, causing challenges in financial and physical wellbeing.",
+      "reversedMeaningZh": "未竟之事，抗拒结束，或过去的负担。 土元素能量受阻或被误导，在财务与身体健康方面带来挑战。",
+      "keywords": [
+        "ten",
+        "pentacles",
+        "material",
+        "health",
+        "wealth",
+        "stability"
+      ],
+      "keywordsZh": [
+        "十",
+        "钱币",
+        "物质",
+        "健康",
+        "财富",
+        "稳定"
+      ]
+    },
+    {
+      "id": 74,
+      "name": "Page of Pentacles",
+      "nameZh": "钱币侍从",
+      "arcana": "minor",
+      "suit": "pentacles",
+      "uprightMeaning": "Curiosity and new learning. A fresh message or opportunity. Embrace the beginner's mind. In the realm of Pentacles (Earth), this card speaks to material world, career, and physical health.",
+      "uprightMeaningZh": "好奇心与新的学习。一个新的消息或机会。拥抱初学者心态。 在钱币（土元素）的领域中，这张牌关乎物质世界、事业与身体健康。",
+      "reversedMeaning": "Immaturity, missed messages, or lack of direction in learning. The Earth energy is blocked or misdirected, causing challenges in financial and physical wellbeing.",
+      "reversedMeaningZh": "不成熟，错失消息，或学习上缺乏方向。 土元素能量受阻或被误导，在财务与身体健康方面带来挑战。",
+      "keywords": [
+        "page",
+        "pentacles",
+        "material",
+        "health",
+        "wealth",
+        "stability"
+      ],
+      "keywordsZh": [
+        "侍从",
+        "钱币",
+        "物质",
+        "健康",
+        "财富",
+        "稳定"
+      ]
+    },
+    {
+      "id": 75,
+      "name": "Knight of Pentacles",
+      "nameZh": "钱币骑士",
+      "arcana": "minor",
+      "suit": "pentacles",
+      "uprightMeaning": "Action and pursuit. Charging forward with passion. An adventure or challenge awaits. In the realm of Pentacles (Earth), this card speaks to material world, career, and physical health.",
+      "uprightMeaningZh": "行动与追求。满怀激情向前冲锋。冒险或挑战在等待。 在钱币（土元素）的领域中，这张牌关乎物质世界、事业与身体健康。",
+      "reversedMeaning": "Recklessness, delays, or misguided enthusiasm. The Earth energy is blocked or misdirected, causing challenges in financial and physical wellbeing.",
+      "reversedMeaningZh": "鲁莽，延误，或被误导的热情。 土元素能量受阻或被误导，在财务与身体健康方面带来挑战。",
+      "keywords": [
+        "knight",
+        "pentacles",
+        "material",
+        "health",
+        "wealth",
+        "stability"
+      ],
+      "keywordsZh": [
+        "骑士",
+        "钱币",
+        "物质",
+        "健康",
+        "财富",
+        "稳定"
+      ]
+    },
+    {
+      "id": 76,
+      "name": "Queen of Pentacles",
+      "nameZh": "钱币皇后",
+      "arcana": "minor",
+      "suit": "pentacles",
+      "uprightMeaning": "Nurturing mastery and inner security. Lead with compassion and emotional intelligence. In the realm of Pentacles (Earth), this card speaks to material world, career, and physical health.",
+      "uprightMeaningZh": "滋养的掌控力与内在安全感。以慈悲和情商引领。 在钱币（土元素）的领域中，这张牌关乎物质世界、事业与身体健康。",
+      "reversedMeaning": "Insecurity, emotional manipulation, or neglecting self-care. The Earth energy is blocked or misdirected, causing challenges in financial and physical wellbeing.",
+      "reversedMeaningZh": "不安，情感操控，或忽视自我关怀。 土元素能量受阻或被误导，在财务与身体健康方面带来挑战。",
+      "keywords": [
+        "queen",
+        "pentacles",
+        "material",
+        "health",
+        "wealth",
+        "stability"
+      ],
+      "keywordsZh": [
+        "皇后",
+        "钱币",
+        "物质",
+        "健康",
+        "财富",
+        "稳定"
+      ]
+    },
+    {
+      "id": 77,
+      "name": "King of Pentacles",
+      "nameZh": "钱币国王",
+      "arcana": "minor",
+      "suit": "pentacles",
+      "uprightMeaning": "Mastery and authority. Lead with experience and confidence. Take full responsibility. In the realm of Pentacles (Earth), this card speaks to material world, career, and physical health.",
+      "uprightMeaningZh": "精通与权威。以经验和信心引领。承担全部责任。 在钱币（土元素）的领域中，这张牌关乎物质世界、事业与身体健康。",
+      "reversedMeaning": "Abuse of power, lack of leadership, or emotional coldness. The Earth energy is blocked or misdirected, causing challenges in financial and physical wellbeing.",
+      "reversedMeaningZh": "滥用权力，缺乏领导力，或情感冷漠。 土元素能量受阻或被误导，在财务与身体健康方面带来挑战。",
+      "keywords": [
+        "king",
+        "pentacles",
+        "material",
+        "health",
+        "wealth",
+        "stability"
+      ],
+      "keywordsZh": [
+        "国王",
+        "钱币",
+        "物质",
+        "健康",
+        "财富",
+        "稳定"
+      ]
+    }
+  ]
+}
