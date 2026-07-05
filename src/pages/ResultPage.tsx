@@ -3,8 +3,9 @@ import { useNavigate, useLocation } from "react-router-dom";
 import { motion } from "motion/react";
 import { ArrowLeft, RotateCcw } from "lucide-react";
 import { useReading } from "../hooks/useReading";
-import { useT, useLocale } from "../hooks/useT";
+import { useT, useLocale, useFunMode } from "../hooks/useT";
 import { generateInterpretation } from "../utils/interpret";
+import { generateInterpretationFunny } from "../utils/interpret-funny";
 import type { Reading } from "../types/tarot";
 import CardGrid from "../components/CardGrid";
 import SummaryBlock from "../components/SummaryBlock";
@@ -15,6 +16,7 @@ export default function ResultPage() {
   const navigate = useNavigate();
   const t = useT();
   const { locale } = useLocale();
+  const { funMode } = useFunMode();
   const [showSummary, setShowSummary] = useState(false);
 
   const routeState = location.state as { reading?: Reading } | null;
@@ -28,8 +30,11 @@ export default function ResultPage() {
 
   const interpretation = useMemo(() => {
     if (!reading) return null;
+    if (locale === "zh" && funMode) {
+      return generateInterpretationFunny(reading.cards, reading.spreadType, reading.question);
+    }
     return generateInterpretation(reading.cards, reading.spreadType, reading.question, locale);
-  }, [reading, locale]);
+  }, [reading, locale, funMode]);
 
   useEffect(() => {
     if (!reading) return;

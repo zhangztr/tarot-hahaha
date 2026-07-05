@@ -1,5 +1,6 @@
 import type { DrawnCard } from "../types/tarot";
-import { useT, useLocale } from "../hooks/useT";
+import { useT, useLocale, useFunMode } from "../hooks/useT";
+import funnyData from "../data/tarot-funny.json";
 
 interface CardFaceProps {
   drawnCard: DrawnCard;
@@ -9,13 +10,17 @@ export default function CardFace({ drawnCard }: CardFaceProps) {
   const { card, isReversed, position } = drawnCard;
   const t = useT();
   const { locale } = useLocale();
+  const { funMode } = useFunMode();
   const isZh = locale === "zh";
+  const isFunny = isZh && funMode;
 
-  const name = isZh ? card.nameZh : card.name;
-  const meaning = isZh
-    ? (isReversed ? card.reversedMeaningZh : card.uprightMeaningZh)
-    : (isReversed ? card.reversedMeaning : card.uprightMeaning);
-  const keywords = isZh ? card.keywordsZh : card.keywords;
+  const name = isFunny ? funnyData[card.id].name : (isZh ? card.nameZh : card.name);
+  const meaning = isFunny
+    ? (isReversed ? funnyData[card.id].reversedMeaning : funnyData[card.id].uprightMeaning)
+    : (isZh
+      ? (isReversed ? card.reversedMeaningZh : card.uprightMeaningZh)
+      : (isReversed ? card.reversedMeaning : card.uprightMeaning));
+  const keywords = isFunny ? funnyData[card.id].keywords : (isZh ? card.keywordsZh : card.keywords);
   const arcanaLabel = card.arcana === "major" ? t("card.majorArcana") : (isZh ? "" : card.suit!);
   const suitLabel = card.suit ? t(`suit.${card.suit}` as any) : "";
   const arcanaDisplay = card.arcana === "major" ? arcanaLabel : suitLabel;

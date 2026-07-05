@@ -1,9 +1,10 @@
 import { Link } from "react-router-dom";
 import { Sparkles } from "lucide-react";
-import { useLocale, useT } from "../hooks/useT";
+import { useLocale, useFunMode, useT } from "../hooks/useT";
 
 export default function Header() {
   const { locale, toggleLocale } = useLocale();
+  const { funMode, toggleFunMode } = useFunMode();
   const t = useT();
 
   return (
@@ -26,13 +27,29 @@ export default function Header() {
           </span>
         </Link>
 
-        {/* Language toggle */}
-        <button
-          onClick={toggleLocale}
-          className="w-16 py-1.5 rounded-full border border-mystic-mid/40 text-xs font-medium text-white/60 hover:text-white hover:border-mystic-purple/50 transition-colors"
-        >
-          {locale === "zh" ? "EN" : "中文"}
-        </button>
+        <div className="flex items-center gap-3">
+          {/* Funny mode toggle — only visible in Chinese */}
+          {locale === "zh" && (
+            <button
+              onClick={toggleFunMode}
+              className={`px-3 py-1.5 rounded-full border text-xs font-medium transition-colors ${
+                funMode
+                  ? "border-mystic-gold/60 text-mystic-gold bg-mystic-gold/10"
+                  : "border-mystic-mid/40 text-white/50 hover:text-white hover:border-mystic-mid/60"
+              }`}
+            >
+              {funMode ? "😂 搞笑" : "正经模式"}
+            </button>
+          )}
+
+          {/* Language toggle */}
+          <button
+            onClick={toggleLocale}
+            className="w-16 py-1.5 rounded-full border border-mystic-mid/40 text-xs font-medium text-white/60 hover:text-white hover:border-mystic-purple/50 transition-colors"
+          >
+            {locale === "zh" ? "EN" : "中文"}
+          </button>
+        </div>
       </header>
     </>
   );
