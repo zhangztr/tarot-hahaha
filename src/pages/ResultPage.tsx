@@ -94,6 +94,15 @@ export default function ResultPage() {
       <CardGrid drawnCards={reading.cards} started={true} />
 
       <SummaryBlock interpretation={interpretation} visible={showSummary} />
+
+      <div className="w-full max-w-2xl mt-16">
+        <ins className="adsbygoogle"
+             style={{ display: "block" }}
+             data-ad-client="ca-pub-xxxxxxxxxxxxxx"
+             data-ad-slot="1234567890"
+             data-ad-format="auto"
+             data-full-width-responsive="true" />
+      </div>
     </div>
   );
 }
