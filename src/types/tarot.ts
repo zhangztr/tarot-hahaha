@@ -1,3 +1,9 @@
+export interface TarotCardConnection {
+  cardId: number;
+  narrative: string;
+  narrativeZh: string;
+}
+
 export interface TarotCard {
   id: number;
   name: string;
@@ -10,6 +16,7 @@ export interface TarotCard {
   reversedMeaningZh: string;
   keywords: string[];
   keywordsZh: string[];
+  connections?: TarotCardConnection[];
 }
 
 export interface DrawnCard {

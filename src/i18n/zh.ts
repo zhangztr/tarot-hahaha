@@ -80,4 +80,5 @@ export const zh: Record<TranslationKey, string> = {
   "theme.swordsEnergy": "宝剑能量",
   "theme.pentaclesEnergy": "钱币能量",
   "theme.majorInfluence": "大牌影响",
+  "theme.cardSynergy": "牌面联动",
 };

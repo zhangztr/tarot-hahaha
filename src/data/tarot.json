@@ -23,6 +23,33 @@
         "纯真",
         "旅程",
         "信念"
+      ],
+      "connections": [
+        {
+          "cardId": 1,
+          "narrative": "The Fool's blind leap collides with The Magician's focused will — raw potential meets the power to manifest. When innocence gains tools, the question is no longer 'can I?' but 'what will I create?' Do not let the spark of beginning scatter into distraction; channel it.",
+          "narrativeZh": "愚者的纵身一跃遇上魔术师的集中意志——原始的潜能与显化的力量交汇。当纯真获得工具，问题不再是「我能吗」而是「我将创造什么」。别让初生的火花散落成杂乱，把它引向一个方向。"
+        },
+        {
+          "cardId": 10,
+          "narrative": "The Fool steps forward and the Wheel of Fortune turns — a new beginning coincides with a twist of fate. What feels like your own choice may also be destiny's timing. Lean into the momentum, but remember: the Wheel lifts and lowers all alike.",
+          "narrativeZh": "愚者迈出一步，命运之轮随之转动——新的开始恰好与命运的转折重叠。你以为是自己选的路，也可能是宿命的安排。顺着这股势能走，但也记住：轮子托起谁，也会放下谁。"
+        },
+        {
+          "cardId": 13,
+          "narrative": "The Fool and Death together mark a profound threshold — the start of something new that demands the end of something old. You cannot step through a door while still gripping what lies behind it. Let the old skin fall away; the leap requires empty hands.",
+          "narrativeZh": "愚者与死神同现，标记一道深邃的门槛——新的开始必须以旧的终结为前提。你无法一边抓着身后的东西一边迈进新的大门。让旧皮蜕去吧，跃入未知需要空着的双手。"
+        },
+        {
+          "cardId": 16,
+          "narrative": "When The Fool meets The Tower, innocence walks straight into demolition. What began as lighthearted exploration now faces a structural collapse — beliefs you skipped examining, foundations you assumed were solid. The wreckage clears the ground for something truer. Let it fall.",
+          "narrativeZh": "当愚者撞上高塔，天真直接走进了拆解现场。轻快的探索迎面撞上了结构的崩塌——你跳过检验的信念、你以为牢固的地基，都在摇晃。废墟清出的空地，才能建起更真实的东西。让它塌。"
+        },
+        {
+          "cardId": 21,
+          "narrative": "The Fool at one end and The World at the other — a journey's first step and its final fulfillment in the same reading. You stand between starting and arriving, between potential and completion. The path exists; trust that the one who begins is also the one who finishes.",
+          "narrativeZh": "愚者在一端，世界在另一端——旅程的起点与终点共存于一次解读。你站在开始与抵达之间、潜能与圆满之间。路已经在了；相信那个敢于出发的人，也是那个能走到终点的人。"
+        }
       ]
     },
     {
@@ -48,6 +75,23 @@
         "显化",
         "专注",
         "行动"
+      ],
+      "connections": [
+        {
+          "cardId": 2,
+          "narrative": "The Magician's active will meets The High Priestess's deep stillness — the tension between doing and knowing. You have the tools, but do you have the wisdom to use them? Action without intuition is noise; intuition without action is silence. This pair asks for both.",
+          "narrativeZh": "魔术师的积极意志遇上女祭司的深邃静默——行动与知晓之间的张力。你手握工具，但你是否有智慧去运用它们？没有直觉的行动是噪音，没有行动的直觉是沉默。这组牌要求两者兼备。"
+        },
+        {
+          "cardId": 15,
+          "narrative": "The Magician faces The Devil — willpower confronting bondage. The same energy that creates can also ensnare. Ask yourself: am I wielding my power, or is something else wielding me? The line between mastery and addiction is thinner than it looks.",
+          "narrativeZh": "魔术师面对恶魔——意志力与束缚的对峙。创造的能量同样可以困住自己。问问自己：是我在运用力量，还是什么在操控我？掌控与成瘾之间的界限比看起来更细。"
+        },
+        {
+          "cardId": 17,
+          "narrative": "The Magician under The Star's light — skill guided by hope rather than ego. When the desire to manifest is tempered by genuine faith, what you build serves more than just yourself. Pour your will into something that heals.",
+          "narrativeZh": "魔术师沐浴在星星的光芒下——技艺被希望而非自我引导。当显化的渴望被真诚的信念调和，你所建造的将不止服务于自己。把你的意志倾注到能治愈什么的地方去。"
+        }
       ]
     },
     {
@@ -73,6 +117,23 @@
         "智慧",
         "潜意识",
         "静默"
+      ],
+      "connections": [
+        {
+          "cardId": 9,
+          "narrative": "The High Priestess and The Hermit — two faces of inner seeking. She knows in silence; he searches in solitude. Together they suggest the answers are not outside but within, waiting for you to turn down the noise and listen. Stop asking others. You already sense the truth.",
+          "narrativeZh": "女祭司与隐士——内在探寻的两张面孔。她在静默中知晓，他在独行中寻找。两张牌共同暗示：答案不在外面，而在内心，等你把噪音关小去听。别再问别人了。你早已感知到真相。"
+        },
+        {
+          "cardId": 12,
+          "narrative": "The High Priestess beside The Hanged Man — knowing meets surrendering. The mind seeks clarity, but clarity sometimes comes only when you stop struggling and see the world from upside-down. Release the need to figure it all out; insight arrives in stillness.",
+          "narrativeZh": "女祭司与倒吊人并肩——知晓与臣服相遇。头脑追求清晰，但清晰有时只在你停止挣扎、倒过来看世界时才降临。放下一定要想通的执念；静定之中自有洞见。"
+        },
+        {
+          "cardId": 18,
+          "narrative": "The High Priestess and The Moon — intuition navigating through illusion. The inner voice is speaking, but shadows distort the signal. What feels like deep knowing may be fear wearing a mask. Trust your gut, but verify against reality before acting.",
+          "narrativeZh": "女祭司与月亮——直觉在幻象中航行。内在的声音在说话，但阴影扭曲了信号。你以为的深层感知，也许是恐惧戴着面具。相信直觉，但在行动前用现实检验。"
+        }
       ]
     },
     {
@@ -98,6 +159,23 @@
         "创造力",
         "自然",
         "美"
+      ],
+      "connections": [
+        {
+          "cardId": 4,
+          "narrative": "The Empress and The Emperor together — the sacred marriage of nurture and structure, flow and order. Creation needs both the garden and the wall around it. Too much softness, things fall apart; too much rigidity, nothing grows. Balance the two.",
+          "narrativeZh": "女皇与皇帝同现——滋养与结构、流动与秩序的神圣联姻。创造既需要花园，也需要围墙。太软则溃散，太硬则不生。平衡两者。"
+        },
+        {
+          "cardId": 6,
+          "narrative": "The Empress meets The Lovers — abundance flowing into meaningful choice. Love in all its forms is the current theme: self-love, romantic love, or the love that chooses what to nurture. Let your heart lead, but let it lead toward something real.",
+          "narrativeZh": "女皇遇见恋人——丰盛流入有意义的抉择。爱以各种形式成为当前主题：自爱、爱情、或选择去滋养什么的那个爱。让心引领，但让它引领到真实的方向。"
+        },
+        {
+          "cardId": 17,
+          "narrative": "The Empress and The Star together — a blessing of abundance paired with genuine hope. It is not wishful thinking; it is grounded optimism, the kind that knows the garden will bloom because you have tended the soil. Keep watering.",
+          "narrativeZh": "女皇与星星同行——丰盛的祝福与真诚的希望相伴。这不是一厢情愿，而是落地的乐观，那种知道花园会开花的信念，因为你已经松好了土。继续浇灌。"
+        }
       ]
     },
     {
@@ -123,6 +201,23 @@
         "领导力",
         "纪律",
         "秩序"
+      ],
+      "connections": [
+        {
+          "cardId": 5,
+          "narrative": "The Emperor and The Hierophant — worldly authority meets spiritual tradition. Law and faith, structure and belief, the throne and the temple. When these two align, you are building something that will outlast you. When they clash, ask which authority truly serves your highest good.",
+          "narrativeZh": "皇帝与教皇——世俗权威与精神传统相遇。法律与信仰，结构与信念，王座与圣殿。当这两者一致时，你在建造经得起时间的东西。当它们冲突时，问问哪个权威真正为你的最高利益服务。"
+        },
+        {
+          "cardId": 11,
+          "narrative": "The Emperor stands before Justice — power called to account. No throne is above the law, and no decision escapes its consequence. If you hold authority now, wield it fairly. If you seek judgment, know that the scales weigh actions, not titles.",
+          "narrativeZh": "皇帝立于正义面前——权力被要求负责。没有王座高于法则，没有一个决定能逃过后果。如果你此刻手握权威，公正地使用它。如果你在寻求裁决，记住天平称量的是行为，不是头衔。"
+        },
+        {
+          "cardId": 16,
+          "narrative": "The Emperor faces The Tower — the fortress you built is being tested. Structures of control, systems of order, walls meant to protect — if they were built on shaky ground, they will not survive the quake. What crumbles was never meant to be permanent. Rebuild wiser.",
+          "narrativeZh": "皇帝面对高塔——你建的堡垒正在经受考验。控制的架构、秩序的系统、防护的围墙——如果它们建在脆弱的地基上，就熬不过这场震荡。崩塌的东西从未注定永恒。更聪明地重建。"
+        }
       ]
     },
     {
@@ -148,6 +243,18 @@
         "教育",
         "信仰",
         "遵从"
+      ],
+      "connections": [
+        {
+          "cardId": 9,
+          "narrative": "The Hierophant and The Hermit — external tradition versus inner guidance. One holds the keys to the temple; the other walks alone into the wilderness. Perhaps it is time to question whether the teachings you inherited still speak to the person you are becoming.",
+          "narrativeZh": "教皇与隐士——外在传统与内在指引的对峙。一个手持圣殿的钥匙，一个独自走进荒野。也许是时候问问：你继承的教诲，是否还能对应当下正在成为的那个你。"
+        },
+        {
+          "cardId": 11,
+          "narrative": "The Hierophant alongside Justice — tradition measured against truth. Beliefs, no matter how ancient, must pass the test of fairness. If the old ways no longer serve justice, they are ready to be rewritten. Wisdom honors its roots but does not worship them blindly.",
+          "narrativeZh": "教皇与正义同行——传统在真相面前被称量。信仰再古老，也须通过公正的检验。如果旧的方式已不再服务于正义，那就是该改写的时候了。智慧尊重根源，但不盲目膜拜。"
+        }
       ]
     },
     {
@@ -173,6 +280,23 @@
         "和谐",
         "伙伴关系",
         "价值观"
+      ],
+      "connections": [
+        {
+          "cardId": 7,
+          "narrative": "The Lovers and The Chariot — the heart decides, and then willpower moves. A meaningful choice is followed by determined action. But be sure the decision was truly yours; a Chariot driven by someone else's desire arrives at someone else's destination.",
+          "narrativeZh": "恋人与战车——心做决定，意志推动前行。有意义的选择之后是坚定的行动。但确保那决定真的出自你；由别人欲望驾驶的战车，只会抵达别人的终点。"
+        },
+        {
+          "cardId": 14,
+          "narrative": "The Lovers and Temperance — passion seeking its equilibrium. Intense feeling wants to pour itself out completely, but alchemy happens in the blend, not the flood. Love deeply, but do not lose yourself in the other. The middle path sustains what extremes consume.",
+          "narrativeZh": "恋人与节制——激情寻找它的平衡点。强烈的感受想要倾泻而出，但炼金术发生在调和之中，而非洪水之中。深深去爱，但别在对方身上迷失自己。中间的路能维系极端会吞噬的东西。"
+        },
+        {
+          "cardId": 15,
+          "narrative": "The Lovers and The Devil — the light and shadow of attachment. Love liberates; obsession binds. The same pair-bond that can be a sanctuary can become a cage. Examine your connections honestly: are you choosing freely, or are you afraid to leave?",
+          "narrativeZh": "恋人与恶魔——依恋的光与影。爱带来解放，执念造成束缚。同一段关系，可以是庇护所，也可以是牢笼。诚实地审视你的联结：你是自由地选择留下，还是害怕离开？"
+        }
       ]
     },
     {
@@ -198,6 +322,18 @@
         "驱动力",
         "控制",
         "冲劲"
+      ],
+      "connections": [
+        {
+          "cardId": 8,
+          "narrative": "The Chariot and Strength — victory driven by willpower, sustained by inner courage. The Chariot wins the race; Strength endures the aftermath. Together they say: you have both the drive to advance and the heart to persist. Conquer with compassion.",
+          "narrativeZh": "战车与力量——意志推动的胜利，内在勇气来延续。战车赢得比赛，力量熬过余波。两者同现意味着：你既有推进的驱动力，也有坚持的内心。以慈悲之心征服。"
+        },
+        {
+          "cardId": 10,
+          "narrative": "The Chariot and The Wheel of Fortune — your determined advance meets the great turning of fate. You can steer, but you cannot control the road. Push forward with everything you have, but respect the forces larger than your will. Timing is as important as speed.",
+          "narrativeZh": "战车与命运之轮——你坚定的前进遇上了命运的巨大转动。你可以掌舵，但无法控制整条路。全力以赴地推进，但也尊重那些大于你意志的力量。时机与速度同等重要。"
+        }
       ]
     },
     {
@@ -223,6 +359,18 @@
         "慈悲",
         "内在力量",
         "韧性"
+      ],
+      "connections": [
+        {
+          "cardId": 9,
+          "narrative": "Strength and The Hermit — outer courage supported by inner solitude. The fortitude to face the world is replenished by time spent alone. You do not need to always be the strong one; retreat is not weakness. The lion rests, too.",
+          "narrativeZh": "力量与隐士——外在的勇气，内在的孤独来滋养。面对世界的坚韧，在独处的时光中被补充。你不必永远做那个坚强的人；退后不是软弱。狮子也需要休息。"
+        },
+        {
+          "cardId": 11,
+          "narrative": "Strength and Justice — compassion standing beside fairness. True justice is not cold; it is tempered by understanding. And true strength is not force; it is the patience to hold the scales steady even when your own heart is in the balance.",
+          "narrativeZh": "力量与正义——慈悲立于公正之旁。真正的正义不是冰冷的，它被理解所调和。真正的力量不是施加于人，而是当你的心也在天平上时仍能稳稳托住两端的耐心。"
+        }
       ]
     },
     {
@@ -248,6 +396,18 @@
         "内省",
         "指引",
         "反思"
+      ],
+      "connections": [
+        {
+          "cardId": 12,
+          "narrative": "The Hermit and The Hanged Man — reflection deepens into surrender. The search for meaning, taken far enough, leads to a place where you must stop searching and simply be still. Wisdom is not always found by seeking; sometimes it arrives when you wait.",
+          "narrativeZh": "隐士与倒吊人——深思走向臣服。对意义的追寻，进行到足够深的时候，会带你来到一个必须停止寻找、单纯静定的地方。智慧并非总在寻找中获得，有时它在你等待时到来。"
+        },
+        {
+          "cardId": 17,
+          "narrative": "The Hermit's lamp and The Star's distant light — the solitary search leads toward hope. What you discover in the quiet, when brought back to the world, becomes a gift for others too. Keep walking; the darkness of the inward path is not its destination.",
+          "narrativeZh": "隐士的灯笼与星星的远光——孤独的寻找通向希望。你在寂静中发现的东西，当带回人世时，也会成为给别人的礼物。继续走吧；向内之路的黑暗，不是它的终点。"
+        }
       ]
     },
     {
@@ -273,6 +433,18 @@
         "运气",
         "周期",
         "转折点"
+      ],
+      "connections": [
+        {
+          "cardId": 13,
+          "narrative": "The Wheel of Fortune and Death — cycles turning into transformation. What the Wheel lifts, Death may reshape. A change of luck is not the same as a change of self, but when they arrive together, you are being asked to evolve, not just adapt. Let the turning change you.",
+          "narrativeZh": "命运之轮与死神——轮回化为蜕变。轮子托起的东西，死神可能重塑。运气的改变与自我的改变不是一回事，但当它们同时到来，命运在要求你进化，而不只是适应。让这转动改变你。"
+        },
+        {
+          "cardId": 20,
+          "narrative": "The Wheel of Fortune and Judgement — fate meets awakening. A turning point in external circumstances coincides with an inner call to rise. You are not merely being carried by events; you are being asked to answer them. The wheel presents an opportunity; Judgement asks what you will do with it.",
+          "narrativeZh": "命运之轮与审判——命运与觉醒相遇。外在境遇的转折点恰好撞上了内在的召唤。你不只是被事件推着走；你在被要求回应它们。轮子递来了一个机会；审判问的是你将如何作答。"
+        }
       ]
     },
     {
@@ -298,6 +470,13 @@
         "平衡",
         "责任",
         "公平"
+      ],
+      "connections": [
+        {
+          "cardId": 20,
+          "narrative": "Justice and Judgement — the verdict now meets the final reckoning. What is fair today may be weighed again against a larger truth. Your actions echo beyond the present moment. Make choices you would be willing to answer for again, under a brighter light.",
+          "narrativeZh": "正义与审判——当下的裁决遇上终极的清算。今天看似公平的事，在更宏大的真相面前可能被重新衡量。你的行为回响在当下之后。做出你愿意在更强光芒下再次被审问的选择。"
+        }
       ]
     },
     {
@@ -323,6 +502,13 @@
         "暂停",
         "牺牲",
         "释放"
+      ],
+      "connections": [
+        {
+          "cardId": 13,
+          "narrative": "The Hanged Man and Death — surrender before transformation. You cannot be remade while you are still clinging to the shape you were. The pause, the suspension, the willingness to be still — these prepare you for the change that Death brings. Let go, not in defeat, but in readiness.",
+          "narrativeZh": "倒吊人与死神——蜕变之前的臣服。你无法在还紧抓着旧形状不放的同时被重塑。暂停、悬置、甘愿静止的意愿——这一切为死神带来的改变做准备。放手吧，不是在失败中，而是在准备中。"
+        }
       ]
     },
     {
@@ -348,6 +534,18 @@
         "重生",
         "变化",
         "释放"
+      ],
+      "connections": [
+        {
+          "cardId": 14,
+          "narrative": "Death and Temperance — transformation finds its balance. Endings are not meant to be rushed, nor resisted. The alchemy of becoming requires patience: let the old dissolve, and wait for the new to coalesce. Between the ending and the beginning, there is a sacred pause.",
+          "narrativeZh": "死神与节制——蜕变找到了它的平衡。终结不需要匆忙，也不应被抗拒。蜕变的炼金术需要耐心：让旧的溶解，等待新的凝聚。在结束与开始之间，有一段神圣的停顿。"
+        },
+        {
+          "cardId": 17,
+          "narrative": "Death and The Star — an ending followed by hope. After the door closes, the window opens. What is being stripped away is making room for something more aligned with who you are becoming. Grieve the loss, then look up. The light is already there.",
+          "narrativeZh": "死神与星星——终结之后是希望。门关上之后，窗打开了。被剥离的东西正在为与你想成为的样子更匹配的事物腾出空间。哀悼失去的，然后抬起头。光已经在那里了。"
+        }
       ]
     },
     {
@@ -373,6 +571,13 @@
         "适度",
         "和谐",
         "疗愈"
+      ],
+      "connections": [
+        {
+          "cardId": 15,
+          "narrative": "Temperance and The Devil — balance standing against bondage. The middle path is threatened by extremes: desire, addiction, obsession. You are being tested — can you hold your center when something is pulling you hard toward the edge? Moderation is not weakness; it is resistance.",
+          "narrativeZh": "节制与恶魔——平衡抵抗着束缚。中间的路被极端所威胁：欲望、沉迷、执念。你正在被考验——当有什么东西正在把你用力往边缘拉的时候，你还能守住中心吗？节制不是软弱，它是抵抗。"
+        }
       ]
     },
     {
@@ -398,6 +603,13 @@
         "阴影",
         "物质主义",
         "成瘾"
+      ],
+      "connections": [
+        {
+          "cardId": 16,
+          "narrative": "The Devil and The Tower — bondage shattered by sudden collapse. The chains you could not break by choice are broken by force. What you were unwilling to release is taken. Painful as it is, the Tower does what you could not: it sets you free.",
+          "narrativeZh": "恶魔与高塔——束缚被突然的崩塌击碎。你无法靠选择挣脱的锁链，被力量强行打断。你不愿放手的东西被强行取走。痛苦归痛苦，但高塔替你我做了我们做不到的事：它让我自由。"
+        }
       ]
     },
     {
@@ -423,6 +635,13 @@
         "崩塌",
         "觉醒",
         "真相"
+      ],
+      "connections": [
+        {
+          "cardId": 17,
+          "narrative": "The Tower and The Star — destruction followed by hope; the most classic arc of transformation. The lightning clears what was false, and in the quiet after the storm, a single star shines. You survived the collapse. Now look up — what remains is truer than what fell.",
+          "narrativeZh": "高塔与星星——毁灭之后是希望；这是蜕变最经典的弧线。闪电清除了虚假的东西，风暴过后的寂静中，一颗星星在发光。你从崩塌中活下来了。现在抬头看——留下来的比倒下的更真。"
+        }
       ]
     },
     {
@@ -448,6 +667,18 @@
         "灵感",
         "平静",
         "更新"
+      ],
+      "connections": [
+        {
+          "cardId": 18,
+          "narrative": "The Star and The Moon — hope navigating through illusion. The light you follow is real, but the path between is shrouded in shadows. Your optimism will be tested by uncertainty; do not let the darkness convince you the star was never there. Keep walking.",
+          "narrativeZh": "星星与月亮——希望在幻象中航行。你追随的光是真实的，但通向它的路被阴影笼罩。你的乐观将被不确定所考验；别让黑暗说服你星星从未存在。继续走。"
+        },
+        {
+          "cardId": 19,
+          "narrative": "The Star and The Sun — hope blossoming into full radiance. What began as a quiet wish, a faint glimmer in the dark, now rises into daylight. The promise is fulfilled. Receive the joy without guilt; you have walked through enough shadow to earn the light.",
+          "narrativeZh": "星星与太阳——希望绽放为灿烂光明。从一个安静的愿望、黑暗中微弱的闪光开始，如今升华为朗朗白昼。承诺实现了。不带愧疚地接受这份喜悦吧；你走过的阴影足够多，光是你应得的。"
+        }
       ]
     },
     {
@@ -473,6 +704,13 @@
         "恐惧",
         "潜意识",
         "神秘"
+      ],
+      "connections": [
+        {
+          "cardId": 19,
+          "narrative": "The Moon and The Sun — darkness giving way to light. Fear, confusion, the shapes that haunted you in the night — they lose their power when the sun rises. This is the dawn after a long, uncertain dark. Let the clarity in. What was hidden is now visible, and it is not as frightening as you imagined.",
+          "narrativeZh": "月亮与太阳——黑暗让位于光明。恐惧、困惑，那些在夜里纠缠你的影子——当太阳升起时，它们失去了力量。这是一段漫长不确定的黑暗之后的黎明。让清晰进来吧。被隐藏的东西现在显露了，而且它没有你想的那么可怕。"
+        }
       ]
     },
     {
@@ -498,6 +736,13 @@
         "活力",
         "清晰",
         "积极"
+      ],
+      "connections": [
+        {
+          "cardId": 21,
+          "narrative": "The Sun and The World — joy reaching its fullest expression. The warmth you feel is not a fleeting moment but a completion, a cycle fulfilled. You have arrived at a place of wholeness. Celebrate it; the journey has been long, and you are here.",
+          "narrativeZh": "太阳与世界——喜悦抵达它最完整的表达。你感受到的温暖不是一个短暂的时刻，而是一个完成，一个周期的圆满。你抵达了一个完整的地方。庆祝它吧；旅程很长，而你，已经在这里了。"
+        }
       ]
     },
     {
@@ -523,6 +768,13 @@
         "重生",
         "宽恕",
         "使命"
+      ],
+      "connections": [
+        {
+          "cardId": 21,
+          "narrative": "Judgement and The World — awakening leading to completion. The call you answered has brought you to the threshold of wholeness. You are not the same person who started this journey, and the world you now step into reflects that transformation. Rise and enter.",
+          "narrativeZh": "审判与世界——觉醒引领至圆满。你回应的召唤把你带到了完整的门槛前。你已不再是踏上这段旅程时的那个人，而你现在步入的世界，正是那份蜕变的映照。起来，走进去。"
+        }
       ]
     },
     {

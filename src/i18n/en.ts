@@ -78,6 +78,7 @@ export const en = {
   "theme.swordsEnergy": "Swords Energy",
   "theme.pentaclesEnergy": "Pentacles Energy",
   "theme.majorInfluence": "Major Arcana Influence",
+  "theme.cardSynergy": "Card Synergy",
 } as const;
 
 export type TranslationKey = keyof typeof en;

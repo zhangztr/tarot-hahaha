@@ -28,19 +28,17 @@ export default function Header() {
         </Link>
 
         <div className="flex items-center gap-3">
-          {/* Funny mode toggle — only visible in Chinese */}
-          {locale === "zh" && (
-            <button
-              onClick={toggleFunMode}
-              className={`px-3 py-1.5 rounded-full border text-xs font-medium transition-colors ${
-                funMode
-                  ? "border-mystic-gold/60 text-mystic-gold bg-mystic-gold/10"
-                  : "border-mystic-mid/40 text-white/50 hover:text-white hover:border-mystic-mid/60"
-              }`}
-            >
-              {funMode ? "😂 搞笑" : "正经模式"}
-            </button>
-          )}
+          {/* Funny mode toggle */}
+          <button
+            onClick={toggleFunMode}
+            className={`px-3 py-1.5 rounded-full border text-xs font-medium transition-colors ${
+              funMode
+                ? "border-mystic-gold/60 text-mystic-gold bg-mystic-gold/10"
+                : "border-mystic-mid/40 text-white/50 hover:text-white hover:border-mystic-mid/60"
+            }`}
+          >
+            {funMode ? (locale === "zh" ? "😂 搞笑" : "😂 Funny") : (locale === "zh" ? "正经模式" : "Normal")}
+          </button>
 
           {/* Language toggle */}
           <button

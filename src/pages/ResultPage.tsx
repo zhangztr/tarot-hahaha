@@ -30,8 +30,8 @@ export default function ResultPage() {
 
   const interpretation = useMemo(() => {
     if (!reading) return null;
-    if (locale === "zh" && funMode) {
-      return generateInterpretationFunny(reading.cards, reading.spreadType, reading.question);
+    if (funMode) {
+      return generateInterpretationFunny(reading.cards, reading.spreadType, reading.question, locale);
     }
     return generateInterpretation(reading.cards, reading.spreadType, reading.question, locale);
   }, [reading, locale, funMode]);

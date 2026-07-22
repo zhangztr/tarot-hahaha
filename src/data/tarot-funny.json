@@ -10,6 +10,43 @@
       "不管了冲",
       "先上车再说",
       "盲目乐观"
+    ],
+    "connections": [
+      {
+        "cardId": 1,
+        "narrative": "愣头青碰上整活大师——你有胆子冲，他有本事接。但小心，别把自己的梦想外包出去，最后发现你在给别人打工。",
+        "narrativeEn": "Leeroy Jenkins meets the DIY Guru — you've got the audacity AND the skills. This is either going to be legendary or a legendary disaster, and honestly? Either way it'll make a great story. Just don't outsource your dream to someone else's vision board."
+      },
+      {
+        "cardId": 10,
+        "narrative": "愣头青刚迈腿，命运的转盘就开始抽风——你以为是自己选的路，其实是老天在玩大转盘。顺着转吧，反正也下不了车。",
+        "narrativeEn": "Leeroy Jenkins and RNGesus in the same draw — you're about to yeet yourself into a situation while fate spins the wheel. The timing is either perfectly aligned or cosmically chaotic. Either way, the universe is holding the camera."
+      },
+      {
+        "cardId": 13,
+        "narrative": "愣头青遇上死神——刚开始就结束了？不是的，是要你旧的不去新的不来。你手里攥着的东西该扔了，空手跳崖才叫信仰嘛。",
+        "narrativeEn": "Leeroy Jenkins walks into The Big Unsubscribe — a new beginning that requires an old ending. You can't start the next chapter if you're still rereading the last one. The leap works better with empty hands. Let go, then go."
+      },
+      {
+        "cardId": 16,
+        "narrative": "愣头青碰上了高塔——你以为自己在新世界探险，结果老天直接把你搭的积木一脚踹翻。塌了的都不是真的，虽然真的也碎了几块。",
+        "narrativeEn": "Leeroy Jenkins meets The Sudden Uninstall — your blind enthusiasm just walked face-first into a wrecking ball. The good news? The structures that crumble were never solid to begin with. The bad news? Yeah, it still hurts. Rubble makes great foundations though."
+      },
+      {
+        "cardId": 21,
+        "narrative": "愣头青和世界同框——从零开始的异世界生活直接快进到大结局。你有潜力走到终点，但前提是别在第一集就浪死了。",
+        "narrativeEn": "Leeroy Jenkins on one end, Achievement Unlocked on the other — the fool's journey from 'I have no idea what I'm doing' to 'I still have no idea but I'm done.' The one who starts and the one who finishes are the same person, just with better stories."
+      }
+    ],
+    "nameEn": "Leeroy Jenkins",
+    "uprightMeaningEn": "You've got that 'just quit my job with no backup plan' energy — broke but grinning. Don't overthink it; thinking is what stops people from doing stupid things that become great stories. Worst case: you embarrass yourself, and embarrassment is free.",
+    "reversedMeaningEn": "Everyone's telling you to 'think it through.' Deep down you know this is a bad idea, but you still wanna send it. At least clear your Amazon cart first — those purchases have a return policy.",
+    "keywordsEn": [
+      "yolo",
+      "send it",
+      "no thoughts just vibes",
+      "leap first look later",
+      "chaos goblin"
     ]
   },
   {
@@ -23,6 +60,33 @@
       "人脉变现",
       "说到做到",
       "行动力拉满"
+    ],
+    "connections": [
+      {
+        "cardId": 2,
+        "narrative": "整活大师撞上冰山女祭司——一个能说会道一个沉默是金，一个在狂输出一个在冷眼旁观。别光顾着操作，听听那个不说话的人，她脑子比你好使。",
+        "narrativeEn": "The DIY Guru meets Miss Know-It-All — action meets intuition, and they're giving each other the side-eye. You have all the tools AND all the wisdom, which means you have no excuse. Build it, but build it smart."
+      },
+      {
+        "cardId": 15,
+        "narrative": "整活大师碰上恶魔——你的才华能建高楼也能挖坑把自己埋了。问问自己：是你在耍酷，还是酷在耍你？别把自己的技能点点到奇怪的方向上去了。",
+        "narrativeEn": "The DIY Guru face to face with The Toxic Ex — your talents are real, but where are they pointed? Same hands that build can also dig a hole. Ask yourself: are you creating or just coping in a really elaborate way?"
+      },
+      {
+        "cardId": 17,
+        "narrative": "整活大师被星星点化——原来不是为了装X，是真的可以做点有意义的事。把你的能力用在该用的地方，万一火了还能说「我是为了艺术」。",
+        "narrativeEn": "The DIY Guru blessed by The Hopepunk Star — your skills just got a purpose upgrade. You're not just making things; you're making things that matter. Channel the talent into something that heals instead of just impresses."
+      }
+    ],
+    "nameEn": "The DIY Guru",
+    "uprightMeaningEn": "You've got all the tools and you're not afraid to use them — YouTube tutorials have prepared you for this moment. The universe is your IKEA furniture and you didn't even look at the instructions. Manifest responsibly.",
+    "reversedMeaningEn": "You're either under-selling yourself or about to start a project that'll end up on r/DiWHY. Talent is there, but direction is not. Put the glue gun down and make an actual plan.",
+    "keywordsEn": [
+      "manifesting",
+      "skill issue? never",
+      "big brain energy",
+      "trust the process",
+      "winging it successfully"
     ]
   },
   {
@@ -36,6 +100,33 @@
       "暗中观察",
       "不告诉你",
       "第六感准得离谱"
+    ],
+    "connections": [
+      {
+        "cardId": 9,
+        "narrative": "冰山女祭司和孤寡隐士——两个最不爱说话的人凑一块了。一个在心里知道，一个在山里找。别问了，答案就在你脑子里，把手机静音就能听见。",
+        "narrativeEn": "Miss Know-It-All and The Wi-Fi Hermit — two flavors of solitude, one rich inner world between them. She knows without speaking; he searches without stopping. The answers are inside you. Turn off the notifications and actually listen."
+      },
+      {
+        "cardId": 12,
+        "narrative": "女祭司碰见倒吊人——脑子想通了但身体还在倒挂。有时候你想得再多也不如换个姿势看世界。别分析来分析去了，挂一会，答案自己浮上来。",
+        "narrativeEn": "Miss Know-It-All meets The Chill Hang — knowing meets surrendering. Your brain wants answers but the universe has you in a headlock of patience. Stop trying to solve the puzzle and just hang there. Clarity arrives when you stop strangling it."
+      },
+      {
+        "cardId": 18,
+        "narrative": "女祭司和月亮——你的直觉说前方有坑，但月亮说坑里可能有宝藏。相信第六感，但也看看脚下。直觉很重要，白日梦也得分场合。",
+        "narrativeEn": "Miss Know-It-All navigating The 3 AM Thoughts — your intuition is real but the shadows are running a disinformation campaign. Trust your gut, but fact-check before acting. Not every ominous feeling is a prophecy; some are just indigestion."
+      }
+    ],
+    "nameEn": "Miss Know-It-All",
+    "uprightMeaningEn": "Your gut feeling has a PhD and your intuition is running circles around everyone else's logic. You don't need to explain yourself — the people who get it, get it. The people who don't can argue with your silence.",
+    "reversedMeaningEn": "You're sitting on a goldmine of insight but you've convinced yourself it's just anxiety. Spoiler: that 'random hunch' is actually your subconscious connecting dots. Stop second-guessing and trust the vibe.",
+    "keywordsEn": [
+      "trust your gut",
+      "mysterious silence",
+      "inner wisdom flex",
+      "I told you so",
+      "intuition on steroids"
     ]
   },
   {
@@ -49,6 +140,33 @@
       "养点什么",
       "精致生活",
       "今天不想卷"
+    ],
+    "connections": [
+      {
+        "cardId": 4,
+        "narrative": "大地之母撞上霸道总裁——温柔与铁腕的世纪对决。一个说「要有爱」，一个说「要有规矩」。最好的结果是：花园有围栏，围栏里有花。",
+        "narrativeEn": "Mother Nature's CEO and The Big Boss — the sacred marriage of nurture and structure. One grows the garden, the other builds the fence. Too much softness and things fall apart; too much rigidity and nothing blooms. You need both, and you know it."
+      },
+      {
+        "cardId": 6,
+        "narrative": "女皇遇见恋人——当富婆动了真情。丰盛的能量全涌向感情线：爱自己还是爱别人？选一个吧，不选的话剧情会变成烂俗三角恋。",
+        "narrativeEn": "Mother Nature's CEO encounters The Situationship — abundance meets a big choice. Love, in whatever form, is the theme. Self-love, romantic love, or that one person you should probably stop texting. Let your heart lead, but bring your brain as the plus-one."
+      },
+      {
+        "cardId": 17,
+        "narrative": "女皇和星星同台——母爱的丰盛加上宇宙的许愿池。不是白日梦，是真的会开花。前提是你真的在浇水，不是每天盯着花盆念叨「快长啊」。",
+        "narrativeEn": "Mother Nature's CEO under The Hopepunk Star — a double blessing of abundance and hope. This is not wishful thinking; this is grounded optimism that knows the garden will bloom because you've been out there watering it. Keep going."
+      }
+    ],
+    "nameEn": "Mother Nature's CEO",
+    "uprightMeaningEn": "You're in full earth-goddess mode — nurturing everything, growing everywhere, making it look effortless. Your energy right now could make a cactus bloom. Share the abundance; there's plenty to go around.",
+    "reversedMeaningEn": "You're giving so much to everyone else that you forgot to water your own plants. Self-care isn't selfish, it's maintenance. The goddess needs a spa day too.",
+    "keywordsEn": [
+      "abundance era",
+      "mother hen mode",
+      "fertile creativity",
+      "treat yourself",
+      "nurture everything"
     ]
   },
   {
@@ -62,6 +180,33 @@
       "秩序感",
       "立规矩的人",
       "项目经理附体"
+    ],
+    "connections": [
+      {
+        "cardId": 5,
+        "narrative": "霸道总裁见教皇——一个管人一个管魂，一个定法律一个写教条。这两位要是意见统一，你就是开国皇帝；不统一的话，先理清楚到底谁说了算。",
+        "narrativeEn": "The Big Boss and The Tradition Guy — secular power meets spiritual authority. Law and faith, structure and belief. When they agree, you're building an institution. When they clash, figure out which authority actually serves YOUR highest good, not just the highest-ranking one."
+      },
+      {
+        "cardId": 11,
+        "narrative": "皇帝站在法官面前——你再牛也得守法。权力再大也有天花版，做的事情全写在天平上了。别想着走后门，正义的眼睛是雪亮的。",
+        "narrativeEn": "The Big Boss called before Receipts — power is about to get audited. No throne is above the law, and the receipts are being pulled. If you've been fair, relax. If you've been... flexible with the rules, maybe start practicing your apology."
+      },
+      {
+        "cardId": 16,
+        "narrative": "皇帝的高墙遇上了高塔的拆迁队——你苦苦经营的人设、规则、安全区，全在地震中稀碎。碎就碎吧，本来就该重修了。下次别忘了打地基。",
+        "narrativeEn": "The Big Boss faces The Sudden Uninstall — your fortress is being stress-tested by reality. Control systems, hierarchies, carefully built walls — if they were on shaky ground, they won't survive the quake. What crumbles was never permanent. Rebuild with better blueprints."
+      }
+    ],
+    "nameEn": "The Big Boss",
+    "uprightMeaningEn": "Structure? You've got it. Authority? Wear it like a well-tailored suit. You're the one with the plan, the spreadsheet, and the five-year projection. Just make sure you're building an empire, not a prison — for yourself.",
+    "reversedMeaningEn": "Control issues are showing. You're micromanaging the universe and the universe does not report to you. Loosen the grip before you choke out all the fun. Not everything needs a policy document.",
+    "keywordsEn": [
+      "boss mode",
+      "structure king",
+      "law and order",
+      "dad energy",
+      "my way or highway"
     ]
   },
   {
@@ -75,6 +220,28 @@
       "考证考证考证",
       "前辈指路",
       "体制内思维"
+    ],
+    "connections": [
+      {
+        "cardId": 9,
+        "narrative": "教皇遇见隐士——别人教你的那套信仰，轮到你自己去验证了。传统是参考书不是标准答案，别把教条当真理，出去走走，自己体会。",
+        "narrativeEn": "The Tradition Guy and The Wi-Fi Hermit — inherited wisdom versus personal truth. The old books have answers, but the solo journey has different questions. Maybe it's time to check if the beliefs you were handed still fit the person you're becoming."
+      },
+      {
+        "cardId": 11,
+        "narrative": "教皇和正义站一块——再老的规矩也得过良心这一关。如果传统不公正，那就该改改了。真正的智慧知道什么时候该守，什么时候该破。",
+        "narrativeEn": "The Tradition Guy alongside Receipts — tradition measured against truth. Ancient doesn't automatically mean wise, and old rules that fail the fairness test are overdue for a rewrite. Honor the roots, but don't worship them if they're poisoning the soil."
+      }
+    ],
+    "nameEn": "The Tradition Guy",
+    "uprightMeaningEn": "You're the keeper of the sacred 'how we've always done it.' There's wisdom in the old ways — but also maybe some outdated clauses. Know the rules well enough to know which ones are actually vibes rather than laws.",
+    "reversedMeaningEn": "Dogma alert. You're following rules you never questioned and quoting authorities you've never fact-checked. Tradition without reflection is just peer pressure from dead people.",
+    "keywordsEn": [
+      "ancient wisdom",
+      "rule follower",
+      "tradition check",
+      "orthodox vibes",
+      "mentor mode"
     ]
   },
   {
@@ -88,6 +255,33 @@
       "二选一",
       "价值观考验",
       "脱单/分手预警"
+    ],
+    "connections": [
+      {
+        "cardId": 7,
+        "narrative": "恋人选完了，战车一脚油门踩到底——心动之后就是行动。但前提是真的是你选的，不是被荷尔蒙劫持的。方向盘握好，别开到别人家门口去了。",
+        "narrativeEn": "The Situationship and Full Send Chariot — heart decides, then horsepower delivers. A meaningful choice meets determined action. Just make sure the decision was actually yours and not your hormones wearing a trench coat pretending to be rational thought."
+      },
+      {
+        "cardId": 14,
+        "narrative": "恋人和节制——爱得死去活来的时候，节制出来说了句「冷静点」。不是叫你分手，是叫你别把整个人生兑进去了。爱的浓度太高会中毒的。",
+        "narrativeEn": "The Situationship and The Vibe Balancer — passion looking for its equilibrium. Intense feelings want to flood everything, but chemistry happens in the blend, not the tsunami. Love hard, but don't dissolve yourself in another person."
+      },
+      {
+        "cardId": 15,
+        "narrative": "恋人和恶魔——我爱你但我是不是被你控制了？爱让人自由，执念让人坐牢。诚实地看看你的关系：是真爱还是不敢走？前者在笑，后者在抖。",
+        "narrativeEn": "The Situationship meets The Toxic Ex — the light and shadow of attachment. Love liberates; obsession takes hostages. Same relationship can be sanctuary or prison. Honestly examine: are you choosing freely, or are you just afraid to be alone?"
+      }
+    ],
+    "nameEn": "The Situationship",
+    "uprightMeaningEn": "A choice is standing in front of you wearing a very attractive outfit. Love, partnership, or a crossroads that feels like a rom-com climax. Pick with your whole chest — half measures get half results. And yes, it IS that deep.",
+    "reversedMeaningEn": "You're stuck in analysis paralysis between two (or more) options, and they're all starting to look the same. The real choice isn't between people or paths — it's between who you've been and who you're becoming. Choose the one that makes future-you proud, not just present-you comfortable.",
+    "keywordsEn": [
+      "situationship energy",
+      "big decision",
+      "follow your heart",
+      "twin flame or dumpster fire",
+      "crossroads"
     ]
   },
   {
@@ -101,6 +295,28 @@
       "干翻这个世界",
       "胜负欲爆棚",
       "油门踩到底"
+    ],
+    "connections": [
+      {
+        "cardId": 8,
+        "narrative": "战车加力量——一个猛冲一个扛揍。你能冲出去的，因为你是真的硬。但这组牌提醒你：赢了之后别嘚瑟，温柔地收拾战场。",
+        "narrativeEn": "Full Send Chariot and Big Cat Energy — victory driven by willpower, sustained by quiet strength. You've got both the speed to win AND the resilience to last. Conquer with compassion; the flex is stronger when it's gentle."
+      },
+      {
+        "cardId": 10,
+        "narrative": "战车遇上了命运转盘——你油门踩到底结果路变成了过山车。努力重要，但时机更玄学。使劲开，但也别跟天意较劲，轮子比你大。",
+        "narrativeEn": "Full Send Chariot meets RNGesus — your determined advance just hit the cosmic roulette wheel. You can steer but you can't control the road. Push forward with everything, but respect that timing is as important as speed. Even F1 cars need to pit."
+      }
+    ],
+    "nameEn": "Full Send Chariot",
+    "uprightMeaningEn": "Victory is loading and you've got both hands on the wheel. You're moving fast, driven by pure willpower and possibly caffeine. Nothing can stop you — just make sure you're driving toward your own finish line, not someone else's.",
+    "reversedMeaningEn": "You're speeding but the GPS is recalculating. Aggression without direction is just a tantrum with better PR. Pull over, check the map, then floor it.",
+    "keywordsEn": [
+      "full send",
+      "unstoppable",
+      "main character speedrun",
+      "victory lap pending",
+      "gas pedal stuck"
     ]
   },
   {
@@ -114,6 +330,28 @@
       "情绪管理大师",
       "忍一时越想越气（但忍住了）",
       "温柔猛人"
+    ],
+    "connections": [
+      {
+        "cardId": 9,
+        "narrative": "力量和隐士——外面的猛兽要对付，心里的野兽也要安抚。不用每时每刻都是强者，该退就退，狮子也打盹的。",
+        "narrativeEn": "Big Cat Energy and The Wi-Fi Hermit — outer courage replenished by inner solitude. You don't always have to be the strong one. Retreat isn't weakness; even apex predators spend most of their time napping. Rest, then return."
+      },
+      {
+        "cardId": 11,
+        "narrative": "力量和正义——温柔和公正站在一起。真正的正义不是冷冰冰的法条，是带着理解在判。真正的力量不是拳头硬，是心态稳。你心里那杆秤，稳了吗？",
+        "narrativeEn": "Big Cat Energy and Receipts — compassion standing next to fairness. True justice isn't cold, and true strength isn't force. It's holding the scales steady even when your own heart is in the balance. That's the real flex."
+      }
+    ],
+    "nameEn": "Big Cat Energy",
+    "uprightMeaningEn": "You've got that quiet strength — the kind that doesn't need to roar to be felt. It's not about crushing your enemies; it's about them knowing you could, and choosing not to. That's power. That's growth. That's hot.",
+    "reversedMeaningEn": "You've been strong for so long you forgot it's okay to be soft. You're not a tank; you're a human. Let someone else carry the heavy stuff for a minute. The lion naps 20 hours a day and nobody calls it weak.",
+    "keywordsEn": [
+      "quiet strength",
+      "inner lion",
+      "patience OP",
+      "gentle but deadly",
+      "resilience check"
     ]
   },
   {
@@ -127,6 +365,28 @@
       "深度思考",
       "闭关修炼",
       "别理我"
+    ],
+    "connections": [
+      {
+        "cardId": 12,
+        "narrative": "隐士碰到了倒吊人——找得太累了，不如倒挂一会儿。真理不是搜出来的，有时候是你不再找了，它自己敲门的。别卷了，歇着。",
+        "narrativeEn": "The Wi-Fi Hermit encounters The Chill Hang — the search deepens into surrender. You've been looking so hard you forgot how to be still. Wisdom isn't always found by seeking; sometimes it sneaks in when you stop doom-scrolling for meaning."
+      },
+      {
+        "cardId": 17,
+        "narrative": "隐士的灯笼照到了星星——一个人在山洞里修行，终于看到了天上的光。你没有白闭关。把你的心得出关分享，说不定还能涨粉。",
+        "narrativeEn": "The Wi-Fi Hermit sees The Hopepunk Star — the solo cave journey was worth it. The light you found in the dark? Other people need to see it too. Come out of hermit mode; your insights are shareable content now."
+      }
+    ],
+    "nameEn": "The Wi-Fi Hermit",
+    "uprightMeaningEn": "You've gone off-grid — emotionally, socially, maybe literally. Your phone is on Do Not Disturb and your soul is doing a system update. The answers you're looking for aren't in the group chat. Stay in your cave; the clarity will come.",
+    "reversedMeaningEn": "You've isolated so hard you forgot how to people. Solitude is medicine but too much becomes poison. Come out of the cave occasionally — the world has snacks and sunlight.",
+    "keywordsEn": [
+      "off-grid mode",
+      "solo arc",
+      "deep thoughts only",
+      "leave me alone (affectionate)",
+      "wisdom loading"
     ]
   },
   {
@@ -140,6 +400,28 @@
       "躺赢/躺输",
       "人生的过山车",
       "别嘚瑟"
+    ],
+    "connections": [
+      {
+        "cardId": 13,
+        "narrative": "命运转盘加死神——运气的风云变幻直接升级为人生版本更新。光是转运不够，你得换号重练。别怕，新版本通常比旧版本好用。",
+        "narrativeEn": "RNGesus and The Big Unsubscribe — the wheel turns and something ends simultaneously. Luck changes and so must you. A change of circumstances isn't the same as a change of self, but when they arrive together, you're being upgraded, not just relocated."
+      },
+      {
+        "cardId": 20,
+        "narrative": "命运转盘和审判——走了大运还是走了背运？不管哪个，审判都在问：你准备好了没有？因为下一个拐角不是在考验你的运气，而是考验你的人品。",
+        "narrativeEn": "RNGesus meets The Wake-Up Call — a turning point in circumstances AND an inner alarm going off. You're not just being carried by events; you're being asked to respond to them. The wheel presents the opportunity; the wake-up call asks what you'll do with it."
+      }
+    ],
+    "nameEn": "RNGesus",
+    "uprightMeaningEn": "The wheel is spinning and your number might just come up. Luck, fate, the algorithm — whatever you call it, something bigger is turning. Ride the wave while it lasts, but don't get cocky. The wheel giveth and the wheel taketh away.",
+    "reversedMeaningEn": "Bad luck streak — the universe is rolling nat 1s on your behalf. Don't spiral; wheels turn. This too shall pass, but maybe don't make any big bets until the cycle flips.",
+    "keywordsEn": [
+      "plot twist incoming",
+      "lucky break",
+      "fate's steering wheel",
+      "karma check",
+      "spin the wheel"
     ]
   },
   {
@@ -153,6 +435,23 @@
       "合同条款",
       "老实交代",
       "法律问题"
+    ],
+    "connections": [
+      {
+        "cardId": 20,
+        "narrative": "正义和审判——今天判赢的官司，到了终极裁决那关可能翻盘。别心存侥幸，你的所作所为会被更高清的摄像头录下来的。",
+        "narrativeEn": "Receipts and The Wake-Up Call — today's verdict meets the final audit. What seems fair now might be reweighed under a brighter light. Your actions echo beyond the present. Make choices you'd be comfortable having read aloud at your cosmic performance review."
+      }
+    ],
+    "nameEn": "Receipts",
+    "uprightMeaningEn": "The truth will out. Actions have consequences, karma keeps records, and the universe is about to present its case with citations. If you've been playing fair, relax — you'll like the verdict. If not... maybe settle out of court.",
+    "reversedMeaningEn": "You're avoiding accountability like it's a Terms of Service page. Justice delayed isn't justice denied, and the bill is accruing interest. Own your stuff before someone else does it for you, and less kindly.",
+    "keywordsEn": [
+      "accountability check",
+      "truth bomb",
+      "fair and square",
+      "karma's court date",
+      "consequences era"
     ]
   },
   {
@@ -166,6 +465,23 @@
       "我在挂机",
       "以退为进",
       "战略性躺平"
+    ],
+    "connections": [
+      {
+        "cardId": 13,
+        "narrative": "倒吊人遇上死神——不把你挂舒服了是不会动手重装的。甘心停下来的那一刻，真正的改变就开始了。别把放手当失败，它是在为起飞清跑道。",
+        "narrativeEn": "The Chill Hang followed by The Big Unsubscribe — surrender before transformation. You can't be remade while you're still death-gripping your old shape. The pause isn't punishment; it's prep. Let go, not in defeat, but in readiness. The next version of you is loading."
+      }
+    ],
+    "nameEn": "The Chill Hang",
+    "uprightMeaningEn": "You're suspended in a moment of forced pause and it feels like limbo, but it's actually a loading screen. The universe has you in time-out for a reason. Stop struggling, surrender to the upside-down, and let the new perspective download.",
+    "reversedMeaningEn": "You're stuck and blaming everything except your refusal to let go. The hang isn't a punishment — it's a preview. See things differently before you're allowed to move. Yes, it's frustrating. No, fighting it won't help.",
+    "keywordsEn": [
+      "forced break",
+      "new perspective",
+      "suspend disbelief",
+      "let it cook",
+      "patience is pain"
     ]
   },
   {
@@ -179,6 +495,28 @@
       "割肉止损",
       "蜕变阵痛",
       "不破不立"
+    ],
+    "connections": [
+      {
+        "cardId": 14,
+        "narrative": "死神碰上节制——送走旧的别太快，等新的来也别太急。蜕变有它自己的节奏。在这段过渡期，别慌，做一杯温水，静静等茶叶泡开。",
+        "narrativeEn": "The Big Unsubscribe and The Vibe Balancer — transformation finding its equilibrium. Endings don't need to be rushed OR resisted. Between the unsubscribe and the new subscription, there's a free trial period of just... being. Use it."
+      },
+      {
+        "cardId": 17,
+        "narrative": "死神后面跟着星星——关一道门开一扇窗这个老套的比喻用在这里太合适了。哭完该哭的，然后抬头。光早就在了，你只是刚才低着头。",
+        "narrativeEn": "The Big Unsubscribe and The Hopepunk Star — the classic 'door closes, window opens' but make it cosmic. What's being ripped away is making room for something actually aligned with who you're becoming. Grieve, then look up. The light already clocked in."
+      }
+    ],
+    "nameEn": "The Big Unsubscribe",
+    "uprightMeaningEn": "Something is ending, and honestly? It was time. Death is just the universe's way of saying 'you've outgrown this, I'm taking it away for your own good.' Grieve the loss, then check your pockets — you might find you're lighter without it.",
+    "reversedMeaningEn": "You're clinging to a corpse of a situation and it's starting to smell. The thing you're afraid to lose is already gone; you're just holding the receipt. Let it decompose. Compost becomes flowers.",
+    "keywordsEn": [
+      "unsubscribe me",
+      "glow up through grief",
+      "out with the old",
+      "hard reset",
+      "phoenix mode"
     ]
   },
   {
@@ -192,6 +530,23 @@
       "别走极端",
       "养生",
       "佛系但不摆烂"
+    ],
+    "connections": [
+      {
+        "cardId": 15,
+        "narrative": "节制的平衡术遇上恶魔的诱惑——你能保持清醒吗？恶魔在耳边说「再玩一次」，节制在心里说「差不多得了」。这场内心的拔河，看谁能赢。",
+        "narrativeEn": "The Vibe Balancer versus The Toxic Ex — moderation holding the line against obsession. Your inner monk is arm-wrestling your inner demon. Can you keep the middle path when something is pulling hard toward the edge? The balanced choice is the brave choice here."
+      }
+    ],
+    "nameEn": "The Vibe Balancer",
+    "uprightMeaningEn": "You're the alchemist, mixing chaos and calm in exactly the right proportions. Moderation isn't boring — it's the secret sauce that keeps everything from catching fire. Find your middle path and walk it like a runway.",
+    "reversedMeaningEn": "You're oscillating between extremes trying to find balance by swinging harder. That's not how pendulums work. Slow down. The middle path isn't a compromise; it's a strategy.",
+    "keywordsEn": [
+      "balance patch",
+      "alchemy arc",
+      "middle path main",
+      "chill mixologist",
+      "patience brewing"
     ]
   },
   {
@@ -205,6 +560,23 @@
       "明知故犯",
       "上瘾",
       "被拿捏"
+    ],
+    "connections": [
+      {
+        "cardId": 16,
+        "narrative": "恶魔绑你，高塔炸你——你自己拆不掉的枷锁，被外部的力量一把炸飞。虽然方式有点暴力，但结果是你自由了。下次别等被炸了才放手，主动点行不行？",
+        "narrativeEn": "The Toxic Ex triggers The Sudden Uninstall — the chains you couldn't break yourself get shattered by external force. What you wouldn't release voluntarily is being yeeted for you. Painful? Yes. Effective? Also yes. You're free now. Don't go back for the handcuffs."
+      }
+    ],
+    "nameEn": "The Toxic Ex",
+    "uprightMeaningEn": "Something has a grip on you — a habit, a person, a 'treat yourself' that's become 'trap yourself.' You know it's bad for you. That little whisper of 'one more time'? That's not your friend. That's the devil wearing your favorite hoodie.",
+    "reversedMeaningEn": "You're this close to breaking free but you've convinced yourself the cage is cozy. Spoiler: it's still a cage. The chains are loose enough to slip — you just have to want to. The door's been unlocked the whole time.",
+    "keywordsEn": [
+      "toxic attachment",
+      "shadow work",
+      "breaking chains",
+      "devil on speed dial",
+      "addiction check"
     ]
   },
   {
@@ -218,6 +590,23 @@
       "真相暴击",
       "计划全乱",
       "一切推倒重来"
+    ],
+    "connections": [
+      {
+        "cardId": 17,
+        "narrative": "高塔塌了，废墟上升起一颗星星——塔罗界的经典名场面。旧的假的全倒了，剩下的是真东西。你活过了扫除日，现在看看：什么是值得你带进新生活的？",
+        "narrativeEn": "The Sudden Uninstall followed by The Hopepunk Star — the most iconic duo in tarot. Destruction clears the stage, then hope walks on. The lightning took out the fake stuff; the star illuminates what's left. You survived the collapse. What remains is realer than what fell."
+      }
+    ],
+    "nameEn": "The Sudden Uninstall",
+    "uprightMeaningEn": "Everything you thought was stable is getting a surprise audit from the universe, and the inspectors brought sledgehammers. The tower was built on assumptions anyway. Let it crumble — the foundation that survives is the only part worth keeping.",
+    "reversedMeaningEn": "You saw the cracks and kept decorating. Now the wall's coming down and you're acting surprised. The universe doesn't do 'gentle suggestions' when you ignore the polite warnings. Duck, cover, and thank the wrecking crew later.",
+    "keywordsEn": [
+      "surprise demolition",
+      "chaos update",
+      "truth wrecking ball",
+      "humbling experience",
+      "reset button hit itself"
     ]
   },
   {
@@ -231,6 +620,28 @@
       "重新相信",
       "心态好了",
       "以后会更好"
+    ],
+    "connections": [
+      {
+        "cardId": 18,
+        "narrative": "星星在月亮迷雾里前行——希望是真的，但路不好走。乐观主义要被未知吓一吓。别让暂时的黑暗说服你「光不存在」。往前走，月亮只是路过。",
+        "narrativeEn": "The Hopepunk Star navigating The 3 AM Thoughts — your hope is real but the path is foggy. The light you follow exists, even when shadows try to gaslight you into thinking you imagined it. Keep walking. The moon is just a phase."
+      },
+      {
+        "cardId": 19,
+        "narrative": "星星熬成了太阳——从微弱的光到灿烂的天。你的小愿望长大了。放心享受快乐，别觉得自己不配。你扛过的夜够长了，晒太阳是基本人权。",
+        "narrativeEn": "The Hopepunk Star becomes The Golden Retriever — hope graduating to full-blown joy. What started as a tiny wish in the dark is now broad daylight happiness. Don't feel guilty for feeling good. You walked through enough shadow; the sun is your severance package."
+      }
+    ],
+    "nameEn": "The Hopepunk Star",
+    "uprightMeaningEn": "After the chaos, after the rain, one stubborn little light is still twinkling. That's you. That's hope. It's not naive optimism — it's been-through-the-worst-and-still-here energy. Make a wish; you've earned the right.",
+    "reversedMeaningEn": "You're hoping but not acting. Wishing on a star while your feet are stuck in cement. The light is real but you have to walk toward it. Hope is a direction, not a destination.",
+    "keywordsEn": [
+      "hope core",
+      "wish granted soon",
+      "light at end of tunnel",
+      "healing era",
+      "cosmic copium (positive)"
     ]
   },
   {
@@ -244,6 +655,23 @@
       "深夜emo",
       "有人在演你",
       "别信表面"
+    ],
+    "connections": [
+      {
+        "cardId": 19,
+        "narrative": "月亮熬成了太阳——漫漫长夜的恐惧、胡思乱想、自我怀疑，在太阳面前全现了原形。原来没那么可怕。天亮的感觉真好，把窗户打开。",
+        "narrativeEn": "The 3 AM Thoughts giving way to The Golden Retriever — the anxious night finally meeting its sunrise. Those shapes that haunted you? Coat racks. Those fears? Overblown. The dawn makes everything look manageable. Let the clarity in; it's not as scary as you thought."
+      }
+    ],
+    "nameEn": "The 3 AM Thoughts",
+    "uprightMeaningEn": "Something's lurking in the shadows and your brain is writing fanfiction about it at 3 AM. The moon distorts everything — molehills look like mountains, fears cosplay as intuitions. Shine a light on it; the monster is probably just a coat rack.",
+    "reversedMeaningEn": "You're lost in the sauce of your own anxiety and calling it 'intuition.' The shadows are real but they're also shapeshifters. Get a second opinion from daylight before you make any life-altering decisions at midnight.",
+    "keywordsEn": [
+      "anxiety spiral",
+      "shadow realm vibes",
+      "overthinking premium",
+      "hidden fears unlocked",
+      "moon madness"
     ]
   },
   {
@@ -257,6 +685,23 @@
       "好运爆棚",
       "自信放光芒",
       "今天我是主角"
+    ],
+    "connections": [
+      {
+        "cardId": 21,
+        "narrative": "太阳和世界一起登场——快乐不只是五分钟的多巴胺，而是一个完整的圆。你熬过了一整个循环，走到了这里。拍拍自己，你配得上这一刻的幸福。",
+        "narrativeEn": "The Golden Retriever and Achievement Unlocked — pure joy reaching its final form. This isn't a fleeting good mood; it's a completed cycle. You did the work, you took the hits, you made it. Celebrate like you mean it. The credits can roll for a minute before the sequel starts."
+      }
+    ],
+    "nameEn": "The Golden Retriever",
+    "uprightMeaningEn": "The sun is out, the vibes are immaculate, and you're radiating main-character-in-the-final-scene energy. Success, joy, vitality — this is the card that makes other cards jealous. Soak it in. You've earned this victory lap.",
+    "reversedMeaningEn": "The sun's behind a cloud but it's still there. You're temporarily dimmed, not permanently dark. Don't let a passing mood convince you the light is gone. Vitamin D and a walk might literally fix it.",
+    "keywordsEn": [
+      "good vibes only",
+      "victory lap",
+      "main character finale",
+      "pure joy era",
+      "sunshine and success"
     ]
   },
   {
@@ -270,6 +715,23 @@
       "幡然醒悟",
       "重新做人",
       "想起自己的初心"
+    ],
+    "connections": [
+      {
+        "cardId": 21,
+        "narrative": "审判把门推开，世界在门后——你答应的召唤带你走到了终章。现在的你拉黑了一年前的自己。蜕皮完成，进去吧，新世界已经加载好了。",
+        "narrativeEn": "The Wake-Up Call leads to Achievement Unlocked — you answered the call and it brought you to completion. You're not the same person who started this level. The new world you're stepping into? It matches the person you became. Rise and enter."
+      }
+    ],
+    "nameEn": "The Wake-Up Call",
+    "uprightMeaningEn": "An alarm is going off in your soul and it's not the snooze-button kind. You're being called to rise, to answer for your choices, to become the version of yourself that future-you is waiting for. This is the rebirth. Say yes.",
+    "reversedMeaningEn": "You're hitting snooze on your own awakening. The call is coming from inside the house and you're pretending it's a wrong number. Wake up. The person you're meant to become is getting impatient.",
+    "keywordsEn": [
+      "awakening",
+      "accountability arc",
+      "rise and grind (spiritual)",
+      "rebirth era",
+      "cosmic alarm clock"
     ]
   },
   {
@@ -283,6 +745,16 @@
       "毕业快乐",
       "阶段性胜利",
       "下一关开启"
+    ],
+    "nameEn": "Achievement Unlocked",
+    "uprightMeaningEn": "You've completed the cycle. The quest is done, the boss is defeated, the credits are rolling on this chapter of your life. Take the victory lap, do a little dance, and then — get ready. Completion just means you're ready for the next bigger thing.",
+    "reversedMeaningEn": "You're almost at the finish line but you're slowing down because finishing is scary. What comes after the end? The next beginning. Don't delay your own completion just because you're afraid of the sequel.",
+    "keywordsEn": [
+      "quest complete",
+      "cycle finished",
+      "world tour",
+      "fulfillment era",
+      "end credits (for now)"
     ]
   },
   {
@@ -296,6 +768,16 @@
       "灵感来了",
       "情绪满格",
       "打开心扉"
+    ],
+    "nameEn": "Ace of Cups (chaotic edition)",
+    "uprightMeaningEn": "New love or creative spark incoming. Your emotional inbox has a new message and it's not spam.",
+    "reversedMeaningEn": "Emotional blockage. You've dammed up your feelings and the reservoir is getting dangerously full. Let a little out before it bursts.",
+    "keywordsEn": [
+      "emotional intelligence",
+      "creative spark",
+      "heart wide open",
+      "intuition online",
+      "love arc"
     ]
   },
   {
@@ -309,6 +791,15 @@
       "默契满分",
       "搭子关系",
       "确认过眼神"
+    ],
+    "nameEn": "Two of Cups (chaotic edition)",
+    "uprightMeaningEn": "A budding connection — romantic or platonic, someone just leveled up in your heart.",
+    "reversedMeaningEn": "One-sided emotional investment. You're giving premium access to someone on a free trial. Read the terms and conditions.",
+    "keywordsEn": [
+      "emotional flooding",
+      "crying in the car",
+      "heart on airplane mode",
+      "feelings backlogged"
     ]
   },
   {
@@ -322,6 +813,16 @@
       "庆祝",
       "喝大了",
       "快乐加倍"
+    ],
+    "nameEn": "Three of Cups (chaotic edition)",
+    "uprightMeaningEn": "Three's company and that's a good thing right now. Collaboration, celebration, possibly cake.",
+    "reversedMeaningEn": "Overindulgence in feelings — you're marinating in your emotions like they're a gourmet dish. Time to get out of the bath.",
+    "keywordsEn": [
+      "emotional intelligence",
+      "creative spark",
+      "heart wide open",
+      "intuition online",
+      "love arc"
     ]
   },
   {
@@ -335,6 +836,15 @@
       "好无聊",
       "摆烂",
       "身在福中不知福"
+    ],
+    "nameEn": "Four of Cups (chaotic edition)",
+    "uprightMeaningEn": "You're being offered emotional stability in a chaotic time. Take it. Not everything has to be a rollercoaster.",
+    "reversedMeaningEn": "Emotional numbness. Something should move you and it's not. Check if you're depressed or just exhausted — both need attention.",
+    "keywordsEn": [
+      "emotional flooding",
+      "crying in the car",
+      "heart on airplane mode",
+      "feelings backlogged"
     ]
   },
   {
@@ -348,6 +858,16 @@
       "只看到失去的",
       "哭完再说",
       "还在emo"
+    ],
+    "nameEn": "Five of Cups (chaotic edition)",
+    "uprightMeaningEn": "Something feels off and you're right. Check in on what you've been ignoring. The cups are half empty for a reason.",
+    "reversedMeaningEn": "Avoiding the emotional accountability conversation. You know what you need to say. The discomfort of saying it is less than the cost of not.",
+    "keywordsEn": [
+      "emotional intelligence",
+      "creative spark",
+      "heart wide open",
+      "intuition online",
+      "love arc"
     ]
   },
   {
@@ -361,6 +881,15 @@
       "童年的味道",
       "怀旧",
       "单纯的小美好"
+    ],
+    "nameEn": "Six of Cups (chaotic edition)",
+    "uprightMeaningEn": "Nostalgia is hitting hard — someone from your emotional past is knocking. Answer thoughtfully, not reflexively.",
+    "reversedMeaningEn": "Living in the emotional past. The highlight reel of 'what could have been' is not a documentary. Return to the present.",
+    "keywordsEn": [
+      "emotional flooding",
+      "crying in the car",
+      "heart on airplane mode",
+      "feelings backlogged"
     ]
   },
   {
@@ -374,6 +903,16 @@
       "都是幻觉",
       "白日梦",
       "想得美"
+    ],
+    "nameEn": "Seven of Cups (chaotic edition)",
+    "uprightMeaningEn": "You've got options and they're all tempting. Don't let the variety paralyze you. Pick your favorite fantasy and commit.",
+    "reversedMeaningEn": "Decision paralysis among too many emotional options. None of these choices are perfect and waiting won't make one appear. Pick and learn.",
+    "keywordsEn": [
+      "emotional intelligence",
+      "creative spark",
+      "heart wide open",
+      "intuition online",
+      "love arc"
     ]
   },
   {
@@ -387,6 +926,15 @@
       "离开舒适区",
       "心累了",
       "自己知道该走了"
+    ],
+    "nameEn": "Eight of Cups (chaotic edition)",
+    "uprightMeaningEn": "Walking away from an emotional situation that no longer serves. It's not giving up; it's upgrading your peace.",
+    "reversedMeaningEn": "You left but you're still mentally there. The physical exit happened; the emotional one is lagging. Finish the unsubscription.",
+    "keywordsEn": [
+      "emotional flooding",
+      "crying in the car",
+      "heart on airplane mode",
+      "feelings backlogged"
     ]
   },
   {
@@ -400,6 +948,16 @@
       "嘚瑟",
       "自我感觉良好",
       "小确幸"
+    ],
+    "nameEn": "Nine of Cups (chaotic edition)",
+    "uprightMeaningEn": "Wish granted. Your emotional investment is paying out. Enjoy the overflow without guilt.",
+    "reversedMeaningEn": "Emotional dissatisfaction despite having everything you asked for. The goalpost moved because you moved it. What are you actually chasing?",
+    "keywordsEn": [
+      "emotional intelligence",
+      "creative spark",
+      "heart wide open",
+      "intuition online",
+      "love arc"
     ]
   },
   {
@@ -413,6 +971,15 @@
       "和谐的假象/真实",
       "理想的终点",
       "你值得"
+    ],
+    "nameEn": "Ten of Cups (chaotic edition)",
+    "uprightMeaningEn": "Emotional completion. Your cup is full, your heart is content. This is the 'happily ever after' slide. Savor it.",
+    "reversedMeaningEn": "Emotional burnout. You gave everything and the well is dry. Refill before you offer anyone else a drink.",
+    "keywordsEn": [
+      "emotional flooding",
+      "crying in the car",
+      "heart on airplane mode",
+      "feelings backlogged"
     ]
   },
   {
@@ -426,6 +993,16 @@
       "小兴奋",
       "有人给你发消息",
       "意外的示好"
+    ],
+    "nameEn": "Page of Cups (chaotic edition)",
+    "uprightMeaningEn": "A dreamer with a message. Creative inspiration delivered by a soft-hearted messenger. Listen to the gentle nudge.",
+    "reversedMeaningEn": "The messenger got lost or the message was fake. Romantic delusions incoming. Vet the vibe before you invest.",
+    "keywordsEn": [
+      "emotional intelligence",
+      "creative spark",
+      "heart wide open",
+      "intuition online",
+      "love arc"
     ]
   },
   {
@@ -439,6 +1016,15 @@
       "情绪上头",
       "追求者",
       "花式表白"
+    ],
+    "nameEn": "Knight of Cups (chaotic edition)",
+    "uprightMeaningEn": "A romantic offer is riding toward you at full speed. Charming, intense, possibly wearing armor. Say yes to the adventure.",
+    "reversedMeaningEn": "Charming but unreliable. The romantic gesture is grand but the follow-through is absent. Don't fall for the trailer; wait for the full movie.",
+    "keywordsEn": [
+      "emotional flooding",
+      "crying in the car",
+      "heart on airplane mode",
+      "feelings backlogged"
     ]
   },
   {
@@ -452,6 +1038,16 @@
       "知心姐姐",
       "内心戏丰富",
       "治愈系"
+    ],
+    "nameEn": "Queen of Cups (chaotic edition)",
+    "uprightMeaningEn": "The emotional grown-up in the room. Nurture others but don't forget yourself. Your empathy is a superpower, not a service.",
+    "reversedMeaningEn": "Emotional smothering. Your care is becoming control. Love gives roots AND wings. Check if you're clipping someone's flight feathers.",
+    "keywordsEn": [
+      "emotional intelligence",
+      "creative spark",
+      "heart wide open",
+      "intuition online",
+      "love arc"
     ]
   },
   {
@@ -465,6 +1061,15 @@
       "情绪不挂脸",
       "表面平静内心波涛",
       "可靠的肩膀"
+    ],
+    "nameEn": "King of Cups (chaotic edition)",
+    "uprightMeaningEn": "Master of emotional intelligence. You've been through the waves and learned to surf. Lead with heart; the competence is assumed.",
+    "reversedMeaningEn": "Emotional manipulation dressed as maturity. You know better and you're using it to win arguments instead of solve problems. Do better.",
+    "keywordsEn": [
+      "emotional flooding",
+      "crying in the car",
+      "heart on airplane mode",
+      "feelings backlogged"
     ]
   },
   {
@@ -478,6 +1083,16 @@
       "灵感火花",
       "干劲十足",
       "说干就干"
+    ],
+    "nameEn": "Ace of Wands (chaotic edition)",
+    "uprightMeaningEn": "A spark of inspiration. New energy, new project, new reason to get out of bed excited. Say yes before your brain talks you out of it.",
+    "reversedMeaningEn": "The spark won't catch. Frustrating, but maybe the kindling is wet for a reason. Reassess before you strike another match.",
+    "keywordsEn": [
+      "big ambition era",
+      "fired up",
+      "go getter",
+      "initiative king",
+      "momentum"
     ]
   },
   {
@@ -491,6 +1106,15 @@
       "野心规划",
       "走向更大的世界",
       "选A还是B"
+    ],
+    "nameEn": "Two of Wands (chaotic edition)",
+    "uprightMeaningEn": "You're holding the map for the next adventure. Planning mode is active, and the destination looks amazing.",
+    "reversedMeaningEn": "Overplanning, under-doing. Your vision board is a museum of things you haven't started. Pick one Post-it and actually execute.",
+    "keywordsEn": [
+      "burnout pending",
+      "all gas no brakes",
+      "six unfinished projects",
+      "directionless hustle"
     ]
   },
   {
@@ -504,6 +1128,16 @@
       "视野开阔",
       "等快递中",
       "前方有惊喜"
+    ],
+    "nameEn": "Three of Wands (chaotic edition)",
+    "uprightMeaningEn": "Your ship has come in — or at least it's visible on the horizon. Progress is happening. Keep sailing.",
+    "reversedMeaningEn": "Setbacks in a project. Progress isn't linear and this dip is part of the curve. Don't abandon ship; patch the leak and keep sailing.",
+    "keywordsEn": [
+      "big ambition era",
+      "fired up",
+      "go getter",
+      "initiative king",
+      "momentum"
     ]
   },
   {
@@ -517,6 +1151,15 @@
       "阶段胜利",
       "摆酒",
       "稳了"
+    ],
+    "nameEn": "Four of Wands (chaotic edition)",
+    "uprightMeaningEn": "Celebration unlocked. The good vibes are earned, not borrowed. Enjoy the party guilt-free.",
+    "reversedMeaningEn": "The celebration is over and the cleanup crew just arrived. Post-event slump is real. Transition gently, not abruptly.",
+    "keywordsEn": [
+      "burnout pending",
+      "all gas no brakes",
+      "six unfinished projects",
+      "directionless hustle"
     ]
   },
   {
@@ -530,6 +1173,16 @@
       "内卷现场",
       "意见不合",
       "各说各的"
+    ],
+    "nameEn": "Five of Wands (chaotic edition)",
+    "uprightMeaningEn": "Conflict incoming — but the productive kind. Competition brings out your best. Just keep it sporty, not personal.",
+    "reversedMeaningEn": "Conflict that's become personal and petty. You're fighting to win, not to resolve. Step back and ask what you're actually defending.",
+    "keywordsEn": [
+      "big ambition era",
+      "fired up",
+      "go getter",
+      "initiative king",
+      "momentum"
     ]
   },
   {
@@ -543,6 +1196,15 @@
       "成功人士",
       "众人瞩目",
       "凯旋归来"
+    ],
+    "nameEn": "Six of Wands (chaotic edition)",
+    "uprightMeaningEn": "Victory parade energy. You've won something, and people are noticing. Take the lap.",
+    "reversedMeaningEn": "The victory felt hollow because it was at someone else's expense. Winning isn't everything if the trophy is made of bad karma.",
+    "keywordsEn": [
+      "burnout pending",
+      "all gas no brakes",
+      "six unfinished projects",
+      "directionless hustle"
     ]
   },
   {
@@ -556,6 +1218,16 @@
       "不服输",
       "杠上了",
       "我是对的"
+    ],
+    "nameEn": "Seven of Wands (chaotic edition)",
+    "uprightMeaningEn": "Defending your territory. You've built something and someone's testing the fences. Stand firm but don't become a fortress.",
+    "reversedMeaningEn": "Defensive to the point of paranoia. Not everyone is attacking your kingdom. Lower the drawbridge occasionally.",
+    "keywordsEn": [
+      "big ambition era",
+      "fired up",
+      "go getter",
+      "initiative king",
+      "momentum"
     ]
   },
   {
@@ -569,6 +1241,15 @@
       "进展飞快",
       "事情自己推着你走",
       "来不及细想"
+    ],
+    "nameEn": "Eight of Wands (chaotic edition)",
+    "uprightMeaningEn": "Things are moving fast — almost too fast. Adapt or get whiplash. The momentum is good even if the speed is scary.",
+    "reversedMeaningEn": "Moving too fast and dropping things. Slow down before you cause a crash that wasn't necessary. Speed limits exist for a reason.",
+    "keywordsEn": [
+      "burnout pending",
+      "all gas no brakes",
+      "six unfinished projects",
+      "directionless hustle"
     ]
   },
   {
@@ -582,6 +1263,16 @@
       "伤痕累累的战士",
       "快到底了",
       "给自己打气"
+    ],
+    "nameEn": "Nine of Wands (chaotic edition)",
+    "uprightMeaningEn": "You've been through the wands wringer and you're still standing. Resilience is your brand now. Don't give up at the 90% mark.",
+    "reversedMeaningEn": "Burnout is knocking and you're pretending you can't hear it. Pushing through stopped being heroic three exhaustion levels ago. Rest.",
+    "keywordsEn": [
+      "big ambition era",
+      "fired up",
+      "go getter",
+      "initiative king",
+      "momentum"
     ]
   },
   {
@@ -595,6 +1286,15 @@
       "什么活都我自己干",
       "累成狗",
       "该甩锅了"
+    ],
+    "nameEn": "Ten of Wands (chaotic edition)",
+    "uprightMeaningEn": "You're carrying a lot. Too much, honestly. Delegate, drop, or distribute before your back (and spirit) gives out.",
+    "reversedMeaningEn": "The burden broke you. You took on too much and now everything's on the floor. It's okay. Pick up what matters; leave what doesn't.",
+    "keywordsEn": [
+      "burnout pending",
+      "all gas no brakes",
+      "six unfinished projects",
+      "directionless hustle"
     ]
   },
   {
@@ -608,6 +1308,16 @@
       "好奇心溢出",
       "新人上路",
       "跃跃欲试"
+    ],
+    "nameEn": "Page of Wands (chaotic edition)",
+    "uprightMeaningEn": "An exciting message or opportunity inbound. Your enthusiasm is contagious — spread it responsibly.",
+    "reversedMeaningEn": "Bad news, delayed message, or cold feet about an opportunity. The enthusiasm has waned. Rekindle or release, but don't ghost.",
+    "keywordsEn": [
+      "big ambition era",
+      "fired up",
+      "go getter",
+      "initiative king",
+      "momentum"
     ]
   },
   {
@@ -621,6 +1331,15 @@
       "热情如火",
       "风风火火",
       "谁说不行我偏要"
+    ],
+    "nameEn": "Knight of Wands (chaotic edition)",
+    "uprightMeaningEn": "Bold, passionate, charging forward. You know what you want and you're going after it. Just don't trample the bystanders.",
+    "reversedMeaningEn": "Reckless and chaotic. Bold without brains is just noise. Temper the charge with a crumb of strategy.",
+    "keywordsEn": [
+      "burnout pending",
+      "all gas no brakes",
+      "six unfinished projects",
+      "directionless hustle"
     ]
   },
   {
@@ -634,6 +1353,16 @@
       "又美又飒",
       "主场控场",
       "吸引力拉满"
+    ],
+    "nameEn": "Queen of Wands (chaotic edition)",
+    "uprightMeaningEn": "Warm, confident, magnetic. You're the leader people actually want to follow. Lead with vision and don't forget the little people.",
+    "reversedMeaningEn": "Warmth turned to manipulation. Your charisma is being used for control, not connection. People aren't projects.",
+    "keywordsEn": [
+      "big ambition era",
+      "fired up",
+      "go getter",
+      "initiative king",
+      "momentum"
     ]
   },
   {
@@ -647,6 +1376,15 @@
       "远见卓识",
       "领路人",
       "我说了算"
+    ],
+    "nameEn": "King of Wands (chaotic edition)",
+    "uprightMeaningEn": "The visionary who gets things done. You've mastered the art of starting AND finishing. That's rare. That's powerful. That's you.",
+    "reversedMeaningEn": "Vision without execution. You know where you want to go but you've stopped walking. A map is not a journey. Take a step.",
+    "keywordsEn": [
+      "burnout pending",
+      "all gas no brakes",
+      "six unfinished projects",
+      "directionless hustle"
     ]
   },
   {
@@ -660,6 +1398,16 @@
       "想法尖锐",
       "逻辑在线",
       "忽然懂了"
+    ],
+    "nameEn": "Ace of Swords (chaotic edition)",
+    "uprightMeaningEn": "A breakthrough thought arrives like lightning. Sharp, sudden, and slightly terrifying. Write it down before it vanishes.",
+    "reversedMeaningEn": "The idea is there but you won't let it land. Afraid of your own thoughts. Write it down anyway; the paper can handle it.",
+    "keywordsEn": [
+      "galaxy brain",
+      "truth bomb",
+      "clarity unlocked",
+      "sharp mind",
+      "logic wins"
     ]
   },
   {
@@ -673,6 +1421,15 @@
       "选择性失明",
       "僵持",
       "谁都别逼我"
+    ],
+    "nameEn": "Two of Swords (chaotic edition)",
+    "uprightMeaningEn": "You're at a crossroads and neither option is clear. The classic hard choice. Pick the one that costs you your illusions, not your values.",
+    "reversedMeaningEn": "Indecision has become its own choice. By not choosing, you've chosen stagnation. Both options are survivable. Pick one.",
+    "keywordsEn": [
+      "overthinker 9000",
+      "inner critic hostile",
+      "drama airstrike",
+      "mental gymnastics gold medal"
     ]
   },
   {
@@ -686,6 +1443,16 @@
       "心碎现场",
       "哭吧",
       "三刀穿心"
+    ],
+    "nameEn": "Three of Swords (chaotic edition)",
+    "uprightMeaningEn": "Heartbreak in card form. Something hurts and it's okay to acknowledge it. Feeling pain means you cared. That's not weakness.",
+    "reversedMeaningEn": "The pain is processing. Grief isn't linear and you're in the messy middle. Keep feeling it. The only way out is through.",
+    "keywordsEn": [
+      "galaxy brain",
+      "truth bomb",
+      "clarity unlocked",
+      "sharp mind",
+      "logic wins"
     ]
   },
   {
@@ -699,6 +1466,15 @@
       "需要安静",
       "暂时退网",
       "养生觉"
+    ],
+    "nameEn": "Four of Swords (chaotic edition)",
+    "uprightMeaningEn": "Rest is not optional right now. Your brain has been running a marathon and it needs a nap. Lie down. The thoughts will wait.",
+    "reversedMeaningEn": "Restless rest. You're physically still but mentally spinning. That's not rest, that's just lying down while stressed. Try again.",
+    "keywordsEn": [
+      "overthinker 9000",
+      "inner critic hostile",
+      "drama airstrike",
+      "mental gymnastics gold medal"
     ]
   },
   {
@@ -712,6 +1488,16 @@
       "零和博弈",
       "不值得的胜利",
       "勾心斗角"
+    ],
+    "nameEn": "Five of Swords (chaotic edition)",
+    "uprightMeaningEn": "Conflict. You might be the instigator or the target — either way, don't fight dirty. Win the battle without losing yourself.",
+    "reversedMeaningEn": "Conflict aftermath — you won but the battlefield is still smoking. Victory can feel like loss when the cost was too high. Rebuild.",
+    "keywordsEn": [
+      "galaxy brain",
+      "truth bomb",
+      "clarity unlocked",
+      "sharp mind",
+      "logic wins"
     ]
   },
   {
@@ -725,6 +1511,15 @@
       "奔向平静",
       "慢慢好转",
       "背井离乡"
+    ],
+    "nameEn": "Six of Swords (chaotic edition)",
+    "uprightMeaningEn": "You're moving away from a hard situation. The boat is crossing rough water but the other shore is better. Keep rowing.",
+    "reversedMeaningEn": "You left but you're looking back. The journey away is complete but your heart hasn't received the memo. Keep sailing.",
+    "keywordsEn": [
+      "overthinker 9000",
+      "inner critic hostile",
+      "drama airstrike",
+      "mental gymnastics gold medal"
     ]
   },
   {
@@ -738,6 +1533,16 @@
       "有小动作",
       "不是正大光明",
       "有人在搞事"
+    ],
+    "nameEn": "Seven of Swords (chaotic edition)",
+    "uprightMeaningEn": "Sneaky tactics or strategic maneuvering. Someone's playing 4D chess — make sure it's you and not the person you're trusting.",
+    "reversedMeaningEn": "You got caught. The sneaky plan unraveled and now you're standing in the evidence. Time for the uncomfortable honesty chapter.",
+    "keywordsEn": [
+      "galaxy brain",
+      "truth bomb",
+      "clarity unlocked",
+      "sharp mind",
+      "logic wins"
     ]
   },
   {
@@ -751,6 +1556,15 @@
       "觉得无路可走",
       "其实可以走",
       "自缚"
+    ],
+    "nameEn": "Eight of Swords (chaotic edition)",
+    "uprightMeaningEn": "Feeling trapped by your own thoughts. The cage door is unlocked but you're too busy overthinking to notice. Look again.",
+    "reversedMeaningEn": "The mental prison is of your own design. The beliefs trapping you are assumptions, not facts. Challenge them like a lawyer cross-examining a hostile witness.",
+    "keywordsEn": [
+      "overthinker 9000",
+      "inner critic hostile",
+      "drama airstrike",
+      "mental gymnastics gold medal"
     ]
   },
   {
@@ -764,6 +1578,16 @@
       "脑子里放恐怖片",
       "自己吓自己",
       "明天要汇报"
+    ],
+    "nameEn": "Nine of Swords (chaotic edition)",
+    "uprightMeaningEn": "The mental anguish is real but you're amplifying it. Your brain is running disaster simulations at 4K resolution. Reduce the graphics settings.",
+    "reversedMeaningEn": "The worst of it is passing and you're still catastrophizing. Your brain is running worst-case scenarios when the actual situation is just 'kinda bad.' Recalibrate.",
+    "keywordsEn": [
+      "galaxy brain",
+      "truth bomb",
+      "clarity unlocked",
+      "sharp mind",
+      "logic wins"
     ]
   },
   {
@@ -777,6 +1601,15 @@
       "不能再惨了",
       "十刀插背",
       "但到底了"
+    ],
+    "nameEn": "Ten of Swords (chaotic edition)",
+    "uprightMeaningEn": "Rock bottom of the mind. The overthinking spiral has reached its final form. The only way from here is up, and you're closer to release than you think.",
+    "reversedMeaningEn": "Recovery from mental rock bottom. The thoughts are quieter now but you're still flinching. Healing is a process, not a switch. Be patient with your brain.",
+    "keywordsEn": [
+      "overthinker 9000",
+      "inner critic hostile",
+      "drama airstrike",
+      "mental gymnastics gold medal"
     ]
   },
   {
@@ -790,6 +1623,16 @@
       "网上冲浪达人",
       "语言犀利",
       "好奇害死猫"
+    ],
+    "nameEn": "Page of Swords (chaotic edition)",
+    "uprightMeaningEn": "A sharp-eyed observer with a message. Truth incoming — perhaps delivered bluntly. Receive the intel, don't shoot the messenger.",
+    "reversedMeaningEn": "The message was mean or maybe just true and that's why it stung. Either way, you needed to hear it. Process before reacting.",
+    "keywordsEn": [
+      "galaxy brain",
+      "truth bomb",
+      "clarity unlocked",
+      "sharp mind",
+      "logic wins"
     ]
   },
   {
@@ -802,6 +1645,15 @@
       "行动力极强（但方向可能不对）",
       "辩论模式",
       "说冲就冲"
+    ],
+    "nameEn": "Knight of Swords (chaotic edition)",
+    "uprightMeaningEn": "A warrior of the mind charging forward. Bold ideas, fast action, zero hesitation. Impulsive but effective. Aim before you swing.",
+    "reversedMeaningEn": "Reckless words or impulsive intellectual attacks. Your sharp tongue cut someone who didn't deserve it. Apologies cost nothing and mean everything.",
+    "keywordsEn": [
+      "overthinker 9000",
+      "inner critic hostile",
+      "drama airstrike",
+      "mental gymnastics gold medal"
     ]
   },
   {
@@ -815,6 +1667,16 @@
       "一眼看穿",
       "不好惹",
       "逻辑女王"
+    ],
+    "nameEn": "Queen of Swords (chaotic edition)",
+    "uprightMeaningEn": "The thinker with emotional depth. Logic and intuition in harmony — a rare and powerful combination. You see through everything.",
+    "reversedMeaningEn": "Cold logic without emotional intelligence. You're right but you're also being mean about it. Wisdom pairs clarity with kindness.",
+    "keywordsEn": [
+      "galaxy brain",
+      "truth bomb",
+      "clarity unlocked",
+      "sharp mind",
+      "logic wins"
     ]
   },
   {
@@ -828,6 +1690,15 @@
       "不讲情面",
       "原则第一",
       "终极判官"
+    ],
+    "nameEn": "King of Swords (chaotic edition)",
+    "uprightMeaningEn": "The master of mental clarity. You've learned to use the sword without cutting yourself. Authority earned through wisdom, not force.",
+    "reversedMeaningEn": "Using intellect as a weapon. You've weaponized your intelligence to dominate rather than understand. The smartest person in the room doesn't need to prove it.",
+    "keywordsEn": [
+      "overthinker 9000",
+      "inner critic hostile",
+      "drama airstrike",
+      "mental gymnastics gold medal"
     ]
   },
   {
@@ -841,6 +1712,16 @@
       "投资好时机",
       "天上掉钱了",
       "种子"
+    ],
+    "nameEn": "Ace of Pentacles (chaotic edition)",
+    "uprightMeaningEn": "A tangible opportunity is landing. Money, work, or a physical gift. The universe is making a deposit. Check your account.",
+    "reversedMeaningEn": "A missed opportunity or bad investment. The deal wasn't as good as it looked. Learn the lesson, don't chase the loss.",
+    "keywordsEn": [
+      "grind mode active",
+      "secure the bag",
+      "steady growth",
+      "practical magic",
+      "craft mastery"
     ]
   },
   {
@@ -854,6 +1735,15 @@
       "手忙脚乱",
       "多任务处理",
       "拆东墙补西墙"
+    ],
+    "nameEn": "Two of Pentacles (chaotic edition)",
+    "uprightMeaningEn": "Juggling resources like a pro — or learning to. Balance isn't static; it's constant small adjustments. You're getting better at this.",
+    "reversedMeaningEn": "Financial juggling gone wrong. You're dropping balls and some of them are made of money. Time for a budget reality check.",
+    "keywordsEn": [
+      "hustle culture victim",
+      "money anxiety",
+      "all work no play",
+      "perfectionism paralysis"
     ]
   },
   {
@@ -867,6 +1757,16 @@
       "干活",
       "打磨精品",
       "砖家"
+    ],
+    "nameEn": "Three of Pentacles (chaotic edition)",
+    "uprightMeaningEn": "Skill recognition incoming. Someone's noticed your craft and wants to pay you for it. Your expertise has market value.",
+    "reversedMeaningEn": "Undervaluing your own skills. You're charging amateur rates for professional work. Know your worth and add tax.",
+    "keywordsEn": [
+      "grind mode active",
+      "secure the bag",
+      "steady growth",
+      "practical magic",
+      "craft mastery"
     ]
   },
   {
@@ -880,6 +1780,15 @@
       "缺乏安全感",
       "囤积",
       "别动我的"
+    ],
+    "nameEn": "Four of Pentacles (chaotic edition)",
+    "uprightMeaningEn": "Holding onto resources a little too tightly. Saving is smart; hoarding is fear. Money is a tool, not a personality trait.",
+    "reversedMeaningEn": "Financial anxiety gripping too tight. The scarcity mindset is costing you more than the money you're afraid to lose. Breathe. Spend wisely, not fearfully.",
+    "keywordsEn": [
+      "hustle culture victim",
+      "money anxiety",
+      "all work no play",
+      "perfectionism paralysis"
     ]
   },
   {
@@ -893,6 +1802,16 @@
       "觉得被抛弃",
       "硬扛",
       "其实有人愿意帮你"
+    ],
+    "nameEn": "Five of Pentacles (chaotic edition)",
+    "uprightMeaningEn": "You're in need and it's okay to ask for help. Everyone hits a rough patch. The pride that stops you from reaching out costs more than the hit to your ego.",
+    "reversedMeaningEn": "You're isolating in your struggle. The help is available but you're too proud to ask. Pride doesn't pay rent. Reach out.",
+    "keywordsEn": [
+      "grind mode active",
+      "secure the bag",
+      "steady growth",
+      "practical magic",
+      "craft mastery"
     ]
   },
   {
@@ -906,6 +1825,15 @@
       "不平等关系",
       "有人帮你/你帮别人",
       "资助"
+    ],
+    "nameEn": "Six of Pentacles (chaotic edition)",
+    "uprightMeaningEn": "Generosity is your flex right now. Sharing what you have — time, money, knowledge — creates more of it. Abundance mindset, literally.",
+    "reversedMeaningEn": "Giving beyond your means. Generosity is beautiful; self-sacrifice is not. You can't pour from an empty wallet or an empty soul.",
+    "keywordsEn": [
+      "hustle culture victim",
+      "money anxiety",
+      "all work no play",
+      "perfectionism paralysis"
     ]
   },
   {
@@ -919,6 +1847,16 @@
       "耐心考验",
       "看它长",
       "别急"
+    ],
+    "nameEn": "Seven of Pentacles (chaotic edition)",
+    "uprightMeaningEn": "Patience is the strategy. You planted seeds and they're growing, just slower than your anxiety wants. Don't dig them up to check progress.",
+    "reversedMeaningEn": "Impatience is making you sloppy. The results will come but you're checking the oven every two minutes. Trust the process and stop opening the door.",
+    "keywordsEn": [
+      "grind mode active",
+      "secure the bag",
+      "steady growth",
+      "practical magic",
+      "craft mastery"
     ]
   },
   {
@@ -932,6 +1870,15 @@
       "重复练习",
       "加班加点",
       "打磨技能"
+    ],
+    "nameEn": "Eight of Pentacles (chaotic edition)",
+    "uprightMeaningEn": "Mastery through repetition. You're putting in the hours and it shows. The craft is becoming second nature. Keep the rhythm.",
+    "reversedMeaningEn": "Going through the motions. The craft has become routine and the passion leaked out somewhere. Reconnect with why you started, or start something new.",
+    "keywordsEn": [
+      "hustle culture victim",
+      "money anxiety",
+      "all work no play",
+      "perfectionism paralysis"
     ]
   },
   {
@@ -945,6 +1892,16 @@
       "一个人也很爽",
       "享受劳动成果",
       "精致的独处"
+    ],
+    "nameEn": "Nine of Pentacles (chaotic edition)",
+    "uprightMeaningEn": "Financial (or creative) rewards from your own efforts. You built this with your hands and it's beautiful. Enjoy the fruits without apology.",
+    "reversedMeaningEn": "Financial setback despite hard work. The effort was there but the results lagged. Don't take it personally; the market is a mood, not a meritocracy.",
+    "keywordsEn": [
+      "grind mode active",
+      "secure the bag",
+      "steady growth",
+      "practical magic",
+      "craft mastery"
     ]
   },
   {
@@ -958,6 +1915,15 @@
       "遗产/传承",
       "终极安全感",
       "家大业大"
+    ],
+    "nameEn": "Ten of Pentacles (chaotic edition)",
+    "uprightMeaningEn": "Material and emotional wealth achieved. You've built something lasting. The legacy question is no longer 'if' but 'what next.'",
+    "reversedMeaningEn": "Lost inheritance, bad financial decision, or family money drama. The material world is being difficult. Protect what you have and make no big moves.",
+    "keywordsEn": [
+      "hustle culture victim",
+      "money anxiety",
+      "all work no play",
+      "perfectionism paralysis"
     ]
   },
   {
@@ -971,6 +1937,16 @@
       "学习新技能",
       "脚踏实地",
       "种子用户"
+    ],
+    "nameEn": "Page of Pentacles (chaotic edition)",
+    "uprightMeaningEn": "A studious soul with a practical offer. Learn something new that pays actual money. Practical skills, unexpected rewards.",
+    "reversedMeaningEn": "The opportunity was oversold. The study offer or financial tip isn't as valuable as advertised. Read the fine print on the dream they're selling you.",
+    "keywordsEn": [
+      "grind mode active",
+      "secure the bag",
+      "steady growth",
+      "practical magic",
+      "craft mastery"
     ]
   },
   {
@@ -984,6 +1960,15 @@
       "可靠但慢",
       "日常坚持",
       "不玩虚的"
+    ],
+    "nameEn": "Knight of Pentacles (chaotic edition)",
+    "uprightMeaningEn": "The reliable hard worker. Consistent, grounded, effective. Not flashy, but always gets it done. The team MVP who never asks for credit.",
+    "reversedMeaningEn": "All grind, no purpose. You're working hard in the wrong direction. Consistent effort is only a virtue if the target is worth hitting.",
+    "keywordsEn": [
+      "hustle culture victim",
+      "money anxiety",
+      "all work no play",
+      "perfectionism paralysis"
     ]
   },
   {
@@ -997,6 +1982,16 @@
       "照顾所有人",
       "又美又务实",
       "安全感来源"
+    ],
+    "nameEn": "Queen of Pentacles (chaotic edition)",
+    "uprightMeaningEn": "The nurturer who builds real things. Practical and warm — a rare combo. You make people feel safe AND you get stuff done.",
+    "reversedMeaningEn": "Smothering practicality. Your obsession with security is choking the joy out of life. A safety net is essential; a cage is not.",
+    "keywordsEn": [
+      "grind mode active",
+      "secure the bag",
+      "steady growth",
+      "practical magic",
+      "craft mastery"
     ]
   },
   {
@@ -1010,6 +2005,15 @@
       "实业家",
       "稳坐泰山",
       "终极安全感"
+    ],
+    "nameEn": "King of Pentacles (chaotic edition)",
+    "uprightMeaningEn": "The accomplished one. You've climbed the mountain and the view is great. But you know the secret: the real reward was the climb itself.",
+    "reversedMeaningEn": "Material success without fulfillment. You got everything you wanted and it's not enough. The goal was external; the void is internal. Time for a different kind of wealth.",
+    "keywordsEn": [
+      "hustle culture victim",
+      "money anxiety",
+      "all work no play",
+      "perfectionism paralysis"
     ]
   }
 ]

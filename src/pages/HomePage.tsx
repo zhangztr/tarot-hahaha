@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import { motion } from "motion/react";
+import { motion, AnimatePresence } from "motion/react";
 import type { SpreadType, TarotCard } from "../types/tarot";
 import { useReading } from "../hooks/useReading";
 import { useT } from "../hooks/useT";
@@ -9,6 +9,7 @@ import tarotDataRaw from "../data/tarot.json";
 import QuestionInput from "../components/QuestionInput";
 import SpreadSelector from "../components/SpreadSelector";
 import DrawButton from "../components/DrawButton";
+import ShuffleAnimation from "../components/ShuffleAnimation";
 
 const tarotData = tarotDataRaw as { cards: TarotCard[] };
 
@@ -35,7 +36,7 @@ export default function HomePage() {
       setReading(reading);
       setLoading(false);
       navigate("/result", { state: { reading } });
-    }, 1500);
+    }, 2300);
   };
 
   return (
@@ -57,18 +58,32 @@ export default function HomePage() {
         </p>
       </motion.div>
 
-      <motion.div
-        initial={{ opacity: 0, y: 30 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1], delay: 0.15 }}
-        className="w-full flex flex-col items-center gap-6"
-      >
-        <QuestionInput value={question} onChange={setQuestion} />
-
-        <SpreadSelector value={spreadType} onChange={setSpreadType} />
-
-        <DrawButton onClick={handleDraw} loading={loading} />
-      </motion.div>
+      <AnimatePresence mode="wait">
+        {loading ? (
+          <motion.div
+            key="shuffle"
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            exit={{ opacity: 0 }}
+            className="w-full flex flex-col items-center gap-6"
+          >
+            <ShuffleAnimation active={loading} />
+          </motion.div>
+        ) : (
+          <motion.div
+            key="form"
+            initial={{ opacity: 0, y: 30 }}
+            animate={{ opacity: 1, y: 0 }}
+            exit={{ opacity: 0, y: -20 }}
+            transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1], delay: 0.15 }}
+            className="w-full flex flex-col items-center gap-6"
+          >
+            <QuestionInput value={question} onChange={setQuestion} />
+            <SpreadSelector value={spreadType} onChange={setSpreadType} />
+            <DrawButton onClick={handleDraw} loading={loading} />
+          </motion.div>
+        )}
+      </AnimatePresence>
     </div>
   );
 }

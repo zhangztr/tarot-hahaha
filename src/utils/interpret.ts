@@ -5,6 +5,31 @@ import { zh } from "../i18n/zh";
 
 const tMap = { en, zh };
 
+function findConnections(drawnCards: DrawnCard[], locale: Locale): string[] {
+  const drawnIds = new Set(drawnCards.map((dc) => dc.card.id));
+  const seen = new Set<string>();
+  const results: string[] = [];
+
+  for (const dc of drawnCards) {
+    const connections = dc.card.connections;
+    if (!connections) continue;
+
+    for (const conn of connections) {
+      if (!drawnIds.has(conn.cardId)) continue;
+
+      const a = dc.card.id;
+      const b = conn.cardId;
+      const key = `${Math.min(a, b)}-${Math.max(a, b)}`;
+      if (seen.has(key)) continue;
+      seen.add(key);
+
+      results.push(locale === "zh" ? conn.narrativeZh : conn.narrative);
+    }
+  }
+
+  return results;
+}
+
 export function generateInterpretation(
   drawnCards: DrawnCard[],
   spreadType: SpreadType,
@@ -86,9 +111,19 @@ export function generateInterpretation(
     themes.push(...repeated.slice(0, 3));
   }
 
+  const connectionNarratives = findConnections(drawnCards, locale);
+
+  let summary: string;
+  if (connectionNarratives.length > 0) {
+    summary = connectionNarratives.join("\n\n");
+    themes.push(t["theme.cardSynergy"]);
+  } else {
+    summary = summaryParts.join(" ");
+  }
+
   return {
     cardInterpretations,
-    summary: summaryParts.join(" "),
+    summary,
     themes: [...new Set(themes)],
   };
 }

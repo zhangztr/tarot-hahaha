@@ -12,15 +12,20 @@ export default function CardFace({ drawnCard }: CardFaceProps) {
   const { locale } = useLocale();
   const { funMode } = useFunMode();
   const isZh = locale === "zh";
-  const isFunny = isZh && funMode;
 
-  const name = isFunny ? funnyData[card.id].name : (isZh ? card.nameZh : card.name);
-  const meaning = isFunny
-    ? (isReversed ? funnyData[card.id].reversedMeaning : funnyData[card.id].uprightMeaning)
+  const name = funMode
+    ? (isZh ? funnyData[card.id].name : (funnyData[card.id] as any).nameEn)
+    : (isZh ? card.nameZh : card.name);
+  const meaning = funMode
+    ? (isReversed
+        ? (isZh ? funnyData[card.id].reversedMeaning : (funnyData[card.id] as any).reversedMeaningEn)
+        : (isZh ? funnyData[card.id].uprightMeaning : (funnyData[card.id] as any).uprightMeaningEn))
     : (isZh
       ? (isReversed ? card.reversedMeaningZh : card.uprightMeaningZh)
       : (isReversed ? card.reversedMeaning : card.uprightMeaning));
-  const keywords = isFunny ? funnyData[card.id].keywords : (isZh ? card.keywordsZh : card.keywords);
+  const keywords = funMode
+    ? (isZh ? funnyData[card.id].keywords : (funnyData[card.id] as any).keywordsEn)
+    : (isZh ? card.keywordsZh : card.keywords);
   const arcanaLabel = card.arcana === "major" ? t("card.majorArcana") : (isZh ? "" : card.suit!);
   const suitLabel = card.suit ? t(`suit.${card.suit}` as any) : "";
   const arcanaDisplay = card.arcana === "major" ? arcanaLabel : suitLabel;
