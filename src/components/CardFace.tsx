@@ -60,7 +60,7 @@ export default function CardFace({ drawnCard }: CardFaceProps) {
       </p>
 
       <div className="flex flex-wrap gap-1 mt-2 pt-2 border-t border-mystic-mid/50">
-        {keywords.slice(0, 4).map((kw) => (
+        {keywords.slice(0, 4).map((kw: string) => (
           <span
             key={kw}
             className="text-[10px] px-1.5 py-0.5 rounded-full bg-mystic-mid/50 text-white/50"
