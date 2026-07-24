@@ -1,6 +1,5 @@
 import { Link } from "react-router-dom";
-import { useLocale } from "../hooks/useT";
-import { useT } from "../hooks/useT";
+import { useLocale, useT } from "../hooks/useT";
 import blogManifest from "../data/blog/manifest.json";
 
 interface BlogEntry {
