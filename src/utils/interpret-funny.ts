@@ -1,16 +1,19 @@
-import type { DrawnCard, Interpretation, SpreadType } from "../types/tarot";
-import type { Locale } from "../context/LocaleContext";
-import funnyData from "../data/tarot-funny.json";
+import type { DrawnCard, Interpretation, SpreadType, TarotCard } from "../types/tarot";
 
-function zh(locale: string): boolean { return locale === "zh"; }
+function pick<T>(locale: string, zh: T, en: T): T {
+  return locale === "zh" ? zh : en;
+}
 
-function findConnectionsFunny(drawnCards: DrawnCard[], locale: string): string[] {
+function findConnectionsFunny(
+  drawnCards: DrawnCard[],
+  funnyDeck: TarotCard[]
+): string[] {
   const drawnIds = new Set(drawnCards.map((dc) => dc.card.id));
   const seen = new Set<string>();
   const results: string[] = [];
 
   for (const dc of drawnCards) {
-    const funny = funnyData[dc.card.id] as any;
+    const funny = funnyDeck.find((c) => c.id === dc.card.id);
     if (!funny?.connections) continue;
 
     for (const conn of funny.connections) {
@@ -22,7 +25,7 @@ function findConnectionsFunny(drawnCards: DrawnCard[], locale: string): string[]
       if (seen.has(key)) continue;
       seen.add(key);
 
-      results.push(zh(locale) ? conn.narrative : (conn.narrativeEn || conn.narrative));
+      results.push(conn.narrative);
     }
   }
 
@@ -33,16 +36,19 @@ export function generateInterpretationFunny(
   drawnCards: DrawnCard[],
   spreadType: SpreadType,
   question: string | null,
-  locale: Locale
+  locale: string,
+  funnyDeck: TarotCard[]
 ): Interpretation {
 
   const cardInterpretations = drawnCards.map((dc) => {
-    const funny = funnyData[dc.card.id] as any;
+    const funny = funnyDeck.find((c) => c.id === dc.card.id);
+    if (!funny) return {
+      cardName: dc.card.name,
+      meaning: dc.isReversed ? dc.card.reversedMeaning : dc.card.uprightMeaning,
+    };
     return {
-      cardName: zh(locale) ? funny.name : (funny.nameEn || funny.name),
-      meaning: dc.isReversed
-        ? (zh(locale) ? funny.reversedMeaning : (funny.reversedMeaningEn || funny.reversedMeaning))
-        : (zh(locale) ? funny.uprightMeaning : (funny.uprightMeaningEn || funny.uprightMeaning)),
+      cardName: funny.name,
+      meaning: dc.isReversed ? funny.reversedMeaning : funny.uprightMeaning,
     };
   });
 
@@ -52,26 +58,23 @@ export function generateInterpretationFunny(
   // Rule 1: Reversal ratio
   const reversedCount = drawnCards.filter((dc) => dc.isReversed).length;
   if (reversedCount === drawnCards.length) {
-    summaryParts.push(
-      zh(locale)
-        ? "全是逆位，老天爷今天主打一个「不」字。别硬刚，今天适合躺平复盘而不是冲锋陷阵。"
-        : "All reversed — the universe is hitting Ctrl+Z on your plans today. Don't force it. This is a lie-down-and-rethink kind of day, not a charge-ahead one."
-    );
-    themes.push(zh(locale) ? "硬骨头模式" : "Hard Mode");
+    summaryParts.push(pick(locale,
+      "全是逆位，老天爷今天主打一个「不」字。别硬刚，今天适合躺平复盘而不是冲锋陷阵。",
+      "All reversed — the universe is hitting Ctrl+Z on your plans today. Don't force it. This is a lie-down-and-rethink kind of day, not a charge-ahead one."
+    ));
+    themes.push(pick(locale, "硬骨头模式", "Hard Mode"));
   } else if (reversedCount > drawnCards.length / 2) {
-    summaryParts.push(
-      zh(locale)
-        ? "逆位偏多，说明最近水逆还没走干净。不用慌，逆位不是坏事，是提醒你别头铁。"
-        : "Mostly reversed — Mercury must still be in retrograde somewhere. Don't panic; reversed cards aren't bad luck, they're just telling you to stop being so stubborn."
-    );
-    themes.push(zh(locale) ? "升级打怪中" : "Boss Fight");
+    summaryParts.push(pick(locale,
+      "逆位偏多，说明最近水逆还没走干净。不用慌，逆位不是坏事，是提醒你别头铁。",
+      "Mostly reversed — Mercury must still be in retrograde somewhere. Don't panic; reversed cards aren't bad luck, they're just telling you to stop being so stubborn."
+    ));
+    themes.push(pick(locale, "升级打怪中", "Boss Fight"));
   } else if (reversedCount === 0) {
-    summaryParts.push(
-      zh(locale)
-        ? "全是正位！今天气场拉满，买个彩票可能不中但心情一定好。想做什么就去做，宇宙今天不拦你。"
-        : "All upright! Your vibes are immaculate. Will you win the lottery? Probably not. Will you feel great? Absolutely. Go do the thing — the universe is not in your way today."
-    );
-    themes.push(zh(locale) ? "开门红" : "Winning Streak");
+    summaryParts.push(pick(locale,
+      "全是正位！今天气场拉满，买个彩票可能不中但心情一定好。想做什么就去做，宇宙今天不拦你。",
+      "All upright! Your vibes are immaculate. Will you win the lottery? Probably not. Will you feel great? Absolutely. Go do the thing — the universe is not in your way today."
+    ));
+    themes.push(pick(locale, "开门红", "Winning Streak"));
   }
 
   // Rule 2: Suit dominance
@@ -107,53 +110,51 @@ export function generateInterpretationFunny(
   const dominant = sortedSuits[0];
 
   if (dominant[1] >= 2 && dominant[0] in suitLabels) {
-    summaryParts.push(suitLabels[dominant[0]][zh(locale) ? "zh" : "en"]);
+    const lang = locale === "zh" ? "zh" : "en";
+    summaryParts.push(suitLabels[dominant[0]][lang]);
     const themeKey = `${dominant[0]}Energy`;
-    themes.push(suitThemeLabels[zh(locale) ? "zh" : "en"][themeKey]);
+    themes.push(suitThemeLabels[lang][themeKey]);
   }
 
   // Rule 3: Major Arcana presence
   const majorCount = drawnCards.filter((dc) => dc.card.arcana === "major").length;
   if (majorCount >= 2) {
-    summaryParts.push(
-      zh(locale)
-        ? "大牌含量过高——这不是小事，是人生主线剧情。别用「随便吧」的态度面对命运的 VIP 通道。"
-        : "Major Arcana density critical — this is not a side quest, this is main storyline energy. Don't show up to destiny's VIP entrance with a 'whatever, we'll see' attitude."
-    );
-    themes.push(zh(locale) ? "主线剧情" : "Main Quest");
+    summaryParts.push(pick(locale,
+      "大牌含量过高——这不是小事，是人生主线剧情。别用「随便吧」的态度面对命运的 VIP 通道。",
+      "Major Arcana density critical — this is not a side quest, this is main storyline energy. Don't show up to destiny's VIP entrance with a 'whatever, we'll see' attitude."
+    ));
+    themes.push(pick(locale, "主线剧情", "Main Quest"));
   }
 
   // Rule 4: Spread-type framing
   if (spreadType === "single") {
     summaryParts.push(
       question
-        ? (zh(locale)
-          ? "针对你的问题，这一张牌给出了最直接的回应。别看它只有一张，浓缩的都是精华（或者暴击）。"
-          : "One card, one answer to your question. It might be concentrated wisdom. It might be a concentrated gut punch. Either way, the universe kept it short."
+        ? pick(locale,
+          "针对你的问题，这一张牌给出了最直接的回应。别看它只有一张，浓缩的都是精华（或者暴击）。",
+          "One card, one answer to your question. It might be concentrated wisdom. It might be a concentrated gut punch. Either way, the universe kept it short."
         )
-        : (zh(locale)
-          ? "就一张牌，简单直接。它就是你现在的精神 snapshot——不准的话你可以再抽一次反正我也拦不住。"
-          : "One card, simple and direct. It's a spiritual snapshot of where you are right now. If it doesn't resonate... I mean, you can always draw again. I'm not your mom."
+        : pick(locale,
+          "就一张牌，简单直接。它就是你现在的精神 snapshot——不准的话你可以再抽一次反正我也拦不住。",
+          "One card, simple and direct. It's a spiritual snapshot of where you are right now. If it doesn't resonate... I mean, you can always draw again. I'm not your mom."
         )
     );
   } else if (spreadType === "three-past-present") {
-    summaryParts.push(
-      zh(locale)
-        ? "「过去」那张说明你从哪趟浑水里爬出来的，「现在」是你在踩的坑，「未来」是坑前面可能出现的路。连起来看，是不是故事线还挺通顺的？"
-        : "\"Past\" shows which swamp you crawled out of. \"Present\" is the pothole you're currently in. \"Future\" is the road that might appear after the pothole. Connect the dots — the storyline actually makes sense, doesn't it?"
-    );
+    summaryParts.push(pick(locale,
+      "「过去」那张说明你从哪趟浑水里爬出来的，「现在」是你在踩的坑，「未来」是坑前面可能出现的路。连起来看，是不是故事线还挺通顺的？",
+      "\"Past\" shows which swamp you crawled out of. \"Present\" is the pothole you're currently in. \"Future\" is the road that might appear after the pothole. Connect the dots — the storyline actually makes sense, doesn't it?"
+    ));
   } else if (spreadType === "three-problem-advice") {
-    summaryParts.push(
-      zh(locale)
-        ? "「问题」直接给你指了病灶，「阻碍」就是那块绊脚石本人的名字，「建议」是你最好的行动方向。三张牌凑一起就是：啥问题 + 谁在搞事 + 怎么办。"
-        : "\"Problem\" points to what's actually wrong. \"Obstacle\" names the specific obstacle that's been gatekeeping you. \"Advice\" is your best move forward. Together: what's broken + who's blocking + what to do about it."
-    );
+    summaryParts.push(pick(locale,
+      "「问题」直接给你指了病灶，「阻碍」就是那块绊脚石本人的名字，「建议」是你最好的行动方向。三张牌凑一起就是：啥问题 + 谁在搞事 + 怎么办。",
+      "\"Problem\" points to what's actually wrong. \"Obstacle\" names the specific obstacle that's been gatekeeping you. \"Advice\" is your best move forward. Together: what's broken + who's blocking + what to do about it."
+    ));
   }
 
   // Rule 5: Keyword overlap
   const allKeywords = drawnCards.flatMap((dc) => {
-    const funny = funnyData[dc.card.id] as any;
-    return zh(locale) ? (funny.keywords || []) : (funny.keywordsEn || funny.keywords || []);
+    const funny = funnyDeck.find((c) => c.id === dc.card.id);
+    return funny?.keywords || [];
   });
   const freq = new Map<string, number>();
   for (const kw of allKeywords) {
@@ -167,12 +168,12 @@ export function generateInterpretationFunny(
     themes.push(...repeated.slice(0, 3));
   }
 
-  const connectionNarratives = findConnectionsFunny(drawnCards, locale);
+  const connectionNarratives = findConnectionsFunny(drawnCards, funnyDeck);
 
   let summary: string;
   if (connectionNarratives.length > 0) {
     summary = connectionNarratives.join("\n\n");
-    themes.push(zh(locale) ? "牌面联动" : "Card Combo");
+    themes.push(pick(locale, "牌面联动", "Card Combo"));
   } else {
     summary = summaryParts.join(" ");
   }

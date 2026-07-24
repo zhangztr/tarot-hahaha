@@ -1,14 +1,6 @@
 import type { DrawnCard } from "../types/tarot";
-import { useT, useLocale, useFunMode } from "../hooks/useT";
-import funnyData from "../data/tarot-funny.json";
-
-function funnyField(funny: any, field: string, fieldEn: string, locale: string): string {
-  return locale === "zh" ? funny[field] : (funny[fieldEn] || funny[field]);
-}
-
-function funnyKeywords(funny: any, locale: string): string[] {
-  return locale === "zh" ? funny.keywords : (funny.keywordsEn || funny.keywords);
-}
+import { useT, useFunMode } from "../hooks/useT";
+import { useFunnyCards } from "../hooks/useTarotCards";
 
 interface CardFaceProps {
   drawnCard: DrawnCard;
@@ -17,22 +9,16 @@ interface CardFaceProps {
 export default function CardFace({ drawnCard }: CardFaceProps) {
   const { card, isReversed, position } = drawnCard;
   const t = useT();
-  const { locale } = useLocale();
   const { funMode } = useFunMode();
 
-  const funny = funMode ? (funnyData as any)[card.id] : null;
+  const funnyDeck = useFunnyCards();
+  const funny = funMode && funnyDeck ? funnyDeck.find((c) => c.id === card.id) : null;
 
-  const name = funny
-    ? funnyField(funny, "name", "nameEn", locale)
-    : card.name;
+  const name = funny ? funny.name : card.name;
   const meaning = funny
-    ? (isReversed
-        ? funnyField(funny, "reversedMeaning", "reversedMeaningEn", locale)
-        : funnyField(funny, "uprightMeaning", "uprightMeaningEn", locale))
+    ? (isReversed ? funny.reversedMeaning : funny.uprightMeaning)
     : (isReversed ? card.reversedMeaning : card.uprightMeaning);
-  const keywords = funny
-    ? funnyKeywords(funny, locale)
-    : card.keywords;
+  const keywords = funny ? funny.keywords : card.keywords;
   const arcanaLabel = card.arcana === "major" ? t("card.majorArcana") : "";
   const suitLabel = card.suit ? t(`suit.${card.suit}` as any) : "";
   const arcanaDisplay = card.arcana === "major" ? arcanaLabel : suitLabel;

@@ -53,3 +53,44 @@ export function useResolvedCards(lightCards: DrawnCardLight[]): DrawnCard[] {
     }));
   }, [lightCards, deck]);
 }
+
+// --- Funny mode data ---
+
+const funnyModules = import.meta.glob<TarotCard[]>(
+  "../data/funny/*.json",
+  { import: "default" }
+);
+
+const funnyCache = new Map<string, TarotCard[]>();
+
+export function loadFunnyCards(locale: string): Promise<TarotCard[]> {
+  if (funnyCache.has(locale)) return Promise.resolve(funnyCache.get(locale)!);
+
+  const loader = funnyModules[`../data/funny/${locale}.json`];
+  if (!loader) {
+    return loadFunnyCards("en");
+  }
+  return loader().then((mod) => {
+    const cards = mod as unknown as TarotCard[];
+    funnyCache.set(locale, cards);
+    return cards;
+  });
+}
+
+export function useFunnyCards() {
+  const { locale } = useLocale();
+  const [cards, setCards] = useState<TarotCard[] | null>(null);
+
+  useEffect(() => {
+    let cancelled = false;
+    setCards(null);
+    loadFunnyCards(locale).then((data) => {
+      if (!cancelled) setCards(data);
+    });
+    return () => {
+      cancelled = true;
+    };
+  }, [locale]);
+
+  return cards;
+}

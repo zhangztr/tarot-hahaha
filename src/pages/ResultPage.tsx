@@ -4,7 +4,7 @@ import { motion } from "motion/react";
 import { ArrowLeft, RotateCcw } from "lucide-react";
 import { useReading } from "../hooks/useReading";
 import { useT, useLocale, useFunMode } from "../hooks/useT";
-import { useResolvedCards } from "../hooks/useTarotCards";
+import { useResolvedCards, useFunnyCards } from "../hooks/useTarotCards";
 import { generateInterpretation } from "../utils/interpret";
 import { generateInterpretationFunny } from "../utils/interpret-funny";
 import type { Reading } from "../types/tarot";
@@ -30,14 +30,15 @@ export default function ResultPage() {
   }, [reading, navigate]);
 
   const resolvedCards = useResolvedCards(reading?.cards ?? []);
+  const funnyDeck = useFunnyCards();
 
   const interpretation = useMemo(() => {
     if (!reading || resolvedCards.length === 0) return null;
-    if (funMode) {
-      return generateInterpretationFunny(resolvedCards, reading.spreadType, reading.question, locale);
+    if (funMode && funnyDeck) {
+      return generateInterpretationFunny(resolvedCards, reading.spreadType, reading.question, locale, funnyDeck);
     }
     return generateInterpretation(resolvedCards, reading.spreadType, reading.question, locale);
-  }, [reading, resolvedCards, locale, funMode]);
+  }, [reading, resolvedCards, locale, funMode, funnyDeck]);
 
   useEffect(() => {
     if (!reading) return;
