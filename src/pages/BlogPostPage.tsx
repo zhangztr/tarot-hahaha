@@ -13,7 +13,7 @@ interface BlogEntry {
 
 const entries = blogManifest as BlogEntry[];
 
-const mdModules = import.meta.glob<{ default: string }>(
+const mdModules = import.meta.glob<string>(
   "../data/blog/*.md",
   { query: "?raw", import: "default" }
 );
@@ -34,7 +34,7 @@ export default function BlogPostPage() {
       setContent(null);
       return;
     }
-    loader().then((mod) => setContent(mod.default));
+    loader().then((mod) => setContent(mod));
   }, [entry, locale]);
 
   if (!entry) {
