@@ -14,10 +14,14 @@ export interface TarotCard {
   connections?: TarotCardConnection[];
 }
 
-export interface DrawnCard {
-  card: TarotCard;
+export interface DrawnCardLight {
+  cardId: number;
   isReversed: boolean;
   position: string;
+}
+
+export interface DrawnCard extends DrawnCardLight {
+  card: TarotCard;
 }
 
 export type SpreadType = "single" | "three-past-present" | "three-problem-advice";
@@ -29,7 +33,7 @@ export const SPREAD_POSITIONS: Record<SpreadType, string[]> = {
 };
 
 export interface Reading {
-  cards: DrawnCard[];
+  cards: DrawnCardLight[];
   spreadType: SpreadType;
   question: string | null;
   timestamp: number;

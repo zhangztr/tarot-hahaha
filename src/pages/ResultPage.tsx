@@ -4,6 +4,7 @@ import { motion } from "motion/react";
 import { ArrowLeft, RotateCcw } from "lucide-react";
 import { useReading } from "../hooks/useReading";
 import { useT, useLocale, useFunMode } from "../hooks/useT";
+import { useResolvedCards } from "../hooks/useTarotCards";
 import { generateInterpretation } from "../utils/interpret";
 import { generateInterpretationFunny } from "../utils/interpret-funny";
 import type { Reading } from "../types/tarot";
@@ -28,13 +29,15 @@ export default function ResultPage() {
     }
   }, [reading, navigate]);
 
+  const resolvedCards = useResolvedCards(reading?.cards ?? []);
+
   const interpretation = useMemo(() => {
-    if (!reading) return null;
+    if (!reading || resolvedCards.length === 0) return null;
     if (funMode) {
-      return generateInterpretationFunny(reading.cards, reading.spreadType, reading.question, locale);
+      return generateInterpretationFunny(resolvedCards, reading.spreadType, reading.question, locale);
     }
-    return generateInterpretation(reading.cards, reading.spreadType, reading.question, locale);
-  }, [reading, locale, funMode]);
+    return generateInterpretation(resolvedCards, reading.spreadType, reading.question, locale);
+  }, [reading, resolvedCards, locale, funMode]);
 
   useEffect(() => {
     if (!reading) return;
@@ -91,7 +94,7 @@ export default function ResultPage() {
         </motion.p>
       )}
 
-      <CardGrid drawnCards={reading.cards} started={true} />
+      <CardGrid drawnCards={resolvedCards} started={true} />
 
       <SummaryBlock interpretation={interpretation} visible={showSummary} />
 

@@ -1,6 +1,6 @@
-import { useEffect, useState } from "react";
+import { useEffect, useState, useMemo } from "react";
 import { useLocale } from "./useT";
-import type { TarotCard } from "../types/tarot";
+import type { TarotCard, DrawnCard, DrawnCardLight } from "../types/tarot";
 
 const tarotModules = import.meta.glob<TarotCard[]>(
   "../data/tarot/*.json",
@@ -39,4 +39,17 @@ export function useTarotCards() {
   }, [locale]);
 
   return cards;
+}
+
+export function useResolvedCards(lightCards: DrawnCardLight[]): DrawnCard[] {
+  const deck = useTarotCards();
+
+  return useMemo(() => {
+    if (!deck) return [];
+    const map = new Map(deck.map((c) => [c.id, c]));
+    return lightCards.map((lc) => ({
+      ...lc,
+      card: map.get(lc.cardId)!,
+    }));
+  }, [lightCards, deck]);
 }
