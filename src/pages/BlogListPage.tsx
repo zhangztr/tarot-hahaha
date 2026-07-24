@@ -5,8 +5,8 @@ import blogManifest from "../data/blog/manifest.json";
 interface BlogEntry {
   slug: string;
   date: string;
-  zh: { title: string; summary: string };
-  en: { title: string; summary: string };
+  title: Record<string, string>;
+  summary: Record<string, string>;
 }
 
 const entries = blogManifest as BlogEntry[];
@@ -14,6 +14,10 @@ const entries = blogManifest as BlogEntry[];
 const sorted = [...entries].sort(
   (a, b) => new Date(b.date).getTime() - new Date(a.date).getTime()
 );
+
+function localize(field: Record<string, string>, locale: string): string {
+  return field[locale] || field["en"] || "";
+}
 
 export default function BlogListPage() {
   const { locale } = useLocale();
@@ -28,11 +32,11 @@ export default function BlogListPage() {
       ) : (
         <div className="flex flex-col gap-4">
           {sorted.map((entry) => {
-            const meta = locale === "zh" ? entry.zh : entry.en;
-            const dateStr = new Date(entry.date).toLocaleDateString(
-              locale === "zh" ? "zh-CN" : "en-US",
-              { year: "numeric", month: "long", day: "numeric" }
-            );
+            const dateStr = new Date(entry.date).toLocaleDateString(locale, {
+              year: "numeric",
+              month: "long",
+              day: "numeric",
+            });
 
             return (
               <Link
@@ -42,10 +46,10 @@ export default function BlogListPage() {
                   hover:bg-white/[0.06] hover:border-white/20 transition-colors group"
               >
                 <h2 className="font-serif text-lg text-white/90 group-hover:text-white transition-colors mb-2">
-                  {meta.title}
+                  {localize(entry.title, locale)}
                 </h2>
                 <p className="text-white/45 text-sm leading-relaxed mb-3 line-clamp-2">
-                  {meta.summary}
+                  {localize(entry.summary, locale)}
                 </p>
                 <time className="text-white/25 text-xs">
                   {t("blog.publishedOn")} {dateStr}

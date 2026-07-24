@@ -7,8 +7,8 @@ import blogManifest from "../data/blog/manifest.json";
 interface BlogEntry {
   slug: string;
   date: string;
-  zh: { title: string; summary: string };
-  en: { title: string; summary: string };
+  title: Record<string, string>;
+  summary: Record<string, string>;
 }
 
 const entries = blogManifest as BlogEntry[];
@@ -17,6 +17,10 @@ const mdModules = import.meta.glob<string>(
   "../data/blog/*.md",
   { query: "?raw", import: "default" }
 );
+
+function localize(field: Record<string, string>, locale: string): string {
+  return field[locale] || field["en"] || "";
+}
 
 export default function BlogPostPage() {
   const { slug } = useParams<{ slug: string }>();
@@ -40,7 +44,7 @@ export default function BlogPostPage() {
   if (!entry) {
     return (
       <div className="flex-1 w-full max-w-2xl pt-8">
-        <p className="text-white/40 text-sm">Post not found.</p>
+        <p className="text-white/40 text-sm">{t("blog.postNotFound")}</p>
         <Link to="/blog" className="text-mystic-gold/80 text-sm hover:underline">
           {t("blog.backToList")}
         </Link>
@@ -48,11 +52,11 @@ export default function BlogPostPage() {
     );
   }
 
-  const meta = locale === "zh" ? entry.zh : entry.en;
-  const dateStr = new Date(entry.date).toLocaleDateString(
-    locale === "zh" ? "zh-CN" : "en-US",
-    { year: "numeric", month: "long", day: "numeric" }
-  );
+  const dateStr = new Date(entry.date).toLocaleDateString(locale, {
+    year: "numeric",
+    month: "long",
+    day: "numeric",
+  });
 
   return (
     <div className="flex-1 w-full max-w-2xl pt-8">
@@ -64,14 +68,16 @@ export default function BlogPostPage() {
       </Link>
 
       <article className="mt-4">
-        <h1 className="font-serif text-2xl text-white mb-2">{meta.title}</h1>
+        <h1 className="font-serif text-2xl text-white mb-2">
+          {localize(entry.title, locale)}
+        </h1>
         <time className="text-white/30 text-sm">
           {t("blog.publishedOn")} {dateStr}
         </time>
 
         <div className="mt-8 bg-white/[0.03] border border-white/10 rounded-xl p-6 sm:p-8">
           {content === null ? (
-            <p className="text-white/40 text-sm">Loading...</p>
+            <p className="text-white/40 text-sm">{t("blog.loading")}</p>
           ) : (
             <div className="prose prose-invert prose-sm max-w-none
               prose-headings:text-white/90 prose-headings:font-serif prose-headings:mt-6 prose-headings:mb-3

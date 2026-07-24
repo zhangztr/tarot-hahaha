@@ -173,4 +173,6 @@ export const zh: Record<TranslationKey, string> = {
   "blog.backToList": "← 返回博客列表",
   "blog.noPosts": "暂无文章，敬请期待！",
   "blog.publishedOn": "发布于",
+  "blog.postNotFound": "未找到文章。",
+  "blog.loading": "加载中…",
 };

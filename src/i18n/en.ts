@@ -171,6 +171,8 @@ For privacy-related inquiries: ztry666@qq.com`,
   "blog.backToList": "← Back to Blog",
   "blog.noPosts": "No articles yet. Check back soon!",
   "blog.publishedOn": "Published on",
+  "blog.postNotFound": "Post not found.",
+  "blog.loading": "Loading...",
 } as const;
 
 export type TranslationKey = keyof typeof en;
