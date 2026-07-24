@@ -1,0 +1,1497 @@
+{
+  "cards": [
+    {
+      "id": 0,
+      "name": "The Fool",
+      "arcana": "major",
+      "suit": null,
+      "uprightMeaning": "New beginnings, innocence, spontaneity, free spirit. A leap of faith into the unknown. Embrace the journey ahead without overthinking.",
+      "reversedMeaning": "Recklessness, risk-taking, holding back out of fear. A warning against naivety and poor judgment.",
+      "keywords": [
+        "beginnings",
+        "freedom",
+        "innocence",
+        "journey",
+        "faith"
+      ],
+      "connections": [
+        {
+          "cardId": 1,
+          "narrative": "The Fool's blind leap collides with The Magician's focused will — raw potential meets the power to manifest. When innocence gains tools, the question is no longer 'can I?' but 'what will I create?' Do not let the spark of beginning scatter into distraction; channel it."
+        },
+        {
+          "cardId": 10,
+          "narrative": "The Fool steps forward and the Wheel of Fortune turns — a new beginning coincides with a twist of fate. What feels like your own choice may also be destiny's timing. Lean into the momentum, but remember: the Wheel lifts and lowers all alike."
+        },
+        {
+          "cardId": 13,
+          "narrative": "The Fool and Death together mark a profound threshold — the start of something new that demands the end of something old. You cannot step through a door while still gripping what lies behind it. Let the old skin fall away; the leap requires empty hands."
+        },
+        {
+          "cardId": 16,
+          "narrative": "When The Fool meets The Tower, innocence walks straight into demolition. What began as lighthearted exploration now faces a structural collapse — beliefs you skipped examining, foundations you assumed were solid. The wreckage clears the ground for something truer. Let it fall."
+        },
+        {
+          "cardId": 21,
+          "narrative": "The Fool at one end and The World at the other — a journey's first step and its final fulfillment in the same reading. You stand between starting and arriving, between potential and completion. The path exists; trust that the one who begins is also the one who finishes."
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "name": "The Magician",
+      "arcana": "major",
+      "suit": null,
+      "uprightMeaning": "Willpower, resourcefulness, skill, manifestation. You have all the tools you need to succeed. Channel your focus and take action.",
+      "reversedMeaning": "Manipulation, untapped potential, trickery. Misuse of power or lack of direction.",
+      "keywords": [
+        "power",
+        "skill",
+        "manifestation",
+        "focus",
+        "action"
+      ],
+      "connections": [
+        {
+          "cardId": 2,
+          "narrative": "The Magician's active will meets The High Priestess's deep stillness — the tension between doing and knowing. You have the tools, but do you have the wisdom to use them? Action without intuition is noise; intuition without action is silence. This pair asks for both."
+        },
+        {
+          "cardId": 15,
+          "narrative": "The Magician faces The Devil — willpower confronting bondage. The same energy that creates can also ensnare. Ask yourself: am I wielding my power, or is something else wielding me? The line between mastery and addiction is thinner than it looks."
+        },
+        {
+          "cardId": 17,
+          "narrative": "The Magician under The Star's light — skill guided by hope rather than ego. When the desire to manifest is tempered by genuine faith, what you build serves more than just yourself. Pour your will into something that heals."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "The High Priestess",
+      "arcana": "major",
+      "suit": null,
+      "uprightMeaning": "Intuition, mystery, subconscious mind, inner wisdom. Trust your gut feelings. Look beneath the surface.",
+      "reversedMeaning": "Secrets, withdrawal, silenced intuition. Disconnection from inner voice or hidden agendas.",
+      "keywords": [
+        "intuition",
+        "mystery",
+        "wisdom",
+        "subconscious",
+        "stillness"
+      ],
+      "connections": [
+        {
+          "cardId": 9,
+          "narrative": "The High Priestess and The Hermit — two faces of inner seeking. She knows in silence; he searches in solitude. Together they suggest the answers are not outside but within, waiting for you to turn down the noise and listen. Stop asking others. You already sense the truth."
+        },
+        {
+          "cardId": 12,
+          "narrative": "The High Priestess beside The Hanged Man — knowing meets surrendering. The mind seeks clarity, but clarity sometimes comes only when you stop struggling and see the world from upside-down. Release the need to figure it all out; insight arrives in stillness."
+        },
+        {
+          "cardId": 18,
+          "narrative": "The High Priestess and The Moon — intuition navigating through illusion. The inner voice is speaking, but shadows distort the signal. What feels like deep knowing may be fear wearing a mask. Trust your gut, but verify against reality before acting."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "The Empress",
+      "arcana": "major",
+      "suit": null,
+      "uprightMeaning": "Abundance, nurturing, fertility, nature. A time of growth and creativity. Connect with beauty and the senses.",
+      "reversedMeaning": "Dependence, neglect, creative block. Smothering or emotional emptiness.",
+      "keywords": [
+        "abundance",
+        "nurture",
+        "creativity",
+        "nature",
+        "beauty"
+      ],
+      "connections": [
+        {
+          "cardId": 4,
+          "narrative": "The Empress and The Emperor together — the sacred marriage of nurture and structure, flow and order. Creation needs both the garden and the wall around it. Too much softness, things fall apart; too much rigidity, nothing grows. Balance the two."
+        },
+        {
+          "cardId": 6,
+          "narrative": "The Empress meets The Lovers — abundance flowing into meaningful choice. Love in all its forms is the current theme: self-love, romantic love, or the love that chooses what to nurture. Let your heart lead, but let it lead toward something real."
+        },
+        {
+          "cardId": 17,
+          "narrative": "The Empress and The Star together — a blessing of abundance paired with genuine hope. It is not wishful thinking; it is grounded optimism, the kind that knows the garden will bloom because you have tended the soil. Keep watering."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "The Emperor",
+      "arcana": "major",
+      "suit": null,
+      "uprightMeaning": "Authority, structure, stability, leadership. Establish order and take command. Discipline brings success.",
+      "reversedMeaning": "Tyranny, rigidity, abuse of power. Lack of control or excessive control.",
+      "keywords": [
+        "authority",
+        "structure",
+        "leadership",
+        "discipline",
+        "order"
+      ],
+      "connections": [
+        {
+          "cardId": 5,
+          "narrative": "The Emperor and The Hierophant — worldly authority meets spiritual tradition. Law and faith, structure and belief, the throne and the temple. When these two align, you are building something that will outlast you. When they clash, ask which authority truly serves your highest good."
+        },
+        {
+          "cardId": 11,
+          "narrative": "The Emperor stands before Justice — power called to account. No throne is above the law, and no decision escapes its consequence. If you hold authority now, wield it fairly. If you seek judgment, know that the scales weigh actions, not titles."
+        },
+        {
+          "cardId": 16,
+          "narrative": "The Emperor faces The Tower — the fortress you built is being tested. Structures of control, systems of order, walls meant to protect — if they were built on shaky ground, they will not survive the quake. What crumbles was never meant to be permanent. Rebuild wiser."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "The Hierophant",
+      "arcana": "major",
+      "suit": null,
+      "uprightMeaning": "Tradition, spiritual guidance, education, conformity. Seek wisdom from established sources. Follow the tried and true path.",
+      "reversedMeaning": "Rebellion, unconventionality, hypocrisy. Breaking from tradition or dogmatic thinking.",
+      "keywords": [
+        "tradition",
+        "guidance",
+        "education",
+        "belief",
+        "conformity"
+      ],
+      "connections": [
+        {
+          "cardId": 9,
+          "narrative": "The Hierophant and The Hermit — external tradition versus inner guidance. One holds the keys to the temple; the other walks alone into the wilderness. Perhaps it is time to question whether the teachings you inherited still speak to the person you are becoming."
+        },
+        {
+          "cardId": 11,
+          "narrative": "The Hierophant alongside Justice — tradition measured against truth. Beliefs, no matter how ancient, must pass the test of fairness. If the old ways no longer serve justice, they are ready to be rewritten. Wisdom honors its roots but does not worship them blindly."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "The Lovers",
+      "arcana": "major",
+      "suit": null,
+      "uprightMeaning": "Love, harmony, choices, alignment. A meaningful partnership or critical life decision guided by values.",
+      "reversedMeaning": "Disharmony, imbalance, misalignment. Poor choices or separation from values.",
+      "keywords": [
+        "love",
+        "choice",
+        "harmony",
+        "partnership",
+        "values"
+      ],
+      "connections": [
+        {
+          "cardId": 7,
+          "narrative": "The Lovers and The Chariot — the heart decides, and then willpower moves. A meaningful choice is followed by determined action. But be sure the decision was truly yours; a Chariot driven by someone else's desire arrives at someone else's destination."
+        },
+        {
+          "cardId": 14,
+          "narrative": "The Lovers and Temperance — passion seeking its equilibrium. Intense feeling wants to pour itself out completely, but alchemy happens in the blend, not the flood. Love deeply, but do not lose yourself in the other. The middle path sustains what extremes consume."
+        },
+        {
+          "cardId": 15,
+          "narrative": "The Lovers and The Devil — the light and shadow of attachment. Love liberates; obsession binds. The same pair-bond that can be a sanctuary can become a cage. Examine your connections honestly: are you choosing freely, or are you afraid to leave?"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "The Chariot",
+      "arcana": "major",
+      "suit": null,
+      "uprightMeaning": "Determination, victory, willpower, momentum. Charge forward with confidence. Overcome obstacles through sheer drive.",
+      "reversedMeaning": "Lack of direction, aggression, loss of control. Scattered energy or defeat.",
+      "keywords": [
+        "victory",
+        "determination",
+        "drive",
+        "control",
+        "momentum"
+      ],
+      "connections": [
+        {
+          "cardId": 8,
+          "narrative": "The Chariot and Strength — victory driven by willpower, sustained by inner courage. The Chariot wins the race; Strength endures the aftermath. Together they say: you have both the drive to advance and the heart to persist. Conquer with compassion."
+        },
+        {
+          "cardId": 10,
+          "narrative": "The Chariot and The Wheel of Fortune — your determined advance meets the great turning of fate. You can steer, but you cannot control the road. Push forward with everything you have, but respect the forces larger than your will. Timing is as important as speed."
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Strength",
+      "arcana": "major",
+      "suit": null,
+      "uprightMeaning": "Courage, inner power, compassion, patience. Gentle strength over brute force. Master your emotions through grace.",
+      "reversedMeaning": "Self-doubt, weakness, insecurity. Raw emotion overwhelming reason.",
+      "keywords": [
+        "courage",
+        "patience",
+        "compassion",
+        "inner-strength",
+        "resilience"
+      ],
+      "connections": [
+        {
+          "cardId": 9,
+          "narrative": "Strength and The Hermit — outer courage supported by inner solitude. The fortitude to face the world is replenished by time spent alone. You do not need to always be the strong one; retreat is not weakness. The lion rests, too."
+        },
+        {
+          "cardId": 11,
+          "narrative": "Strength and Justice — compassion standing beside fairness. True justice is not cold; it is tempered by understanding. And true strength is not force; it is the patience to hold the scales steady even when your own heart is in the balance."
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "The Hermit",
+      "arcana": "major",
+      "suit": null,
+      "uprightMeaning": "Solitude, introspection, inner guidance, contemplation. Step back and reflect. The answer lies within.",
+      "reversedMeaning": "Isolation, loneliness, withdrawal. Avoiding necessary introspection or excessive seclusion.",
+      "keywords": [
+        "solitude",
+        "wisdom",
+        "introspection",
+        "guidance",
+        "reflection"
+      ],
+      "connections": [
+        {
+          "cardId": 12,
+          "narrative": "The Hermit and The Hanged Man — reflection deepens into surrender. The search for meaning, taken far enough, leads to a place where you must stop searching and simply be still. Wisdom is not always found by seeking; sometimes it arrives when you wait."
+        },
+        {
+          "cardId": 17,
+          "narrative": "The Hermit's lamp and The Star's distant light — the solitary search leads toward hope. What you discover in the quiet, when brought back to the world, becomes a gift for others too. Keep walking; the darkness of the inward path is not its destination."
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Wheel of Fortune",
+      "arcana": "major",
+      "suit": null,
+      "uprightMeaning": "Change, cycles, destiny, luck. A turning point. Ride the wave of fortune and embrace the unknown.",
+      "reversedMeaning": "Bad luck, resistance to change, setbacks. Fighting against inevitable cycles.",
+      "keywords": [
+        "change",
+        "destiny",
+        "luck",
+        "cycles",
+        "turning-point"
+      ],
+      "connections": [
+        {
+          "cardId": 13,
+          "narrative": "The Wheel of Fortune and Death — cycles turning into transformation. What the Wheel lifts, Death may reshape. A change of luck is not the same as a change of self, but when they arrive together, you are being asked to evolve, not just adapt. Let the turning change you."
+        },
+        {
+          "cardId": 20,
+          "narrative": "The Wheel of Fortune and Judgement — fate meets awakening. A turning point in external circumstances coincides with an inner call to rise. You are not merely being carried by events; you are being asked to answer them. The wheel presents an opportunity; Judgement asks what you will do with it."
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "name": "Justice",
+      "arcana": "major",
+      "suit": null,
+      "uprightMeaning": "Fairness, truth, accountability, cause and effect. The truth will prevail. Make decisions with integrity.",
+      "reversedMeaning": "Injustice, dishonesty, lack of accountability. Unfair outcomes or avoidance of truth.",
+      "keywords": [
+        "justice",
+        "truth",
+        "balance",
+        "accountability",
+        "fairness"
+      ],
+      "connections": [
+        {
+          "cardId": 20,
+          "narrative": "Justice and Judgement — the verdict now meets the final reckoning. What is fair today may be weighed again against a larger truth. Your actions echo beyond the present moment. Make choices you would be willing to answer for again, under a brighter light."
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "name": "The Hanged Man",
+      "arcana": "major",
+      "suit": null,
+      "uprightMeaning": "Surrender, new perspective, pause, letting go. See things differently. Suspension brings enlightenment.",
+      "reversedMeaning": "Stalling, resistance, martyrdom. Unwillingness to change perspective.",
+      "keywords": [
+        "surrender",
+        "perspective",
+        "pause",
+        "sacrifice",
+        "release"
+      ],
+      "connections": [
+        {
+          "cardId": 13,
+          "narrative": "The Hanged Man and Death — surrender before transformation. You cannot be remade while you are still clinging to the shape you were. The pause, the suspension, the willingness to be still — these prepare you for the change that Death brings. Let go, not in defeat, but in readiness."
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "name": "Death",
+      "arcana": "major",
+      "suit": null,
+      "uprightMeaning": "Transformation, endings, rebirth, transition. Something must end for something new to begin. Embrace the metamorphosis.",
+      "reversedMeaning": "Fear of change, stagnation, clinging to the past. Resisting necessary endings.",
+      "keywords": [
+        "transformation",
+        "ending",
+        "rebirth",
+        "change",
+        "release"
+      ],
+      "connections": [
+        {
+          "cardId": 14,
+          "narrative": "Death and Temperance — transformation finds its balance. Endings are not meant to be rushed, nor resisted. The alchemy of becoming requires patience: let the old dissolve, and wait for the new to coalesce. Between the ending and the beginning, there is a sacred pause."
+        },
+        {
+          "cardId": 17,
+          "narrative": "Death and The Star — an ending followed by hope. After the door closes, the window opens. What is being stripped away is making room for something more aligned with who you are becoming. Grieve the loss, then look up. The light is already there."
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "name": "Temperance",
+      "arcana": "major",
+      "suit": null,
+      "uprightMeaning": "Balance, moderation, patience, harmony. Blend opposing forces. Find the middle way through calm integration.",
+      "reversedMeaning": "Excess, imbalance, lack of harmony. Discord or overindulgence.",
+      "keywords": [
+        "balance",
+        "patience",
+        "moderation",
+        "harmony",
+        "healing"
+      ],
+      "connections": [
+        {
+          "cardId": 15,
+          "narrative": "Temperance and The Devil — balance standing against bondage. The middle path is threatened by extremes: desire, addiction, obsession. You are being tested — can you hold your center when something is pulling you hard toward the edge? Moderation is not weakness; it is resistance."
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "name": "The Devil",
+      "arcana": "major",
+      "suit": null,
+      "uprightMeaning": "Attachment, materialism, shadow self, temptation. Examine what binds you. Confront your fears and unhealthy patterns.",
+      "reversedMeaning": "Release, breaking free, reclaiming power. Overcoming addiction or toxic bonds.",
+      "keywords": [
+        "bondage",
+        "temptation",
+        "shadow",
+        "materialism",
+        "addiction"
+      ],
+      "connections": [
+        {
+          "cardId": 16,
+          "narrative": "The Devil and The Tower — bondage shattered by sudden collapse. The chains you could not break by choice are broken by force. What you were unwilling to release is taken. Painful as it is, the Tower does what you could not: it sets you free."
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "name": "The Tower",
+      "arcana": "major",
+      "suit": null,
+      "uprightMeaning": "Sudden upheaval, destruction, revelation, awakening. The false must crumble. Though painful, this clearing makes way for truth.",
+      "reversedMeaning": "Averted disaster, denial, resisting collapse. Delaying inevitable change or minimizing damage.",
+      "keywords": [
+        "upheaval",
+        "revelation",
+        "collapse",
+        "awakening",
+        "truth"
+      ],
+      "connections": [
+        {
+          "cardId": 17,
+          "narrative": "The Tower and The Star — destruction followed by hope; the most classic arc of transformation. The lightning clears what was false, and in the quiet after the storm, a single star shines. You survived the collapse. Now look up — what remains is truer than what fell."
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "name": "The Star",
+      "arcana": "major",
+      "suit": null,
+      "uprightMeaning": "Hope, inspiration, healing, serenity. A period of calm renewal. Trust in the universe and your path forward.",
+      "reversedMeaning": "Despair, hopelessness, disconnection. Loss of faith or creative drought.",
+      "keywords": [
+        "hope",
+        "healing",
+        "inspiration",
+        "peace",
+        "renewal"
+      ],
+      "connections": [
+        {
+          "cardId": 18,
+          "narrative": "The Star and The Moon — hope navigating through illusion. The light you follow is real, but the path between is shrouded in shadows. Your optimism will be tested by uncertainty; do not let the darkness convince you the star was never there. Keep walking."
+        },
+        {
+          "cardId": 19,
+          "narrative": "The Star and The Sun — hope blossoming into full radiance. What began as a quiet wish, a faint glimmer in the dark, now rises into daylight. The promise is fulfilled. Receive the joy without guilt; you have walked through enough shadow to earn the light."
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "name": "The Moon",
+      "arcana": "major",
+      "suit": null,
+      "uprightMeaning": "Illusion, intuition, dreams, the subconscious. Things are not what they seem. Navigate uncertainty with inner guidance.",
+      "reversedMeaning": "Clarity, confusion lifting, repressed fears emerging. Unveiling deception.",
+      "keywords": [
+        "illusion",
+        "intuition",
+        "fear",
+        "subconscious",
+        "mystery"
+      ],
+      "connections": [
+        {
+          "cardId": 19,
+          "narrative": "The Moon and The Sun — darkness giving way to light. Fear, confusion, the shapes that haunted you in the night — they lose their power when the sun rises. This is the dawn after a long, uncertain dark. Let the clarity in. What was hidden is now visible, and it is not as frightening as you imagined."
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "name": "The Sun",
+      "arcana": "major",
+      "suit": null,
+      "uprightMeaning": "Joy, success, vitality, clarity. Radiant energy and achievement. Bask in the warmth of a positive outcome.",
+      "reversedMeaning": "Diminished joy, blocked success, pessimism. Temporary setbacks or clouded vision.",
+      "keywords": [
+        "joy",
+        "success",
+        "vitality",
+        "clarity",
+        "positivity"
+      ],
+      "connections": [
+        {
+          "cardId": 21,
+          "narrative": "The Sun and The World — joy reaching its fullest expression. The warmth you feel is not a fleeting moment but a completion, a cycle fulfilled. You have arrived at a place of wholeness. Celebrate it; the journey has been long, and you are here."
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "name": "Judgement",
+      "arcana": "major",
+      "suit": null,
+      "uprightMeaning": "Rebirth, inner calling, absolution, awakening. A profound realization. Answer the call to a higher purpose.",
+      "reversedMeaning": "Self-doubt, refusal of calling, harsh judgment. Avoiding self-evaluation or ignoring the wake-up call.",
+      "keywords": [
+        "awakening",
+        "calling",
+        "rebirth",
+        "forgiveness",
+        "purpose"
+      ],
+      "connections": [
+        {
+          "cardId": 21,
+          "narrative": "Judgement and The World — awakening leading to completion. The call you answered has brought you to the threshold of wholeness. You are not the same person who started this journey, and the world you now step into reflects that transformation. Rise and enter."
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "name": "The World",
+      "arcana": "major",
+      "suit": null,
+      "uprightMeaning": "Completion, fulfillment, wholeness, accomplishment. A cycle reaches its satisfying conclusion. Celebrate and integrate.",
+      "reversedMeaning": "Incompletion, lack of closure, delays. Unfinished business or unfulfilled goals.",
+      "keywords": [
+        "completion",
+        "fulfillment",
+        "wholeness",
+        "achievement",
+        "integration"
+      ],
+      "connections": []
+    },
+    {
+      "id": 22,
+      "name": "Ace of Cups",
+      "arcana": "minor",
+      "suit": "cups",
+      "uprightMeaning": "A powerful new beginning. Pure potential and the seed of something meaningful. In the realm of Cups (Water), this card speaks to emotions, relationships, and creativity.",
+      "reversedMeaning": "Blocked new beginning. Missed opportunity or creative stagnation. The Water energy is blocked or misdirected, causing challenges in emotional and relational matters.",
+      "keywords": [
+        "ace",
+        "cups",
+        "emotions",
+        "relationships",
+        "heart",
+        "intuition"
+      ],
+      "connections": []
+    },
+    {
+      "id": 23,
+      "name": "Two of Cups",
+      "arcana": "minor",
+      "suit": "cups",
+      "uprightMeaning": "Duality and balance. A choice or partnership is forming. Weigh your options carefully. In the realm of Cups (Water), this card speaks to emotions, relationships, and creativity.",
+      "reversedMeaning": "Imbalance, indecision, or disharmony in a partnership. The Water energy is blocked or misdirected, causing challenges in emotional and relational matters.",
+      "keywords": [
+        "two",
+        "cups",
+        "emotions",
+        "relationships",
+        "heart",
+        "intuition"
+      ],
+      "connections": []
+    },
+    {
+      "id": 24,
+      "name": "Three of Cups",
+      "arcana": "minor",
+      "suit": "cups",
+      "uprightMeaning": "Collaboration and growth. Things are coming together. Celebrate progress. In the realm of Cups (Water), this card speaks to emotions, relationships, and creativity.",
+      "reversedMeaning": "Overindulgence, lack of teamwork, or delays in progress. The Water energy is blocked or misdirected, causing challenges in emotional and relational matters.",
+      "keywords": [
+        "three",
+        "cups",
+        "emotions",
+        "relationships",
+        "heart",
+        "intuition"
+      ],
+      "connections": []
+    },
+    {
+      "id": 25,
+      "name": "Four of Cups",
+      "arcana": "minor",
+      "suit": "cups",
+      "uprightMeaning": "Stability and rest. A moment of pause and consolidation. Enjoy the calm. In the realm of Cups (Water), this card speaks to emotions, relationships, and creativity.",
+      "reversedMeaning": "Restlessness, instability, or inability to appreciate what you have. The Water energy is blocked or misdirected, causing challenges in emotional and relational matters.",
+      "keywords": [
+        "four",
+        "cups",
+        "emotions",
+        "relationships",
+        "heart",
+        "intuition"
+      ],
+      "connections": []
+    },
+    {
+      "id": 26,
+      "name": "Five of Cups",
+      "arcana": "minor",
+      "suit": "cups",
+      "uprightMeaning": "Conflict and challenge. A test of resilience. Growth through adversity. In the realm of Cups (Water), this card speaks to emotions, relationships, and creativity.",
+      "reversedMeaning": "Reconciliation, recovery, or avoiding necessary conflict. The Water energy is blocked or misdirected, causing challenges in emotional and relational matters.",
+      "keywords": [
+        "five",
+        "cups",
+        "emotions",
+        "relationships",
+        "heart",
+        "intuition"
+      ],
+      "connections": []
+    },
+    {
+      "id": 27,
+      "name": "Six of Cups",
+      "arcana": "minor",
+      "suit": "cups",
+      "uprightMeaning": "Harmony and generosity. Past efforts bring rewards. Share your abundance. In the realm of Cups (Water), this card speaks to emotions, relationships, and creativity.",
+      "reversedMeaning": "Selfishness, unfulfilled promises, or nostalgia holding you back. The Water energy is blocked or misdirected, causing challenges in emotional and relational matters.",
+      "keywords": [
+        "six",
+        "cups",
+        "emotions",
+        "relationships",
+        "heart",
+        "intuition"
+      ],
+      "connections": []
+    },
+    {
+      "id": 28,
+      "name": "Seven of Cups",
+      "arcana": "minor",
+      "suit": "cups",
+      "uprightMeaning": "Reflection and assessment. Look deeper before acting. Not all is as it seems. In the realm of Cups (Water), this card speaks to emotions, relationships, and creativity.",
+      "reversedMeaning": "Clarity emerging, decisive action, or overthinking paralysis. The Water energy is blocked or misdirected, causing challenges in emotional and relational matters.",
+      "keywords": [
+        "seven",
+        "cups",
+        "emotions",
+        "relationships",
+        "heart",
+        "intuition"
+      ],
+      "connections": []
+    },
+    {
+      "id": 29,
+      "name": "Eight of Cups",
+      "arcana": "minor",
+      "suit": "cups",
+      "uprightMeaning": "Movement and progress. Leaving behind what no longer serves. Forward momentum. In the realm of Cups (Water), this card speaks to emotions, relationships, and creativity.",
+      "reversedMeaning": "Stagnation, fear of moving on, or being stuck in old patterns. The Water energy is blocked or misdirected, causing challenges in emotional and relational matters.",
+      "keywords": [
+        "eight",
+        "cups",
+        "emotions",
+        "relationships",
+        "heart",
+        "intuition"
+      ],
+      "connections": []
+    },
+    {
+      "id": 30,
+      "name": "Nine of Cups",
+      "arcana": "minor",
+      "suit": "cups",
+      "uprightMeaning": "Fulfillment and nearing completion. A wish fulfilled. Almost at the finish line. In the realm of Cups (Water), this card speaks to emotions, relationships, and creativity.",
+      "reversedMeaning": "Disappointment, unmet expectations, or the final hurdle proving difficult. The Water energy is blocked or misdirected, causing challenges in emotional and relational matters.",
+      "keywords": [
+        "nine",
+        "cups",
+        "emotions",
+        "relationships",
+        "heart",
+        "intuition"
+      ],
+      "connections": []
+    },
+    {
+      "id": 31,
+      "name": "Ten of Cups",
+      "arcana": "minor",
+      "suit": "cups",
+      "uprightMeaning": "Completion and culmination. The end of a cycle. Harvest what you have sown. In the realm of Cups (Water), this card speaks to emotions, relationships, and creativity.",
+      "reversedMeaning": "Unfinished business, resistance to closure, or burden from the past. The Water energy is blocked or misdirected, causing challenges in emotional and relational matters.",
+      "keywords": [
+        "ten",
+        "cups",
+        "emotions",
+        "relationships",
+        "heart",
+        "intuition"
+      ],
+      "connections": []
+    },
+    {
+      "id": 32,
+      "name": "Page of Cups",
+      "arcana": "minor",
+      "suit": "cups",
+      "uprightMeaning": "Curiosity and new learning. A fresh message or opportunity. Embrace the beginner's mind. In the realm of Cups (Water), this card speaks to emotions, relationships, and creativity.",
+      "reversedMeaning": "Immaturity, missed messages, or lack of direction in learning. The Water energy is blocked or misdirected, causing challenges in emotional and relational matters.",
+      "keywords": [
+        "page",
+        "cups",
+        "emotions",
+        "relationships",
+        "heart",
+        "intuition"
+      ],
+      "connections": []
+    },
+    {
+      "id": 33,
+      "name": "Knight of Cups",
+      "arcana": "minor",
+      "suit": "cups",
+      "uprightMeaning": "Action and pursuit. Charging forward with passion. An adventure or challenge awaits. In the realm of Cups (Water), this card speaks to emotions, relationships, and creativity.",
+      "reversedMeaning": "Recklessness, delays, or misguided enthusiasm. The Water energy is blocked or misdirected, causing challenges in emotional and relational matters.",
+      "keywords": [
+        "knight",
+        "cups",
+        "emotions",
+        "relationships",
+        "heart",
+        "intuition"
+      ],
+      "connections": []
+    },
+    {
+      "id": 34,
+      "name": "Queen of Cups",
+      "arcana": "minor",
+      "suit": "cups",
+      "uprightMeaning": "Nurturing mastery and inner security. Lead with compassion and emotional intelligence. In the realm of Cups (Water), this card speaks to emotions, relationships, and creativity.",
+      "reversedMeaning": "Insecurity, emotional manipulation, or neglecting self-care. The Water energy is blocked or misdirected, causing challenges in emotional and relational matters.",
+      "keywords": [
+        "queen",
+        "cups",
+        "emotions",
+        "relationships",
+        "heart",
+        "intuition"
+      ],
+      "connections": []
+    },
+    {
+      "id": 35,
+      "name": "King of Cups",
+      "arcana": "minor",
+      "suit": "cups",
+      "uprightMeaning": "Mastery and authority. Lead with experience and confidence. Take full responsibility. In the realm of Cups (Water), this card speaks to emotions, relationships, and creativity.",
+      "reversedMeaning": "Abuse of power, lack of leadership, or emotional coldness. The Water energy is blocked or misdirected, causing challenges in emotional and relational matters.",
+      "keywords": [
+        "king",
+        "cups",
+        "emotions",
+        "relationships",
+        "heart",
+        "intuition"
+      ],
+      "connections": []
+    },
+    {
+      "id": 36,
+      "name": "Ace of Wands",
+      "arcana": "minor",
+      "suit": "wands",
+      "uprightMeaning": "A powerful new beginning. Pure potential and the seed of something meaningful. In the realm of Wands (Fire), this card speaks to passion, ambition, and spiritual growth.",
+      "reversedMeaning": "Blocked new beginning. Missed opportunity or creative stagnation. The Fire energy is blocked or misdirected, causing challenges in creative and spiritual pursuits.",
+      "keywords": [
+        "ace",
+        "wands",
+        "passion",
+        "action",
+        "creativity",
+        "ambition"
+      ],
+      "connections": []
+    },
+    {
+      "id": 37,
+      "name": "Two of Wands",
+      "arcana": "minor",
+      "suit": "wands",
+      "uprightMeaning": "Duality and balance. A choice or partnership is forming. Weigh your options carefully. In the realm of Wands (Fire), this card speaks to passion, ambition, and spiritual growth.",
+      "reversedMeaning": "Imbalance, indecision, or disharmony in a partnership. The Fire energy is blocked or misdirected, causing challenges in creative and spiritual pursuits.",
+      "keywords": [
+        "two",
+        "wands",
+        "passion",
+        "action",
+        "creativity",
+        "ambition"
+      ],
+      "connections": []
+    },
+    {
+      "id": 38,
+      "name": "Three of Wands",
+      "arcana": "minor",
+      "suit": "wands",
+      "uprightMeaning": "Collaboration and growth. Things are coming together. Celebrate progress. In the realm of Wands (Fire), this card speaks to passion, ambition, and spiritual growth.",
+      "reversedMeaning": "Overindulgence, lack of teamwork, or delays in progress. The Fire energy is blocked or misdirected, causing challenges in creative and spiritual pursuits.",
+      "keywords": [
+        "three",
+        "wands",
+        "passion",
+        "action",
+        "creativity",
+        "ambition"
+      ],
+      "connections": []
+    },
+    {
+      "id": 39,
+      "name": "Four of Wands",
+      "arcana": "minor",
+      "suit": "wands",
+      "uprightMeaning": "Stability and rest. A moment of pause and consolidation. Enjoy the calm. In the realm of Wands (Fire), this card speaks to passion, ambition, and spiritual growth.",
+      "reversedMeaning": "Restlessness, instability, or inability to appreciate what you have. The Fire energy is blocked or misdirected, causing challenges in creative and spiritual pursuits.",
+      "keywords": [
+        "four",
+        "wands",
+        "passion",
+        "action",
+        "creativity",
+        "ambition"
+      ],
+      "connections": []
+    },
+    {
+      "id": 40,
+      "name": "Five of Wands",
+      "arcana": "minor",
+      "suit": "wands",
+      "uprightMeaning": "Conflict and challenge. A test of resilience. Growth through adversity. In the realm of Wands (Fire), this card speaks to passion, ambition, and spiritual growth.",
+      "reversedMeaning": "Reconciliation, recovery, or avoiding necessary conflict. The Fire energy is blocked or misdirected, causing challenges in creative and spiritual pursuits.",
+      "keywords": [
+        "five",
+        "wands",
+        "passion",
+        "action",
+        "creativity",
+        "ambition"
+      ],
+      "connections": []
+    },
+    {
+      "id": 41,
+      "name": "Six of Wands",
+      "arcana": "minor",
+      "suit": "wands",
+      "uprightMeaning": "Harmony and generosity. Past efforts bring rewards. Share your abundance. In the realm of Wands (Fire), this card speaks to passion, ambition, and spiritual growth.",
+      "reversedMeaning": "Selfishness, unfulfilled promises, or nostalgia holding you back. The Fire energy is blocked or misdirected, causing challenges in creative and spiritual pursuits.",
+      "keywords": [
+        "six",
+        "wands",
+        "passion",
+        "action",
+        "creativity",
+        "ambition"
+      ],
+      "connections": []
+    },
+    {
+      "id": 42,
+      "name": "Seven of Wands",
+      "arcana": "minor",
+      "suit": "wands",
+      "uprightMeaning": "Reflection and assessment. Look deeper before acting. Not all is as it seems. In the realm of Wands (Fire), this card speaks to passion, ambition, and spiritual growth.",
+      "reversedMeaning": "Clarity emerging, decisive action, or overthinking paralysis. The Fire energy is blocked or misdirected, causing challenges in creative and spiritual pursuits.",
+      "keywords": [
+        "seven",
+        "wands",
+        "passion",
+        "action",
+        "creativity",
+        "ambition"
+      ],
+      "connections": []
+    },
+    {
+      "id": 43,
+      "name": "Eight of Wands",
+      "arcana": "minor",
+      "suit": "wands",
+      "uprightMeaning": "Movement and progress. Leaving behind what no longer serves. Forward momentum. In the realm of Wands (Fire), this card speaks to passion, ambition, and spiritual growth.",
+      "reversedMeaning": "Stagnation, fear of moving on, or being stuck in old patterns. The Fire energy is blocked or misdirected, causing challenges in creative and spiritual pursuits.",
+      "keywords": [
+        "eight",
+        "wands",
+        "passion",
+        "action",
+        "creativity",
+        "ambition"
+      ],
+      "connections": []
+    },
+    {
+      "id": 44,
+      "name": "Nine of Wands",
+      "arcana": "minor",
+      "suit": "wands",
+      "uprightMeaning": "Fulfillment and nearing completion. A wish fulfilled. Almost at the finish line. In the realm of Wands (Fire), this card speaks to passion, ambition, and spiritual growth.",
+      "reversedMeaning": "Disappointment, unmet expectations, or the final hurdle proving difficult. The Fire energy is blocked or misdirected, causing challenges in creative and spiritual pursuits.",
+      "keywords": [
+        "nine",
+        "wands",
+        "passion",
+        "action",
+        "creativity",
+        "ambition"
+      ],
+      "connections": []
+    },
+    {
+      "id": 45,
+      "name": "Ten of Wands",
+      "arcana": "minor",
+      "suit": "wands",
+      "uprightMeaning": "Completion and culmination. The end of a cycle. Harvest what you have sown. In the realm of Wands (Fire), this card speaks to passion, ambition, and spiritual growth.",
+      "reversedMeaning": "Unfinished business, resistance to closure, or burden from the past. The Fire energy is blocked or misdirected, causing challenges in creative and spiritual pursuits.",
+      "keywords": [
+        "ten",
+        "wands",
+        "passion",
+        "action",
+        "creativity",
+        "ambition"
+      ],
+      "connections": []
+    },
+    {
+      "id": 46,
+      "name": "Page of Wands",
+      "arcana": "minor",
+      "suit": "wands",
+      "uprightMeaning": "Curiosity and new learning. A fresh message or opportunity. Embrace the beginner's mind. In the realm of Wands (Fire), this card speaks to passion, ambition, and spiritual growth.",
+      "reversedMeaning": "Immaturity, missed messages, or lack of direction in learning. The Fire energy is blocked or misdirected, causing challenges in creative and spiritual pursuits.",
+      "keywords": [
+        "page",
+        "wands",
+        "passion",
+        "action",
+        "creativity",
+        "ambition"
+      ],
+      "connections": []
+    },
+    {
+      "id": 47,
+      "name": "Knight of Wands",
+      "arcana": "minor",
+      "suit": "wands",
+      "uprightMeaning": "Action and pursuit. Charging forward with passion. An adventure or challenge awaits. In the realm of Wands (Fire), this card speaks to passion, ambition, and spiritual growth.",
+      "reversedMeaning": "Recklessness, delays, or misguided enthusiasm. The Fire energy is blocked or misdirected, causing challenges in creative and spiritual pursuits.",
+      "keywords": [
+        "knight",
+        "wands",
+        "passion",
+        "action",
+        "creativity",
+        "ambition"
+      ],
+      "connections": []
+    },
+    {
+      "id": 48,
+      "name": "Queen of Wands",
+      "arcana": "minor",
+      "suit": "wands",
+      "uprightMeaning": "Nurturing mastery and inner security. Lead with compassion and emotional intelligence. In the realm of Wands (Fire), this card speaks to passion, ambition, and spiritual growth.",
+      "reversedMeaning": "Insecurity, emotional manipulation, or neglecting self-care. The Fire energy is blocked or misdirected, causing challenges in creative and spiritual pursuits.",
+      "keywords": [
+        "queen",
+        "wands",
+        "passion",
+        "action",
+        "creativity",
+        "ambition"
+      ],
+      "connections": []
+    },
+    {
+      "id": 49,
+      "name": "King of Wands",
+      "arcana": "minor",
+      "suit": "wands",
+      "uprightMeaning": "Mastery and authority. Lead with experience and confidence. Take full responsibility. In the realm of Wands (Fire), this card speaks to passion, ambition, and spiritual growth.",
+      "reversedMeaning": "Abuse of power, lack of leadership, or emotional coldness. The Fire energy is blocked or misdirected, causing challenges in creative and spiritual pursuits.",
+      "keywords": [
+        "king",
+        "wands",
+        "passion",
+        "action",
+        "creativity",
+        "ambition"
+      ],
+      "connections": []
+    },
+    {
+      "id": 50,
+      "name": "Ace of Swords",
+      "arcana": "minor",
+      "suit": "swords",
+      "uprightMeaning": "A powerful new beginning. Pure potential and the seed of something meaningful. In the realm of Swords (Air), this card speaks to intellect, truth, and mental clarity.",
+      "reversedMeaning": "Blocked new beginning. Missed opportunity or creative stagnation. The Air energy is blocked or misdirected, causing challenges in communication and mental clarity.",
+      "keywords": [
+        "ace",
+        "swords",
+        "intellect",
+        "truth",
+        "clarity",
+        "conflict"
+      ],
+      "connections": []
+    },
+    {
+      "id": 51,
+      "name": "Two of Swords",
+      "arcana": "minor",
+      "suit": "swords",
+      "uprightMeaning": "Duality and balance. A choice or partnership is forming. Weigh your options carefully. In the realm of Swords (Air), this card speaks to intellect, truth, and mental clarity.",
+      "reversedMeaning": "Imbalance, indecision, or disharmony in a partnership. The Air energy is blocked or misdirected, causing challenges in communication and mental clarity.",
+      "keywords": [
+        "two",
+        "swords",
+        "intellect",
+        "truth",
+        "clarity",
+        "conflict"
+      ],
+      "connections": []
+    },
+    {
+      "id": 52,
+      "name": "Three of Swords",
+      "arcana": "minor",
+      "suit": "swords",
+      "uprightMeaning": "Collaboration and growth. Things are coming together. Celebrate progress. In the realm of Swords (Air), this card speaks to intellect, truth, and mental clarity.",
+      "reversedMeaning": "Overindulgence, lack of teamwork, or delays in progress. The Air energy is blocked or misdirected, causing challenges in communication and mental clarity.",
+      "keywords": [
+        "three",
+        "swords",
+        "intellect",
+        "truth",
+        "clarity",
+        "conflict"
+      ],
+      "connections": []
+    },
+    {
+      "id": 53,
+      "name": "Four of Swords",
+      "arcana": "minor",
+      "suit": "swords",
+      "uprightMeaning": "Stability and rest. A moment of pause and consolidation. Enjoy the calm. In the realm of Swords (Air), this card speaks to intellect, truth, and mental clarity.",
+      "reversedMeaning": "Restlessness, instability, or inability to appreciate what you have. The Air energy is blocked or misdirected, causing challenges in communication and mental clarity.",
+      "keywords": [
+        "four",
+        "swords",
+        "intellect",
+        "truth",
+        "clarity",
+        "conflict"
+      ],
+      "connections": []
+    },
+    {
+      "id": 54,
+      "name": "Five of Swords",
+      "arcana": "minor",
+      "suit": "swords",
+      "uprightMeaning": "Conflict and challenge. A test of resilience. Growth through adversity. In the realm of Swords (Air), this card speaks to intellect, truth, and mental clarity.",
+      "reversedMeaning": "Reconciliation, recovery, or avoiding necessary conflict. The Air energy is blocked or misdirected, causing challenges in communication and mental clarity.",
+      "keywords": [
+        "five",
+        "swords",
+        "intellect",
+        "truth",
+        "clarity",
+        "conflict"
+      ],
+      "connections": []
+    },
+    {
+      "id": 55,
+      "name": "Six of Swords",
+      "arcana": "minor",
+      "suit": "swords",
+      "uprightMeaning": "Harmony and generosity. Past efforts bring rewards. Share your abundance. In the realm of Swords (Air), this card speaks to intellect, truth, and mental clarity.",
+      "reversedMeaning": "Selfishness, unfulfilled promises, or nostalgia holding you back. The Air energy is blocked or misdirected, causing challenges in communication and mental clarity.",
+      "keywords": [
+        "six",
+        "swords",
+        "intellect",
+        "truth",
+        "clarity",
+        "conflict"
+      ],
+      "connections": []
+    },
+    {
+      "id": 56,
+      "name": "Seven of Swords",
+      "arcana": "minor",
+      "suit": "swords",
+      "uprightMeaning": "Reflection and assessment. Look deeper before acting. Not all is as it seems. In the realm of Swords (Air), this card speaks to intellect, truth, and mental clarity.",
+      "reversedMeaning": "Clarity emerging, decisive action, or overthinking paralysis. The Air energy is blocked or misdirected, causing challenges in communication and mental clarity.",
+      "keywords": [
+        "seven",
+        "swords",
+        "intellect",
+        "truth",
+        "clarity",
+        "conflict"
+      ],
+      "connections": []
+    },
+    {
+      "id": 57,
+      "name": "Eight of Swords",
+      "arcana": "minor",
+      "suit": "swords",
+      "uprightMeaning": "Movement and progress. Leaving behind what no longer serves. Forward momentum. In the realm of Swords (Air), this card speaks to intellect, truth, and mental clarity.",
+      "reversedMeaning": "Stagnation, fear of moving on, or being stuck in old patterns. The Air energy is blocked or misdirected, causing challenges in communication and mental clarity.",
+      "keywords": [
+        "eight",
+        "swords",
+        "intellect",
+        "truth",
+        "clarity",
+        "conflict"
+      ],
+      "connections": []
+    },
+    {
+      "id": 58,
+      "name": "Nine of Swords",
+      "arcana": "minor",
+      "suit": "swords",
+      "uprightMeaning": "Fulfillment and nearing completion. A wish fulfilled. Almost at the finish line. In the realm of Swords (Air), this card speaks to intellect, truth, and mental clarity.",
+      "reversedMeaning": "Disappointment, unmet expectations, or the final hurdle proving difficult. The Air energy is blocked or misdirected, causing challenges in communication and mental clarity.",
+      "keywords": [
+        "nine",
+        "swords",
+        "intellect",
+        "truth",
+        "clarity",
+        "conflict"
+      ],
+      "connections": []
+    },
+    {
+      "id": 59,
+      "name": "Ten of Swords",
+      "arcana": "minor",
+      "suit": "swords",
+      "uprightMeaning": "Completion and culmination. The end of a cycle. Harvest what you have sown. In the realm of Swords (Air), this card speaks to intellect, truth, and mental clarity.",
+      "reversedMeaning": "Unfinished business, resistance to closure, or burden from the past. The Air energy is blocked or misdirected, causing challenges in communication and mental clarity.",
+      "keywords": [
+        "ten",
+        "swords",
+        "intellect",
+        "truth",
+        "clarity",
+        "conflict"
+      ],
+      "connections": []
+    },
+    {
+      "id": 60,
+      "name": "Page of Swords",
+      "arcana": "minor",
+      "suit": "swords",
+      "uprightMeaning": "Curiosity and new learning. A fresh message or opportunity. Embrace the beginner's mind. In the realm of Swords (Air), this card speaks to intellect, truth, and mental clarity.",
+      "reversedMeaning": "Immaturity, missed messages, or lack of direction in learning. The Air energy is blocked or misdirected, causing challenges in communication and mental clarity.",
+      "keywords": [
+        "page",
+        "swords",
+        "intellect",
+        "truth",
+        "clarity",
+        "conflict"
+      ],
+      "connections": []
+    },
+    {
+      "id": 61,
+      "name": "Knight of Swords",
+      "arcana": "minor",
+      "suit": "swords",
+      "uprightMeaning": "Action and pursuit. Charging forward with passion. An adventure or challenge awaits. In the realm of Swords (Air), this card speaks to intellect, truth, and mental clarity.",
+      "reversedMeaning": "Recklessness, delays, or misguided enthusiasm. The Air energy is blocked or misdirected, causing challenges in communication and mental clarity.",
+      "keywords": [
+        "knight",
+        "swords",
+        "intellect",
+        "truth",
+        "clarity",
+        "conflict"
+      ],
+      "connections": []
+    },
+    {
+      "id": 62,
+      "name": "Queen of Swords",
+      "arcana": "minor",
+      "suit": "swords",
+      "uprightMeaning": "Nurturing mastery and inner security. Lead with compassion and emotional intelligence. In the realm of Swords (Air), this card speaks to intellect, truth, and mental clarity.",
+      "reversedMeaning": "Insecurity, emotional manipulation, or neglecting self-care. The Air energy is blocked or misdirected, causing challenges in communication and mental clarity.",
+      "keywords": [
+        "queen",
+        "swords",
+        "intellect",
+        "truth",
+        "clarity",
+        "conflict"
+      ],
+      "connections": []
+    },
+    {
+      "id": 63,
+      "name": "King of Swords",
+      "arcana": "minor",
+      "suit": "swords",
+      "uprightMeaning": "Mastery and authority. Lead with experience and confidence. Take full responsibility. In the realm of Swords (Air), this card speaks to intellect, truth, and mental clarity.",
+      "reversedMeaning": "Abuse of power, lack of leadership, or emotional coldness. The Air energy is blocked or misdirected, causing challenges in communication and mental clarity.",
+      "keywords": [
+        "king",
+        "swords",
+        "intellect",
+        "truth",
+        "clarity",
+        "conflict"
+      ],
+      "connections": []
+    },
+    {
+      "id": 64,
+      "name": "Ace of Pentacles",
+      "arcana": "minor",
+      "suit": "pentacles",
+      "uprightMeaning": "A powerful new beginning. Pure potential and the seed of something meaningful. In the realm of Pentacles (Earth), this card speaks to material world, career, and physical health.",
+      "reversedMeaning": "Blocked new beginning. Missed opportunity or creative stagnation. The Earth energy is blocked or misdirected, causing challenges in financial and physical wellbeing.",
+      "keywords": [
+        "ace",
+        "pentacles",
+        "material",
+        "health",
+        "wealth",
+        "stability"
+      ],
+      "connections": []
+    },
+    {
+      "id": 65,
+      "name": "Two of Pentacles",
+      "arcana": "minor",
+      "suit": "pentacles",
+      "uprightMeaning": "Duality and balance. A choice or partnership is forming. Weigh your options carefully. In the realm of Pentacles (Earth), this card speaks to material world, career, and physical health.",
+      "reversedMeaning": "Imbalance, indecision, or disharmony in a partnership. The Earth energy is blocked or misdirected, causing challenges in financial and physical wellbeing.",
+      "keywords": [
+        "two",
+        "pentacles",
+        "material",
+        "health",
+        "wealth",
+        "stability"
+      ],
+      "connections": []
+    },
+    {
+      "id": 66,
+      "name": "Three of Pentacles",
+      "arcana": "minor",
+      "suit": "pentacles",
+      "uprightMeaning": "Collaboration and growth. Things are coming together. Celebrate progress. In the realm of Pentacles (Earth), this card speaks to material world, career, and physical health.",
+      "reversedMeaning": "Overindulgence, lack of teamwork, or delays in progress. The Earth energy is blocked or misdirected, causing challenges in financial and physical wellbeing.",
+      "keywords": [
+        "three",
+        "pentacles",
+        "material",
+        "health",
+        "wealth",
+        "stability"
+      ],
+      "connections": []
+    },
+    {
+      "id": 67,
+      "name": "Four of Pentacles",
+      "arcana": "minor",
+      "suit": "pentacles",
+      "uprightMeaning": "Stability and rest. A moment of pause and consolidation. Enjoy the calm. In the realm of Pentacles (Earth), this card speaks to material world, career, and physical health.",
+      "reversedMeaning": "Restlessness, instability, or inability to appreciate what you have. The Earth energy is blocked or misdirected, causing challenges in financial and physical wellbeing.",
+      "keywords": [
+        "four",
+        "pentacles",
+        "material",
+        "health",
+        "wealth",
+        "stability"
+      ],
+      "connections": []
+    },
+    {
+      "id": 68,
+      "name": "Five of Pentacles",
+      "arcana": "minor",
+      "suit": "pentacles",
+      "uprightMeaning": "Conflict and challenge. A test of resilience. Growth through adversity. In the realm of Pentacles (Earth), this card speaks to material world, career, and physical health.",
+      "reversedMeaning": "Reconciliation, recovery, or avoiding necessary conflict. The Earth energy is blocked or misdirected, causing challenges in financial and physical wellbeing.",
+      "keywords": [
+        "five",
+        "pentacles",
+        "material",
+        "health",
+        "wealth",
+        "stability"
+      ],
+      "connections": []
+    },
+    {
+      "id": 69,
+      "name": "Six of Pentacles",
+      "arcana": "minor",
+      "suit": "pentacles",
+      "uprightMeaning": "Harmony and generosity. Past efforts bring rewards. Share your abundance. In the realm of Pentacles (Earth), this card speaks to material world, career, and physical health.",
+      "reversedMeaning": "Selfishness, unfulfilled promises, or nostalgia holding you back. The Earth energy is blocked or misdirected, causing challenges in financial and physical wellbeing.",
+      "keywords": [
+        "six",
+        "pentacles",
+        "material",
+        "health",
+        "wealth",
+        "stability"
+      ],
+      "connections": []
+    },
+    {
+      "id": 70,
+      "name": "Seven of Pentacles",
+      "arcana": "minor",
+      "suit": "pentacles",
+      "uprightMeaning": "Reflection and assessment. Look deeper before acting. Not all is as it seems. In the realm of Pentacles (Earth), this card speaks to material world, career, and physical health.",
+      "reversedMeaning": "Clarity emerging, decisive action, or overthinking paralysis. The Earth energy is blocked or misdirected, causing challenges in financial and physical wellbeing.",
+      "keywords": [
+        "seven",
+        "pentacles",
+        "material",
+        "health",
+        "wealth",
+        "stability"
+      ],
+      "connections": []
+    },
+    {
+      "id": 71,
+      "name": "Eight of Pentacles",
+      "arcana": "minor",
+      "suit": "pentacles",
+      "uprightMeaning": "Movement and progress. Leaving behind what no longer serves. Forward momentum. In the realm of Pentacles (Earth), this card speaks to material world, career, and physical health.",
+      "reversedMeaning": "Stagnation, fear of moving on, or being stuck in old patterns. The Earth energy is blocked or misdirected, causing challenges in financial and physical wellbeing.",
+      "keywords": [
+        "eight",
+        "pentacles",
+        "material",
+        "health",
+        "wealth",
+        "stability"
+      ],
+      "connections": []
+    },
+    {
+      "id": 72,
+      "name": "Nine of Pentacles",
+      "arcana": "minor",
+      "suit": "pentacles",
+      "uprightMeaning": "Fulfillment and nearing completion. A wish fulfilled. Almost at the finish line. In the realm of Pentacles (Earth), this card speaks to material world, career, and physical health.",
+      "reversedMeaning": "Disappointment, unmet expectations, or the final hurdle proving difficult. The Earth energy is blocked or misdirected, causing challenges in financial and physical wellbeing.",
+      "keywords": [
+        "nine",
+        "pentacles",
+        "material",
+        "health",
+        "wealth",
+        "stability"
+      ],
+      "connections": []
+    },
+    {
+      "id": 73,
+      "name": "Ten of Pentacles",
+      "arcana": "minor",
+      "suit": "pentacles",
+      "uprightMeaning": "Completion and culmination. The end of a cycle. Harvest what you have sown. In the realm of Pentacles (Earth), this card speaks to material world, career, and physical health.",
+      "reversedMeaning": "Unfinished business, resistance to closure, or burden from the past. The Earth energy is blocked or misdirected, causing challenges in financial and physical wellbeing.",
+      "keywords": [
+        "ten",
+        "pentacles",
+        "material",
+        "health",
+        "wealth",
+        "stability"
+      ],
+      "connections": []
+    },
+    {
+      "id": 74,
+      "name": "Page of Pentacles",
+      "arcana": "minor",
+      "suit": "pentacles",
+      "uprightMeaning": "Curiosity and new learning. A fresh message or opportunity. Embrace the beginner's mind. In the realm of Pentacles (Earth), this card speaks to material world, career, and physical health.",
+      "reversedMeaning": "Immaturity, missed messages, or lack of direction in learning. The Earth energy is blocked or misdirected, causing challenges in financial and physical wellbeing.",
+      "keywords": [
+        "page",
+        "pentacles",
+        "material",
+        "health",
+        "wealth",
+        "stability"
+      ],
+      "connections": []
+    },
+    {
+      "id": 75,
+      "name": "Knight of Pentacles",
+      "arcana": "minor",
+      "suit": "pentacles",
+      "uprightMeaning": "Action and pursuit. Charging forward with passion. An adventure or challenge awaits. In the realm of Pentacles (Earth), this card speaks to material world, career, and physical health.",
+      "reversedMeaning": "Recklessness, delays, or misguided enthusiasm. The Earth energy is blocked or misdirected, causing challenges in financial and physical wellbeing.",
+      "keywords": [
+        "knight",
+        "pentacles",
+        "material",
+        "health",
+        "wealth",
+        "stability"
+      ],
+      "connections": []
+    },
+    {
+      "id": 76,
+      "name": "Queen of Pentacles",
+      "arcana": "minor",
+      "suit": "pentacles",
+      "uprightMeaning": "Nurturing mastery and inner security. Lead with compassion and emotional intelligence. In the realm of Pentacles (Earth), this card speaks to material world, career, and physical health.",
+      "reversedMeaning": "Insecurity, emotional manipulation, or neglecting self-care. The Earth energy is blocked or misdirected, causing challenges in financial and physical wellbeing.",
+      "keywords": [
+        "queen",
+        "pentacles",
+        "material",
+        "health",
+        "wealth",
+        "stability"
+      ],
+      "connections": []
+    },
+    {
+      "id": 77,
+      "name": "King of Pentacles",
+      "arcana": "minor",
+      "suit": "pentacles",
+      "uprightMeaning": "Mastery and authority. Lead with experience and confidence. Take full responsibility. In the realm of Pentacles (Earth), this card speaks to material world, career, and physical health.",
+      "reversedMeaning": "Abuse of power, lack of leadership, or emotional coldness. The Earth energy is blocked or misdirected, causing challenges in financial and physical wellbeing.",
+      "keywords": [
+        "king",
+        "pentacles",
+        "material",
+        "health",
+        "wealth",
+        "stability"
+      ],
+      "connections": []
+    }
+  ]
+}

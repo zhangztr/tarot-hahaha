@@ -8,7 +8,7 @@ import { ru } from "../i18n/ru";
 
 const tMap: Record<string, Record<TranslationKey, string>> = { zh, en, ja, fr, ru };
 
-function findConnections(drawnCards: DrawnCard[], locale: Locale): string[] {
+function findConnections(drawnCards: DrawnCard[]): string[] {
   const drawnIds = new Set(drawnCards.map((dc) => dc.card.id));
   const seen = new Set<string>();
   const results: string[] = [];
@@ -26,7 +26,7 @@ function findConnections(drawnCards: DrawnCard[], locale: Locale): string[] {
       if (seen.has(key)) continue;
       seen.add(key);
 
-      results.push(locale === "zh" ? conn.narrativeZh : conn.narrative);
+      results.push(conn.narrative);
     }
   }
 
@@ -41,10 +41,8 @@ export function generateInterpretation(
 ): Interpretation {
   const t = tMap[locale];
   const cardInterpretations = drawnCards.map((dc) => ({
-    cardName: locale === "zh" ? dc.card.nameZh : dc.card.name,
-    meaning: locale === "zh"
-      ? (dc.isReversed ? dc.card.reversedMeaningZh : dc.card.uprightMeaningZh)
-      : (dc.isReversed ? dc.card.reversedMeaning : dc.card.uprightMeaning),
+    cardName: dc.card.name,
+    meaning: dc.isReversed ? dc.card.reversedMeaning : dc.card.uprightMeaning,
   }));
 
   const summaryParts: string[] = [];
@@ -99,9 +97,7 @@ export function generateInterpretation(
   }
 
   // Rule 5: Keyword overlap
-  const keywordsList = locale === "zh"
-    ? drawnCards.flatMap((dc) => dc.card.keywordsZh)
-    : drawnCards.flatMap((dc) => dc.card.keywords);
+  const keywordsList = drawnCards.flatMap((dc) => dc.card.keywords);
   const freq = new Map<string, number>();
   for (const kw of keywordsList) {
     freq.set(kw, (freq.get(kw) || 0) + 1);
@@ -114,7 +110,7 @@ export function generateInterpretation(
     themes.push(...repeated.slice(0, 3));
   }
 
-  const connectionNarratives = findConnections(drawnCards, locale);
+  const connectionNarratives = findConnections(drawnCards);
 
   let summary: string;
   if (connectionNarratives.length > 0) {

@@ -1,32 +1,32 @@
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { motion, AnimatePresence } from "motion/react";
-import type { SpreadType, TarotCard } from "../types/tarot";
+import type { SpreadType } from "../types/tarot";
 import { useReading } from "../hooks/useReading";
 import { useT } from "../hooks/useT";
+import { useTarotCards } from "../hooks/useTarotCards";
 import { drawCards } from "../utils/draw";
-import tarotDataRaw from "../data/tarot.json";
 import QuestionInput from "../components/QuestionInput";
 import SpreadSelector from "../components/SpreadSelector";
 import DrawButton from "../components/DrawButton";
 import ShuffleAnimation from "../components/ShuffleAnimation";
-
-const tarotData = tarotDataRaw as { cards: TarotCard[] };
 
 export default function HomePage() {
   const [question, setQuestion] = useState("");
   const [spreadType, setSpreadType] = useState<SpreadType>("three-past-present");
   const [loading, setLoading] = useState(false);
 
+  const tarotCards = useTarotCards();
   const { setReading } = useReading();
   const navigate = useNavigate();
   const t = useT();
 
   const handleDraw = () => {
+    if (!tarotCards) return;
     setLoading(true);
 
     setTimeout(() => {
-      const cards = drawCards(tarotData.cards, spreadType);
+      const cards = drawCards(tarotCards, spreadType);
       const reading = {
         cards,
         spreadType,
@@ -38,6 +38,14 @@ export default function HomePage() {
       navigate("/result", { state: { reading } });
     }, 2300);
   };
+
+  if (!tarotCards) {
+    return (
+      <div className="flex-1 flex items-center justify-center">
+        <p className="text-white/40 text-sm">{t("blog.loading")}</p>
+      </div>
+    );
+  }
 
   return (
     <div className="flex-1 flex flex-col items-center justify-center gap-8 w-full max-w-lg pt-12">

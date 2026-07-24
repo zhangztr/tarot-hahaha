@@ -2,6 +2,14 @@ import type { DrawnCard } from "../types/tarot";
 import { useT, useLocale, useFunMode } from "../hooks/useT";
 import funnyData from "../data/tarot-funny.json";
 
+function funnyField(funny: any, field: string, fieldEn: string, locale: string): string {
+  return locale === "zh" ? funny[field] : (funny[fieldEn] || funny[field]);
+}
+
+function funnyKeywords(funny: any, locale: string): string[] {
+  return locale === "zh" ? funny.keywords : (funny.keywordsEn || funny.keywords);
+}
+
 interface CardFaceProps {
   drawnCard: DrawnCard;
 }
@@ -11,22 +19,21 @@ export default function CardFace({ drawnCard }: CardFaceProps) {
   const t = useT();
   const { locale } = useLocale();
   const { funMode } = useFunMode();
-  const isZh = locale === "zh";
 
-  const name = funMode
-    ? (isZh ? funnyData[card.id].name : (funnyData[card.id] as any).nameEn)
-    : (isZh ? card.nameZh : card.name);
-  const meaning = funMode
+  const funny = funMode ? (funnyData as any)[card.id] : null;
+
+  const name = funny
+    ? funnyField(funny, "name", "nameEn", locale)
+    : card.name;
+  const meaning = funny
     ? (isReversed
-        ? (isZh ? funnyData[card.id].reversedMeaning : (funnyData[card.id] as any).reversedMeaningEn)
-        : (isZh ? funnyData[card.id].uprightMeaning : (funnyData[card.id] as any).uprightMeaningEn))
-    : (isZh
-      ? (isReversed ? card.reversedMeaningZh : card.uprightMeaningZh)
-      : (isReversed ? card.reversedMeaning : card.uprightMeaning));
-  const keywords = funMode
-    ? (isZh ? funnyData[card.id].keywords : (funnyData[card.id] as any).keywordsEn)
-    : (isZh ? card.keywordsZh : card.keywords);
-  const arcanaLabel = card.arcana === "major" ? t("card.majorArcana") : (isZh ? "" : card.suit!);
+        ? funnyField(funny, "reversedMeaning", "reversedMeaningEn", locale)
+        : funnyField(funny, "uprightMeaning", "uprightMeaningEn", locale))
+    : (isReversed ? card.reversedMeaning : card.uprightMeaning);
+  const keywords = funny
+    ? funnyKeywords(funny, locale)
+    : card.keywords;
+  const arcanaLabel = card.arcana === "major" ? t("card.majorArcana") : "";
   const suitLabel = card.suit ? t(`suit.${card.suit}` as any) : "";
   const arcanaDisplay = card.arcana === "major" ? arcanaLabel : suitLabel;
 

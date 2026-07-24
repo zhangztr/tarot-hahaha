@@ -1,21 +1,16 @@
 export interface TarotCardConnection {
   cardId: number;
   narrative: string;
-  narrativeZh: string;
 }
 
 export interface TarotCard {
   id: number;
   name: string;
-  nameZh: string;
   arcana: "major" | "minor";
   suit: "cups" | "wands" | "swords" | "pentacles" | null;
   uprightMeaning: string;
-  uprightMeaningZh: string;
   reversedMeaning: string;
-  reversedMeaningZh: string;
   keywords: string[];
-  keywordsZh: string[];
   connections?: TarotCardConnection[];
 }
 

@@ -1,0 +1,1497 @@
+{
+  "cards": [
+    {
+      "id": 0,
+      "name": "Le Fou",
+      "arcana": "major",
+      "suit": null,
+      "uprightMeaning": "La carte de Le Fou symbolise une nouvelle phase et une croissance intérieure. Elle suggère que vous êtes prêt à avancer avec confiance. Faites confiance à votre intuition et allez de l'avant..",
+      "reversedMeaning": "Le Fou inversé indique une confusion intérieure ou une perte de direction. Lorsque cette carte apparaît inversée, c'est le moment de s'arrêter, de réfléchir et de réévaluer ce qui vous retient..",
+      "keywords": [
+        "commencements",
+        "liberté",
+        "innocence",
+        "voyage",
+        "foi"
+      ],
+      "connections": [
+        {
+          "cardId": 1,
+          "narrative": "Lorsque Le Fou et Le Bateleur apparaissent ensemble, leurs énergies s'amplifient mutuellement. Deux forces apparemment différentes vous mènent en réalité vers la même destination. Acceptez le flux et recevez les deux messages."
+        },
+        {
+          "cardId": 10,
+          "narrative": "Lorsque Le Fou et La Roue de Fortune apparaissent ensemble, leurs énergies s'amplifient mutuellement. Deux forces apparemment différentes vous mènent en réalité vers la même destination. Acceptez le flux et recevez les deux messages."
+        },
+        {
+          "cardId": 13,
+          "narrative": "Lorsque Le Fou et La Mort apparaissent ensemble, leurs énergies s'amplifient mutuellement. Deux forces apparemment différentes vous mènent en réalité vers la même destination. Acceptez le flux et recevez les deux messages."
+        },
+        {
+          "cardId": 16,
+          "narrative": "Lorsque Le Fou et La Tour apparaissent ensemble, leurs énergies s'amplifient mutuellement. Deux forces apparemment différentes vous mènent en réalité vers la même destination. Acceptez le flux et recevez les deux messages."
+        },
+        {
+          "cardId": 21,
+          "narrative": "Lorsque Le Fou et Le Monde apparaissent ensemble, leurs énergies s'amplifient mutuellement. Deux forces apparemment différentes vous mènent en réalité vers la même destination. Acceptez le flux et recevez les deux messages."
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "name": "Le Bateleur",
+      "arcana": "major",
+      "suit": null,
+      "uprightMeaning": "La carte de Le Bateleur symbolise une nouvelle phase et une croissance intérieure. Elle suggère que vous êtes prêt à avancer avec confiance. Faites confiance à votre intuition et allez de l'avant..",
+      "reversedMeaning": "Le Bateleur inversé indique une confusion intérieure ou une perte de direction. Lorsque cette carte apparaît inversée, c'est le moment de s'arrêter, de réfléchir et de réévaluer ce qui vous retient..",
+      "keywords": [
+        "pouvoir",
+        "compétence",
+        "manifestation",
+        "concentration",
+        "action"
+      ],
+      "connections": [
+        {
+          "cardId": 2,
+          "narrative": "Lorsque Le Bateleur et La Papesse apparaissent ensemble, leurs énergies s'amplifient mutuellement. Deux forces apparemment différentes vous mènent en réalité vers la même destination. Acceptez le flux et recevez les deux messages."
+        },
+        {
+          "cardId": 15,
+          "narrative": "Lorsque Le Bateleur et Le Diable apparaissent ensemble, leurs énergies s'amplifient mutuellement. Deux forces apparemment différentes vous mènent en réalité vers la même destination. Acceptez le flux et recevez les deux messages."
+        },
+        {
+          "cardId": 17,
+          "narrative": "Lorsque Le Bateleur et L'Étoile apparaissent ensemble, leurs énergies s'amplifient mutuellement. Deux forces apparemment différentes vous mènent en réalité vers la même destination. Acceptez le flux et recevez les deux messages."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "La Papesse",
+      "arcana": "major",
+      "suit": null,
+      "uprightMeaning": "La carte de La Papesse symbolise une nouvelle phase et une croissance intérieure. Elle suggère que vous êtes prêt à avancer avec confiance. Faites confiance à votre intuition et allez de l'avant..",
+      "reversedMeaning": "La Papesse inversé indique une confusion intérieure ou une perte de direction. Lorsque cette carte apparaît inversée, c'est le moment de s'arrêter, de réfléchir et de réévaluer ce qui vous retient..",
+      "keywords": [
+        "intuition",
+        "mystère",
+        "sagesse",
+        "subconscient",
+        "stillness"
+      ],
+      "connections": [
+        {
+          "cardId": 9,
+          "narrative": "Lorsque La Papesse et L'Ermite apparaissent ensemble, leurs énergies s'amplifient mutuellement. Deux forces apparemment différentes vous mènent en réalité vers la même destination. Acceptez le flux et recevez les deux messages."
+        },
+        {
+          "cardId": 12,
+          "narrative": "Lorsque La Papesse et Le Pendu apparaissent ensemble, leurs énergies s'amplifient mutuellement. Deux forces apparemment différentes vous mènent en réalité vers la même destination. Acceptez le flux et recevez les deux messages."
+        },
+        {
+          "cardId": 18,
+          "narrative": "Lorsque La Papesse et La Lune apparaissent ensemble, leurs énergies s'amplifient mutuellement. Deux forces apparemment différentes vous mènent en réalité vers la même destination. Acceptez le flux et recevez les deux messages."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "L'Impératrice",
+      "arcana": "major",
+      "suit": null,
+      "uprightMeaning": "La carte de L'Impératrice symbolise une nouvelle phase et une croissance intérieure. Elle suggère que vous êtes prêt à avancer avec confiance. Faites confiance à votre intuition et allez de l'avant..",
+      "reversedMeaning": "L'Impératrice inversé indique une confusion intérieure ou une perte de direction. Lorsque cette carte apparaît inversée, c'est le moment de s'arrêter, de réfléchir et de réévaluer ce qui vous retient..",
+      "keywords": [
+        "abondance",
+        "nurture",
+        "créativité",
+        "nature",
+        "beauté"
+      ],
+      "connections": [
+        {
+          "cardId": 4,
+          "narrative": "Lorsque L'Impératrice et L'Empereur apparaissent ensemble, leurs énergies s'amplifient mutuellement. Deux forces apparemment différentes vous mènent en réalité vers la même destination. Acceptez le flux et recevez les deux messages."
+        },
+        {
+          "cardId": 6,
+          "narrative": "Lorsque L'Impératrice et L'Amoureux apparaissent ensemble, leurs énergies s'amplifient mutuellement. Deux forces apparemment différentes vous mènent en réalité vers la même destination. Acceptez le flux et recevez les deux messages."
+        },
+        {
+          "cardId": 17,
+          "narrative": "Lorsque L'Impératrice et L'Étoile apparaissent ensemble, leurs énergies s'amplifient mutuellement. Deux forces apparemment différentes vous mènent en réalité vers la même destination. Acceptez le flux et recevez les deux messages."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "L'Empereur",
+      "arcana": "major",
+      "suit": null,
+      "uprightMeaning": "La carte de L'Empereur symbolise une nouvelle phase et une croissance intérieure. Elle suggère que vous êtes prêt à avancer avec confiance. Faites confiance à votre intuition et allez de l'avant..",
+      "reversedMeaning": "L'Empereur inversé indique une confusion intérieure ou une perte de direction. Lorsque cette carte apparaît inversée, c'est le moment de s'arrêter, de réfléchir et de réévaluer ce qui vous retient..",
+      "keywords": [
+        "autorité",
+        "structure",
+        "leadership",
+        "discipline",
+        "ordre"
+      ],
+      "connections": [
+        {
+          "cardId": 5,
+          "narrative": "Lorsque L'Empereur et Le Pape apparaissent ensemble, leurs énergies s'amplifient mutuellement. Deux forces apparemment différentes vous mènent en réalité vers la même destination. Acceptez le flux et recevez les deux messages."
+        },
+        {
+          "cardId": 11,
+          "narrative": "Lorsque L'Empereur et La Justice apparaissent ensemble, leurs énergies s'amplifient mutuellement. Deux forces apparemment différentes vous mènent en réalité vers la même destination. Acceptez le flux et recevez les deux messages."
+        },
+        {
+          "cardId": 16,
+          "narrative": "Lorsque L'Empereur et La Tour apparaissent ensemble, leurs énergies s'amplifient mutuellement. Deux forces apparemment différentes vous mènent en réalité vers la même destination. Acceptez le flux et recevez les deux messages."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Le Pape",
+      "arcana": "major",
+      "suit": null,
+      "uprightMeaning": "La carte de Le Pape symbolise une nouvelle phase et une croissance intérieure. Elle suggère que vous êtes prêt à avancer avec confiance. Faites confiance à votre intuition et allez de l'avant..",
+      "reversedMeaning": "Le Pape inversé indique une confusion intérieure ou une perte de direction. Lorsque cette carte apparaît inversée, c'est le moment de s'arrêter, de réfléchir et de réévaluer ce qui vous retient..",
+      "keywords": [
+        "tradition",
+        "guidance",
+        "éducation",
+        "belief",
+        "conformity"
+      ],
+      "connections": [
+        {
+          "cardId": 9,
+          "narrative": "Lorsque Le Pape et L'Ermite apparaissent ensemble, leurs énergies s'amplifient mutuellement. Deux forces apparemment différentes vous mènent en réalité vers la même destination. Acceptez le flux et recevez les deux messages."
+        },
+        {
+          "cardId": 11,
+          "narrative": "Lorsque Le Pape et La Justice apparaissent ensemble, leurs énergies s'amplifient mutuellement. Deux forces apparemment différentes vous mènent en réalité vers la même destination. Acceptez le flux et recevez les deux messages."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "L'Amoureux",
+      "arcana": "major",
+      "suit": null,
+      "uprightMeaning": "La carte de L'Amoureux symbolise une nouvelle phase et une croissance intérieure. Elle suggère que vous êtes prêt à avancer avec confiance. Faites confiance à votre intuition et allez de l'avant..",
+      "reversedMeaning": "L'Amoureux inversé indique une confusion intérieure ou une perte de direction. Lorsque cette carte apparaît inversée, c'est le moment de s'arrêter, de réfléchir et de réévaluer ce qui vous retient..",
+      "keywords": [
+        "amour",
+        "choix",
+        "harmonie",
+        "partenariat",
+        "values"
+      ],
+      "connections": [
+        {
+          "cardId": 7,
+          "narrative": "Lorsque L'Amoureux et Le Chariot apparaissent ensemble, leurs énergies s'amplifient mutuellement. Deux forces apparemment différentes vous mènent en réalité vers la même destination. Acceptez le flux et recevez les deux messages."
+        },
+        {
+          "cardId": 14,
+          "narrative": "Lorsque L'Amoureux et Tempérance apparaissent ensemble, leurs énergies s'amplifient mutuellement. Deux forces apparemment différentes vous mènent en réalité vers la même destination. Acceptez le flux et recevez les deux messages."
+        },
+        {
+          "cardId": 15,
+          "narrative": "Lorsque L'Amoureux et Le Diable apparaissent ensemble, leurs énergies s'amplifient mutuellement. Deux forces apparemment différentes vous mènent en réalité vers la même destination. Acceptez le flux et recevez les deux messages."
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Le Chariot",
+      "arcana": "major",
+      "suit": null,
+      "uprightMeaning": "La carte de Le Chariot symbolise une nouvelle phase et une croissance intérieure. Elle suggère que vous êtes prêt à avancer avec confiance. Faites confiance à votre intuition et allez de l'avant..",
+      "reversedMeaning": "Le Chariot inversé indique une confusion intérieure ou une perte de direction. Lorsque cette carte apparaît inversée, c'est le moment de s'arrêter, de réfléchir et de réévaluer ce qui vous retient..",
+      "keywords": [
+        "victoire",
+        "détermination",
+        "drive",
+        "contrôle",
+        "momentum"
+      ],
+      "connections": [
+        {
+          "cardId": 8,
+          "narrative": "Lorsque Le Chariot et La Force apparaissent ensemble, leurs énergies s'amplifient mutuellement. Deux forces apparemment différentes vous mènent en réalité vers la même destination. Acceptez le flux et recevez les deux messages."
+        },
+        {
+          "cardId": 10,
+          "narrative": "Lorsque Le Chariot et La Roue de Fortune apparaissent ensemble, leurs énergies s'amplifient mutuellement. Deux forces apparemment différentes vous mènent en réalité vers la même destination. Acceptez le flux et recevez les deux messages."
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "La Force",
+      "arcana": "major",
+      "suit": null,
+      "uprightMeaning": "La carte de La Force symbolise une nouvelle phase et une croissance intérieure. Elle suggère que vous êtes prêt à avancer avec confiance. Faites confiance à votre intuition et allez de l'avant..",
+      "reversedMeaning": "La Force inversé indique une confusion intérieure ou une perte de direction. Lorsque cette carte apparaît inversée, c'est le moment de s'arrêter, de réfléchir et de réévaluer ce qui vous retient..",
+      "keywords": [
+        "courage",
+        "patience",
+        "compassion",
+        "inner-strength",
+        "résilience"
+      ],
+      "connections": [
+        {
+          "cardId": 9,
+          "narrative": "Lorsque La Force et L'Ermite apparaissent ensemble, leurs énergies s'amplifient mutuellement. Deux forces apparemment différentes vous mènent en réalité vers la même destination. Acceptez le flux et recevez les deux messages."
+        },
+        {
+          "cardId": 11,
+          "narrative": "Lorsque La Force et La Justice apparaissent ensemble, leurs énergies s'amplifient mutuellement. Deux forces apparemment différentes vous mènent en réalité vers la même destination. Acceptez le flux et recevez les deux messages."
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "L'Ermite",
+      "arcana": "major",
+      "suit": null,
+      "uprightMeaning": "La carte de L'Ermite symbolise une nouvelle phase et une croissance intérieure. Elle suggère que vous êtes prêt à avancer avec confiance. Faites confiance à votre intuition et allez de l'avant..",
+      "reversedMeaning": "L'Ermite inversé indique une confusion intérieure ou une perte de direction. Lorsque cette carte apparaît inversée, c'est le moment de s'arrêter, de réfléchir et de réévaluer ce qui vous retient..",
+      "keywords": [
+        "solitude",
+        "sagesse",
+        "introspection",
+        "guidance",
+        "réflexion"
+      ],
+      "connections": [
+        {
+          "cardId": 12,
+          "narrative": "Lorsque L'Ermite et Le Pendu apparaissent ensemble, leurs énergies s'amplifient mutuellement. Deux forces apparemment différentes vous mènent en réalité vers la même destination. Acceptez le flux et recevez les deux messages."
+        },
+        {
+          "cardId": 17,
+          "narrative": "Lorsque L'Ermite et L'Étoile apparaissent ensemble, leurs énergies s'amplifient mutuellement. Deux forces apparemment différentes vous mènent en réalité vers la même destination. Acceptez le flux et recevez les deux messages."
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "name": "La Roue de Fortune",
+      "arcana": "major",
+      "suit": null,
+      "uprightMeaning": "La carte de La Roue de Fortune symbolise une nouvelle phase et une croissance intérieure. Elle suggère que vous êtes prêt à avancer avec confiance. Faites confiance à votre intuition et allez de l'avant..",
+      "reversedMeaning": "La Roue de Fortune inversé indique une confusion intérieure ou une perte de direction. Lorsque cette carte apparaît inversée, c'est le moment de s'arrêter, de réfléchir et de réévaluer ce qui vous retient..",
+      "keywords": [
+        "changement",
+        "destin",
+        "chance",
+        "cycles",
+        "turning-point"
+      ],
+      "connections": [
+        {
+          "cardId": 13,
+          "narrative": "Lorsque La Roue de Fortune et La Mort apparaissent ensemble, leurs énergies s'amplifient mutuellement. Deux forces apparemment différentes vous mènent en réalité vers la même destination. Acceptez le flux et recevez les deux messages."
+        },
+        {
+          "cardId": 20,
+          "narrative": "Lorsque La Roue de Fortune et Le Jugement apparaissent ensemble, leurs énergies s'amplifient mutuellement. Deux forces apparemment différentes vous mènent en réalité vers la même destination. Acceptez le flux et recevez les deux messages."
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "name": "La Justice",
+      "arcana": "major",
+      "suit": null,
+      "uprightMeaning": "La carte de La Justice symbolise une nouvelle phase et une croissance intérieure. Elle suggère que vous êtes prêt à avancer avec confiance. Faites confiance à votre intuition et allez de l'avant..",
+      "reversedMeaning": "La Justice inversé indique une confusion intérieure ou une perte de direction. Lorsque cette carte apparaît inversée, c'est le moment de s'arrêter, de réfléchir et de réévaluer ce qui vous retient..",
+      "keywords": [
+        "justice",
+        "vérité",
+        "équilibre",
+        "responsabilité",
+        "équité"
+      ],
+      "connections": [
+        {
+          "cardId": 20,
+          "narrative": "Lorsque La Justice et Le Jugement apparaissent ensemble, leurs énergies s'amplifient mutuellement. Deux forces apparemment différentes vous mènent en réalité vers la même destination. Acceptez le flux et recevez les deux messages."
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "name": "Le Pendu",
+      "arcana": "major",
+      "suit": null,
+      "uprightMeaning": "La carte de Le Pendu symbolise une nouvelle phase et une croissance intérieure. Elle suggère que vous êtes prêt à avancer avec confiance. Faites confiance à votre intuition et allez de l'avant..",
+      "reversedMeaning": "Le Pendu inversé indique une confusion intérieure ou une perte de direction. Lorsque cette carte apparaît inversée, c'est le moment de s'arrêter, de réfléchir et de réévaluer ce qui vous retient..",
+      "keywords": [
+        "abandon",
+        "perspective",
+        "pause",
+        "sacrifice",
+        "libération"
+      ],
+      "connections": [
+        {
+          "cardId": 13,
+          "narrative": "Lorsque Le Pendu et La Mort apparaissent ensemble, leurs énergies s'amplifient mutuellement. Deux forces apparemment différentes vous mènent en réalité vers la même destination. Acceptez le flux et recevez les deux messages."
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "name": "La Mort",
+      "arcana": "major",
+      "suit": null,
+      "uprightMeaning": "La carte de La Mort symbolise une nouvelle phase et une croissance intérieure. Elle suggère que vous êtes prêt à avancer avec confiance. Faites confiance à votre intuition et allez de l'avant..",
+      "reversedMeaning": "La Mort inversé indique une confusion intérieure ou une perte de direction. Lorsque cette carte apparaît inversée, c'est le moment de s'arrêter, de réfléchir et de réévaluer ce qui vous retient..",
+      "keywords": [
+        "transformation",
+        "fin",
+        "renaissance",
+        "changement",
+        "libération"
+      ],
+      "connections": [
+        {
+          "cardId": 14,
+          "narrative": "Lorsque La Mort et Tempérance apparaissent ensemble, leurs énergies s'amplifient mutuellement. Deux forces apparemment différentes vous mènent en réalité vers la même destination. Acceptez le flux et recevez les deux messages."
+        },
+        {
+          "cardId": 17,
+          "narrative": "Lorsque La Mort et L'Étoile apparaissent ensemble, leurs énergies s'amplifient mutuellement. Deux forces apparemment différentes vous mènent en réalité vers la même destination. Acceptez le flux et recevez les deux messages."
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "name": "Tempérance",
+      "arcana": "major",
+      "suit": null,
+      "uprightMeaning": "La carte de Tempérance symbolise une nouvelle phase et une croissance intérieure. Elle suggère que vous êtes prêt à avancer avec confiance. Faites confiance à votre intuition et allez de l'avant..",
+      "reversedMeaning": "Tempérance inversé indique une confusion intérieure ou une perte de direction. Lorsque cette carte apparaît inversée, c'est le moment de s'arrêter, de réfléchir et de réévaluer ce qui vous retient..",
+      "keywords": [
+        "équilibre",
+        "patience",
+        "modération",
+        "harmonie",
+        "guérison"
+      ],
+      "connections": [
+        {
+          "cardId": 15,
+          "narrative": "Lorsque Tempérance et Le Diable apparaissent ensemble, leurs énergies s'amplifient mutuellement. Deux forces apparemment différentes vous mènent en réalité vers la même destination. Acceptez le flux et recevez les deux messages."
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "name": "Le Diable",
+      "arcana": "major",
+      "suit": null,
+      "uprightMeaning": "La carte de Le Diable symbolise une nouvelle phase et une croissance intérieure. Elle suggère que vous êtes prêt à avancer avec confiance. Faites confiance à votre intuition et allez de l'avant..",
+      "reversedMeaning": "Le Diable inversé indique une confusion intérieure ou une perte de direction. Lorsque cette carte apparaît inversée, c'est le moment de s'arrêter, de réfléchir et de réévaluer ce qui vous retient..",
+      "keywords": [
+        "asservissement",
+        "tentation",
+        "ombre",
+        "matérialisme",
+        "addiction"
+      ],
+      "connections": [
+        {
+          "cardId": 16,
+          "narrative": "Lorsque Le Diable et La Tour apparaissent ensemble, leurs énergies s'amplifient mutuellement. Deux forces apparemment différentes vous mènent en réalité vers la même destination. Acceptez le flux et recevez les deux messages."
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "name": "La Tour",
+      "arcana": "major",
+      "suit": null,
+      "uprightMeaning": "La carte de La Tour symbolise une nouvelle phase et une croissance intérieure. Elle suggère que vous êtes prêt à avancer avec confiance. Faites confiance à votre intuition et allez de l'avant..",
+      "reversedMeaning": "La Tour inversé indique une confusion intérieure ou une perte de direction. Lorsque cette carte apparaît inversée, c'est le moment de s'arrêter, de réfléchir et de réévaluer ce qui vous retient..",
+      "keywords": [
+        "bouleversement",
+        "révélation",
+        "effondrement",
+        "éveil",
+        "vérité"
+      ],
+      "connections": [
+        {
+          "cardId": 17,
+          "narrative": "Lorsque La Tour et L'Étoile apparaissent ensemble, leurs énergies s'amplifient mutuellement. Deux forces apparemment différentes vous mènent en réalité vers la même destination. Acceptez le flux et recevez les deux messages."
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "name": "L'Étoile",
+      "arcana": "major",
+      "suit": null,
+      "uprightMeaning": "La carte de L'Étoile symbolise une nouvelle phase et une croissance intérieure. Elle suggère que vous êtes prêt à avancer avec confiance. Faites confiance à votre intuition et allez de l'avant..",
+      "reversedMeaning": "L'Étoile inversé indique une confusion intérieure ou une perte de direction. Lorsque cette carte apparaît inversée, c'est le moment de s'arrêter, de réfléchir et de réévaluer ce qui vous retient..",
+      "keywords": [
+        "espoir",
+        "guérison",
+        "inspiration",
+        "peace",
+        "renouveau"
+      ],
+      "connections": [
+        {
+          "cardId": 18,
+          "narrative": "Lorsque L'Étoile et La Lune apparaissent ensemble, leurs énergies s'amplifient mutuellement. Deux forces apparemment différentes vous mènent en réalité vers la même destination. Acceptez le flux et recevez les deux messages."
+        },
+        {
+          "cardId": 19,
+          "narrative": "Lorsque L'Étoile et Le Soleil apparaissent ensemble, leurs énergies s'amplifient mutuellement. Deux forces apparemment différentes vous mènent en réalité vers la même destination. Acceptez le flux et recevez les deux messages."
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "name": "La Lune",
+      "arcana": "major",
+      "suit": null,
+      "uprightMeaning": "La carte de La Lune symbolise une nouvelle phase et une croissance intérieure. Elle suggère que vous êtes prêt à avancer avec confiance. Faites confiance à votre intuition et allez de l'avant..",
+      "reversedMeaning": "La Lune inversé indique une confusion intérieure ou une perte de direction. Lorsque cette carte apparaît inversée, c'est le moment de s'arrêter, de réfléchir et de réévaluer ce qui vous retient..",
+      "keywords": [
+        "illusion",
+        "intuition",
+        "peur",
+        "subconscient",
+        "mystère"
+      ],
+      "connections": [
+        {
+          "cardId": 19,
+          "narrative": "Lorsque La Lune et Le Soleil apparaissent ensemble, leurs énergies s'amplifient mutuellement. Deux forces apparemment différentes vous mènent en réalité vers la même destination. Acceptez le flux et recevez les deux messages."
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "name": "Le Soleil",
+      "arcana": "major",
+      "suit": null,
+      "uprightMeaning": "La carte de Le Soleil symbolise une nouvelle phase et une croissance intérieure. Elle suggère que vous êtes prêt à avancer avec confiance. Faites confiance à votre intuition et allez de l'avant..",
+      "reversedMeaning": "Le Soleil inversé indique une confusion intérieure ou une perte de direction. Lorsque cette carte apparaît inversée, c'est le moment de s'arrêter, de réfléchir et de réévaluer ce qui vous retient..",
+      "keywords": [
+        "joie",
+        "succès",
+        "vitalité",
+        "clarté",
+        "positivity"
+      ],
+      "connections": [
+        {
+          "cardId": 21,
+          "narrative": "Lorsque Le Soleil et Le Monde apparaissent ensemble, leurs énergies s'amplifient mutuellement. Deux forces apparemment différentes vous mènent en réalité vers la même destination. Acceptez le flux et recevez les deux messages."
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "name": "Le Jugement",
+      "arcana": "major",
+      "suit": null,
+      "uprightMeaning": "La carte de Le Jugement symbolise une nouvelle phase et une croissance intérieure. Elle suggère que vous êtes prêt à avancer avec confiance. Faites confiance à votre intuition et allez de l'avant..",
+      "reversedMeaning": "Le Jugement inversé indique une confusion intérieure ou une perte de direction. Lorsque cette carte apparaît inversée, c'est le moment de s'arrêter, de réfléchir et de réévaluer ce qui vous retient..",
+      "keywords": [
+        "éveil",
+        "appel",
+        "renaissance",
+        "forgiveness",
+        "purpose"
+      ],
+      "connections": [
+        {
+          "cardId": 21,
+          "narrative": "Lorsque Le Jugement et Le Monde apparaissent ensemble, leurs énergies s'amplifient mutuellement. Deux forces apparemment différentes vous mènent en réalité vers la même destination. Acceptez le flux et recevez les deux messages."
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "name": "Le Monde",
+      "arcana": "major",
+      "suit": null,
+      "uprightMeaning": "La carte de Le Monde symbolise une nouvelle phase et une croissance intérieure. Elle suggère que vous êtes prêt à avancer avec confiance. Faites confiance à votre intuition et allez de l'avant..",
+      "reversedMeaning": "Le Monde inversé indique une confusion intérieure ou une perte de direction. Lorsque cette carte apparaît inversée, c'est le moment de s'arrêter, de réfléchir et de réévaluer ce qui vous retient..",
+      "keywords": [
+        "achèvement",
+        "accomplissement",
+        "intégrité",
+        "réussite",
+        "intégration"
+      ],
+      "connections": []
+    },
+    {
+      "id": 22,
+      "name": "As de Bâton",
+      "arcana": "minor",
+      "suit": "cups",
+      "uprightMeaning": "As de Bâton indique un mouvement positif et des opportunités dans votre vie quotidienne. Prêtez attention aux détails et prenez des mesures concrètes pour vous rapprocher du résultat souhaité..",
+      "reversedMeaning": "As de Bâton inversé suggère de petits obstacles ou des retards. Révisez vos plans et abordez-les avec patience pour surmonter cette perturbation temporaire..",
+      "keywords": [
+        "ace",
+        "cups",
+        "emotions",
+        "relationships",
+        "heart",
+        "intuition"
+      ],
+      "connections": []
+    },
+    {
+      "id": 23,
+      "name": "Deux de Bâtons",
+      "arcana": "minor",
+      "suit": "cups",
+      "uprightMeaning": "Deux de Bâtons indique un mouvement positif et des opportunités dans votre vie quotidienne. Prêtez attention aux détails et prenez des mesures concrètes pour vous rapprocher du résultat souhaité..",
+      "reversedMeaning": "Deux de Bâtons inversé suggère de petits obstacles ou des retards. Révisez vos plans et abordez-les avec patience pour surmonter cette perturbation temporaire..",
+      "keywords": [
+        "two",
+        "cups",
+        "emotions",
+        "relationships",
+        "heart",
+        "intuition"
+      ],
+      "connections": []
+    },
+    {
+      "id": 24,
+      "name": "Trois de Bâtons",
+      "arcana": "minor",
+      "suit": "cups",
+      "uprightMeaning": "Trois de Bâtons indique un mouvement positif et des opportunités dans votre vie quotidienne. Prêtez attention aux détails et prenez des mesures concrètes pour vous rapprocher du résultat souhaité..",
+      "reversedMeaning": "Trois de Bâtons inversé suggère de petits obstacles ou des retards. Révisez vos plans et abordez-les avec patience pour surmonter cette perturbation temporaire..",
+      "keywords": [
+        "three",
+        "cups",
+        "emotions",
+        "relationships",
+        "heart",
+        "intuition"
+      ],
+      "connections": []
+    },
+    {
+      "id": 25,
+      "name": "Quatre de Bâtons",
+      "arcana": "minor",
+      "suit": "cups",
+      "uprightMeaning": "Quatre de Bâtons indique un mouvement positif et des opportunités dans votre vie quotidienne. Prêtez attention aux détails et prenez des mesures concrètes pour vous rapprocher du résultat souhaité..",
+      "reversedMeaning": "Quatre de Bâtons inversé suggère de petits obstacles ou des retards. Révisez vos plans et abordez-les avec patience pour surmonter cette perturbation temporaire..",
+      "keywords": [
+        "four",
+        "cups",
+        "emotions",
+        "relationships",
+        "heart",
+        "intuition"
+      ],
+      "connections": []
+    },
+    {
+      "id": 26,
+      "name": "Cinq de Bâtons",
+      "arcana": "minor",
+      "suit": "cups",
+      "uprightMeaning": "Cinq de Bâtons indique un mouvement positif et des opportunités dans votre vie quotidienne. Prêtez attention aux détails et prenez des mesures concrètes pour vous rapprocher du résultat souhaité..",
+      "reversedMeaning": "Cinq de Bâtons inversé suggère de petits obstacles ou des retards. Révisez vos plans et abordez-les avec patience pour surmonter cette perturbation temporaire..",
+      "keywords": [
+        "five",
+        "cups",
+        "emotions",
+        "relationships",
+        "heart",
+        "intuition"
+      ],
+      "connections": []
+    },
+    {
+      "id": 27,
+      "name": "Six de Bâtons",
+      "arcana": "minor",
+      "suit": "cups",
+      "uprightMeaning": "Six de Bâtons indique un mouvement positif et des opportunités dans votre vie quotidienne. Prêtez attention aux détails et prenez des mesures concrètes pour vous rapprocher du résultat souhaité..",
+      "reversedMeaning": "Six de Bâtons inversé suggère de petits obstacles ou des retards. Révisez vos plans et abordez-les avec patience pour surmonter cette perturbation temporaire..",
+      "keywords": [
+        "six",
+        "cups",
+        "emotions",
+        "relationships",
+        "heart",
+        "intuition"
+      ],
+      "connections": []
+    },
+    {
+      "id": 28,
+      "name": "Sept de Bâtons",
+      "arcana": "minor",
+      "suit": "cups",
+      "uprightMeaning": "Sept de Bâtons indique un mouvement positif et des opportunités dans votre vie quotidienne. Prêtez attention aux détails et prenez des mesures concrètes pour vous rapprocher du résultat souhaité..",
+      "reversedMeaning": "Sept de Bâtons inversé suggère de petits obstacles ou des retards. Révisez vos plans et abordez-les avec patience pour surmonter cette perturbation temporaire..",
+      "keywords": [
+        "seven",
+        "cups",
+        "emotions",
+        "relationships",
+        "heart",
+        "intuition"
+      ],
+      "connections": []
+    },
+    {
+      "id": 29,
+      "name": "Huit de Bâtons",
+      "arcana": "minor",
+      "suit": "cups",
+      "uprightMeaning": "Huit de Bâtons indique un mouvement positif et des opportunités dans votre vie quotidienne. Prêtez attention aux détails et prenez des mesures concrètes pour vous rapprocher du résultat souhaité..",
+      "reversedMeaning": "Huit de Bâtons inversé suggère de petits obstacles ou des retards. Révisez vos plans et abordez-les avec patience pour surmonter cette perturbation temporaire..",
+      "keywords": [
+        "eight",
+        "cups",
+        "emotions",
+        "relationships",
+        "heart",
+        "intuition"
+      ],
+      "connections": []
+    },
+    {
+      "id": 30,
+      "name": "Neuf de Bâtons",
+      "arcana": "minor",
+      "suit": "cups",
+      "uprightMeaning": "Neuf de Bâtons indique un mouvement positif et des opportunités dans votre vie quotidienne. Prêtez attention aux détails et prenez des mesures concrètes pour vous rapprocher du résultat souhaité..",
+      "reversedMeaning": "Neuf de Bâtons inversé suggère de petits obstacles ou des retards. Révisez vos plans et abordez-les avec patience pour surmonter cette perturbation temporaire..",
+      "keywords": [
+        "nine",
+        "cups",
+        "emotions",
+        "relationships",
+        "heart",
+        "intuition"
+      ],
+      "connections": []
+    },
+    {
+      "id": 31,
+      "name": "Dix de Bâtons",
+      "arcana": "minor",
+      "suit": "cups",
+      "uprightMeaning": "Dix de Bâtons indique un mouvement positif et des opportunités dans votre vie quotidienne. Prêtez attention aux détails et prenez des mesures concrètes pour vous rapprocher du résultat souhaité..",
+      "reversedMeaning": "Dix de Bâtons inversé suggère de petits obstacles ou des retards. Révisez vos plans et abordez-les avec patience pour surmonter cette perturbation temporaire..",
+      "keywords": [
+        "ten",
+        "cups",
+        "emotions",
+        "relationships",
+        "heart",
+        "intuition"
+      ],
+      "connections": []
+    },
+    {
+      "id": 32,
+      "name": "Page de Bâtons",
+      "arcana": "minor",
+      "suit": "cups",
+      "uprightMeaning": "Page de Bâtons indique un mouvement positif et des opportunités dans votre vie quotidienne. Prêtez attention aux détails et prenez des mesures concrètes pour vous rapprocher du résultat souhaité..",
+      "reversedMeaning": "Page de Bâtons inversé suggère de petits obstacles ou des retards. Révisez vos plans et abordez-les avec patience pour surmonter cette perturbation temporaire..",
+      "keywords": [
+        "page",
+        "cups",
+        "emotions",
+        "relationships",
+        "heart",
+        "intuition"
+      ],
+      "connections": []
+    },
+    {
+      "id": 33,
+      "name": "Chevalier de Bâtons",
+      "arcana": "minor",
+      "suit": "cups",
+      "uprightMeaning": "Chevalier de Bâtons indique un mouvement positif et des opportunités dans votre vie quotidienne. Prêtez attention aux détails et prenez des mesures concrètes pour vous rapprocher du résultat souhaité..",
+      "reversedMeaning": "Chevalier de Bâtons inversé suggère de petits obstacles ou des retards. Révisez vos plans et abordez-les avec patience pour surmonter cette perturbation temporaire..",
+      "keywords": [
+        "knight",
+        "cups",
+        "emotions",
+        "relationships",
+        "heart",
+        "intuition"
+      ],
+      "connections": []
+    },
+    {
+      "id": 34,
+      "name": "Reine de Bâtons",
+      "arcana": "minor",
+      "suit": "cups",
+      "uprightMeaning": "Reine de Bâtons indique un mouvement positif et des opportunités dans votre vie quotidienne. Prêtez attention aux détails et prenez des mesures concrètes pour vous rapprocher du résultat souhaité..",
+      "reversedMeaning": "Reine de Bâtons inversé suggère de petits obstacles ou des retards. Révisez vos plans et abordez-les avec patience pour surmonter cette perturbation temporaire..",
+      "keywords": [
+        "queen",
+        "cups",
+        "emotions",
+        "relationships",
+        "heart",
+        "intuition"
+      ],
+      "connections": []
+    },
+    {
+      "id": 35,
+      "name": "Roi de Bâtons",
+      "arcana": "minor",
+      "suit": "cups",
+      "uprightMeaning": "Roi de Bâtons indique un mouvement positif et des opportunités dans votre vie quotidienne. Prêtez attention aux détails et prenez des mesures concrètes pour vous rapprocher du résultat souhaité..",
+      "reversedMeaning": "Roi de Bâtons inversé suggère de petits obstacles ou des retards. Révisez vos plans et abordez-les avec patience pour surmonter cette perturbation temporaire..",
+      "keywords": [
+        "king",
+        "cups",
+        "emotions",
+        "relationships",
+        "heart",
+        "intuition"
+      ],
+      "connections": []
+    },
+    {
+      "id": 36,
+      "name": "As de Coupe",
+      "arcana": "minor",
+      "suit": "wands",
+      "uprightMeaning": "As de Coupe indique un mouvement positif et des opportunités dans votre vie quotidienne. Prêtez attention aux détails et prenez des mesures concrètes pour vous rapprocher du résultat souhaité..",
+      "reversedMeaning": "As de Coupe inversé suggère de petits obstacles ou des retards. Révisez vos plans et abordez-les avec patience pour surmonter cette perturbation temporaire..",
+      "keywords": [
+        "ace",
+        "wands",
+        "passion",
+        "action",
+        "créativité",
+        "ambition"
+      ],
+      "connections": []
+    },
+    {
+      "id": 37,
+      "name": "Deux de Coupes",
+      "arcana": "minor",
+      "suit": "wands",
+      "uprightMeaning": "Deux de Coupes indique un mouvement positif et des opportunités dans votre vie quotidienne. Prêtez attention aux détails et prenez des mesures concrètes pour vous rapprocher du résultat souhaité..",
+      "reversedMeaning": "Deux de Coupes inversé suggère de petits obstacles ou des retards. Révisez vos plans et abordez-les avec patience pour surmonter cette perturbation temporaire..",
+      "keywords": [
+        "two",
+        "wands",
+        "passion",
+        "action",
+        "créativité",
+        "ambition"
+      ],
+      "connections": []
+    },
+    {
+      "id": 38,
+      "name": "Trois de Coupes",
+      "arcana": "minor",
+      "suit": "wands",
+      "uprightMeaning": "Trois de Coupes indique un mouvement positif et des opportunités dans votre vie quotidienne. Prêtez attention aux détails et prenez des mesures concrètes pour vous rapprocher du résultat souhaité..",
+      "reversedMeaning": "Trois de Coupes inversé suggère de petits obstacles ou des retards. Révisez vos plans et abordez-les avec patience pour surmonter cette perturbation temporaire..",
+      "keywords": [
+        "three",
+        "wands",
+        "passion",
+        "action",
+        "créativité",
+        "ambition"
+      ],
+      "connections": []
+    },
+    {
+      "id": 39,
+      "name": "Quatre de Coupes",
+      "arcana": "minor",
+      "suit": "wands",
+      "uprightMeaning": "Quatre de Coupes indique un mouvement positif et des opportunités dans votre vie quotidienne. Prêtez attention aux détails et prenez des mesures concrètes pour vous rapprocher du résultat souhaité..",
+      "reversedMeaning": "Quatre de Coupes inversé suggère de petits obstacles ou des retards. Révisez vos plans et abordez-les avec patience pour surmonter cette perturbation temporaire..",
+      "keywords": [
+        "four",
+        "wands",
+        "passion",
+        "action",
+        "créativité",
+        "ambition"
+      ],
+      "connections": []
+    },
+    {
+      "id": 40,
+      "name": "Cinq de Coupes",
+      "arcana": "minor",
+      "suit": "wands",
+      "uprightMeaning": "Cinq de Coupes indique un mouvement positif et des opportunités dans votre vie quotidienne. Prêtez attention aux détails et prenez des mesures concrètes pour vous rapprocher du résultat souhaité..",
+      "reversedMeaning": "Cinq de Coupes inversé suggère de petits obstacles ou des retards. Révisez vos plans et abordez-les avec patience pour surmonter cette perturbation temporaire..",
+      "keywords": [
+        "five",
+        "wands",
+        "passion",
+        "action",
+        "créativité",
+        "ambition"
+      ],
+      "connections": []
+    },
+    {
+      "id": 41,
+      "name": "Six de Coupes",
+      "arcana": "minor",
+      "suit": "wands",
+      "uprightMeaning": "Six de Coupes indique un mouvement positif et des opportunités dans votre vie quotidienne. Prêtez attention aux détails et prenez des mesures concrètes pour vous rapprocher du résultat souhaité..",
+      "reversedMeaning": "Six de Coupes inversé suggère de petits obstacles ou des retards. Révisez vos plans et abordez-les avec patience pour surmonter cette perturbation temporaire..",
+      "keywords": [
+        "six",
+        "wands",
+        "passion",
+        "action",
+        "créativité",
+        "ambition"
+      ],
+      "connections": []
+    },
+    {
+      "id": 42,
+      "name": "Sept de Coupes",
+      "arcana": "minor",
+      "suit": "wands",
+      "uprightMeaning": "Sept de Coupes indique un mouvement positif et des opportunités dans votre vie quotidienne. Prêtez attention aux détails et prenez des mesures concrètes pour vous rapprocher du résultat souhaité..",
+      "reversedMeaning": "Sept de Coupes inversé suggère de petits obstacles ou des retards. Révisez vos plans et abordez-les avec patience pour surmonter cette perturbation temporaire..",
+      "keywords": [
+        "seven",
+        "wands",
+        "passion",
+        "action",
+        "créativité",
+        "ambition"
+      ],
+      "connections": []
+    },
+    {
+      "id": 43,
+      "name": "Huit de Coupes",
+      "arcana": "minor",
+      "suit": "wands",
+      "uprightMeaning": "Huit de Coupes indique un mouvement positif et des opportunités dans votre vie quotidienne. Prêtez attention aux détails et prenez des mesures concrètes pour vous rapprocher du résultat souhaité..",
+      "reversedMeaning": "Huit de Coupes inversé suggère de petits obstacles ou des retards. Révisez vos plans et abordez-les avec patience pour surmonter cette perturbation temporaire..",
+      "keywords": [
+        "eight",
+        "wands",
+        "passion",
+        "action",
+        "créativité",
+        "ambition"
+      ],
+      "connections": []
+    },
+    {
+      "id": 44,
+      "name": "Neuf de Coupes",
+      "arcana": "minor",
+      "suit": "wands",
+      "uprightMeaning": "Neuf de Coupes indique un mouvement positif et des opportunités dans votre vie quotidienne. Prêtez attention aux détails et prenez des mesures concrètes pour vous rapprocher du résultat souhaité..",
+      "reversedMeaning": "Neuf de Coupes inversé suggère de petits obstacles ou des retards. Révisez vos plans et abordez-les avec patience pour surmonter cette perturbation temporaire..",
+      "keywords": [
+        "nine",
+        "wands",
+        "passion",
+        "action",
+        "créativité",
+        "ambition"
+      ],
+      "connections": []
+    },
+    {
+      "id": 45,
+      "name": "Dix de Coupes",
+      "arcana": "minor",
+      "suit": "wands",
+      "uprightMeaning": "Dix de Coupes indique un mouvement positif et des opportunités dans votre vie quotidienne. Prêtez attention aux détails et prenez des mesures concrètes pour vous rapprocher du résultat souhaité..",
+      "reversedMeaning": "Dix de Coupes inversé suggère de petits obstacles ou des retards. Révisez vos plans et abordez-les avec patience pour surmonter cette perturbation temporaire..",
+      "keywords": [
+        "ten",
+        "wands",
+        "passion",
+        "action",
+        "créativité",
+        "ambition"
+      ],
+      "connections": []
+    },
+    {
+      "id": 46,
+      "name": "Page de Coupes",
+      "arcana": "minor",
+      "suit": "wands",
+      "uprightMeaning": "Page de Coupes indique un mouvement positif et des opportunités dans votre vie quotidienne. Prêtez attention aux détails et prenez des mesures concrètes pour vous rapprocher du résultat souhaité..",
+      "reversedMeaning": "Page de Coupes inversé suggère de petits obstacles ou des retards. Révisez vos plans et abordez-les avec patience pour surmonter cette perturbation temporaire..",
+      "keywords": [
+        "page",
+        "wands",
+        "passion",
+        "action",
+        "créativité",
+        "ambition"
+      ],
+      "connections": []
+    },
+    {
+      "id": 47,
+      "name": "Chevalier de Coupes",
+      "arcana": "minor",
+      "suit": "wands",
+      "uprightMeaning": "Chevalier de Coupes indique un mouvement positif et des opportunités dans votre vie quotidienne. Prêtez attention aux détails et prenez des mesures concrètes pour vous rapprocher du résultat souhaité..",
+      "reversedMeaning": "Chevalier de Coupes inversé suggère de petits obstacles ou des retards. Révisez vos plans et abordez-les avec patience pour surmonter cette perturbation temporaire..",
+      "keywords": [
+        "knight",
+        "wands",
+        "passion",
+        "action",
+        "créativité",
+        "ambition"
+      ],
+      "connections": []
+    },
+    {
+      "id": 48,
+      "name": "Reine de Coupes",
+      "arcana": "minor",
+      "suit": "wands",
+      "uprightMeaning": "Reine de Coupes indique un mouvement positif et des opportunités dans votre vie quotidienne. Prêtez attention aux détails et prenez des mesures concrètes pour vous rapprocher du résultat souhaité..",
+      "reversedMeaning": "Reine de Coupes inversé suggère de petits obstacles ou des retards. Révisez vos plans et abordez-les avec patience pour surmonter cette perturbation temporaire..",
+      "keywords": [
+        "queen",
+        "wands",
+        "passion",
+        "action",
+        "créativité",
+        "ambition"
+      ],
+      "connections": []
+    },
+    {
+      "id": 49,
+      "name": "Roi de Coupes",
+      "arcana": "minor",
+      "suit": "wands",
+      "uprightMeaning": "Roi de Coupes indique un mouvement positif et des opportunités dans votre vie quotidienne. Prêtez attention aux détails et prenez des mesures concrètes pour vous rapprocher du résultat souhaité..",
+      "reversedMeaning": "Roi de Coupes inversé suggère de petits obstacles ou des retards. Révisez vos plans et abordez-les avec patience pour surmonter cette perturbation temporaire..",
+      "keywords": [
+        "king",
+        "wands",
+        "passion",
+        "action",
+        "créativité",
+        "ambition"
+      ],
+      "connections": []
+    },
+    {
+      "id": 50,
+      "name": "As de Épée",
+      "arcana": "minor",
+      "suit": "swords",
+      "uprightMeaning": "As de Épée indique un mouvement positif et des opportunités dans votre vie quotidienne. Prêtez attention aux détails et prenez des mesures concrètes pour vous rapprocher du résultat souhaité..",
+      "reversedMeaning": "As de Épée inversé suggère de petits obstacles ou des retards. Révisez vos plans et abordez-les avec patience pour surmonter cette perturbation temporaire..",
+      "keywords": [
+        "ace",
+        "swords",
+        "intellect",
+        "vérité",
+        "clarté",
+        "conflict"
+      ],
+      "connections": []
+    },
+    {
+      "id": 51,
+      "name": "Deux de Épées",
+      "arcana": "minor",
+      "suit": "swords",
+      "uprightMeaning": "Deux de Épées indique un mouvement positif et des opportunités dans votre vie quotidienne. Prêtez attention aux détails et prenez des mesures concrètes pour vous rapprocher du résultat souhaité..",
+      "reversedMeaning": "Deux de Épées inversé suggère de petits obstacles ou des retards. Révisez vos plans et abordez-les avec patience pour surmonter cette perturbation temporaire..",
+      "keywords": [
+        "two",
+        "swords",
+        "intellect",
+        "vérité",
+        "clarté",
+        "conflict"
+      ],
+      "connections": []
+    },
+    {
+      "id": 52,
+      "name": "Trois de Épées",
+      "arcana": "minor",
+      "suit": "swords",
+      "uprightMeaning": "Trois de Épées indique un mouvement positif et des opportunités dans votre vie quotidienne. Prêtez attention aux détails et prenez des mesures concrètes pour vous rapprocher du résultat souhaité..",
+      "reversedMeaning": "Trois de Épées inversé suggère de petits obstacles ou des retards. Révisez vos plans et abordez-les avec patience pour surmonter cette perturbation temporaire..",
+      "keywords": [
+        "three",
+        "swords",
+        "intellect",
+        "vérité",
+        "clarté",
+        "conflict"
+      ],
+      "connections": []
+    },
+    {
+      "id": 53,
+      "name": "Quatre de Épées",
+      "arcana": "minor",
+      "suit": "swords",
+      "uprightMeaning": "Quatre de Épées indique un mouvement positif et des opportunités dans votre vie quotidienne. Prêtez attention aux détails et prenez des mesures concrètes pour vous rapprocher du résultat souhaité..",
+      "reversedMeaning": "Quatre de Épées inversé suggère de petits obstacles ou des retards. Révisez vos plans et abordez-les avec patience pour surmonter cette perturbation temporaire..",
+      "keywords": [
+        "four",
+        "swords",
+        "intellect",
+        "vérité",
+        "clarté",
+        "conflict"
+      ],
+      "connections": []
+    },
+    {
+      "id": 54,
+      "name": "Cinq de Épées",
+      "arcana": "minor",
+      "suit": "swords",
+      "uprightMeaning": "Cinq de Épées indique un mouvement positif et des opportunités dans votre vie quotidienne. Prêtez attention aux détails et prenez des mesures concrètes pour vous rapprocher du résultat souhaité..",
+      "reversedMeaning": "Cinq de Épées inversé suggère de petits obstacles ou des retards. Révisez vos plans et abordez-les avec patience pour surmonter cette perturbation temporaire..",
+      "keywords": [
+        "five",
+        "swords",
+        "intellect",
+        "vérité",
+        "clarté",
+        "conflict"
+      ],
+      "connections": []
+    },
+    {
+      "id": 55,
+      "name": "Six de Épées",
+      "arcana": "minor",
+      "suit": "swords",
+      "uprightMeaning": "Six de Épées indique un mouvement positif et des opportunités dans votre vie quotidienne. Prêtez attention aux détails et prenez des mesures concrètes pour vous rapprocher du résultat souhaité..",
+      "reversedMeaning": "Six de Épées inversé suggère de petits obstacles ou des retards. Révisez vos plans et abordez-les avec patience pour surmonter cette perturbation temporaire..",
+      "keywords": [
+        "six",
+        "swords",
+        "intellect",
+        "vérité",
+        "clarté",
+        "conflict"
+      ],
+      "connections": []
+    },
+    {
+      "id": 56,
+      "name": "Sept de Épées",
+      "arcana": "minor",
+      "suit": "swords",
+      "uprightMeaning": "Sept de Épées indique un mouvement positif et des opportunités dans votre vie quotidienne. Prêtez attention aux détails et prenez des mesures concrètes pour vous rapprocher du résultat souhaité..",
+      "reversedMeaning": "Sept de Épées inversé suggère de petits obstacles ou des retards. Révisez vos plans et abordez-les avec patience pour surmonter cette perturbation temporaire..",
+      "keywords": [
+        "seven",
+        "swords",
+        "intellect",
+        "vérité",
+        "clarté",
+        "conflict"
+      ],
+      "connections": []
+    },
+    {
+      "id": 57,
+      "name": "Huit de Épées",
+      "arcana": "minor",
+      "suit": "swords",
+      "uprightMeaning": "Huit de Épées indique un mouvement positif et des opportunités dans votre vie quotidienne. Prêtez attention aux détails et prenez des mesures concrètes pour vous rapprocher du résultat souhaité..",
+      "reversedMeaning": "Huit de Épées inversé suggère de petits obstacles ou des retards. Révisez vos plans et abordez-les avec patience pour surmonter cette perturbation temporaire..",
+      "keywords": [
+        "eight",
+        "swords",
+        "intellect",
+        "vérité",
+        "clarté",
+        "conflict"
+      ],
+      "connections": []
+    },
+    {
+      "id": 58,
+      "name": "Neuf de Épées",
+      "arcana": "minor",
+      "suit": "swords",
+      "uprightMeaning": "Neuf de Épées indique un mouvement positif et des opportunités dans votre vie quotidienne. Prêtez attention aux détails et prenez des mesures concrètes pour vous rapprocher du résultat souhaité..",
+      "reversedMeaning": "Neuf de Épées inversé suggère de petits obstacles ou des retards. Révisez vos plans et abordez-les avec patience pour surmonter cette perturbation temporaire..",
+      "keywords": [
+        "nine",
+        "swords",
+        "intellect",
+        "vérité",
+        "clarté",
+        "conflict"
+      ],
+      "connections": []
+    },
+    {
+      "id": 59,
+      "name": "Dix de Épées",
+      "arcana": "minor",
+      "suit": "swords",
+      "uprightMeaning": "Dix de Épées indique un mouvement positif et des opportunités dans votre vie quotidienne. Prêtez attention aux détails et prenez des mesures concrètes pour vous rapprocher du résultat souhaité..",
+      "reversedMeaning": "Dix de Épées inversé suggère de petits obstacles ou des retards. Révisez vos plans et abordez-les avec patience pour surmonter cette perturbation temporaire..",
+      "keywords": [
+        "ten",
+        "swords",
+        "intellect",
+        "vérité",
+        "clarté",
+        "conflict"
+      ],
+      "connections": []
+    },
+    {
+      "id": 60,
+      "name": "Page de Épées",
+      "arcana": "minor",
+      "suit": "swords",
+      "uprightMeaning": "Page de Épées indique un mouvement positif et des opportunités dans votre vie quotidienne. Prêtez attention aux détails et prenez des mesures concrètes pour vous rapprocher du résultat souhaité..",
+      "reversedMeaning": "Page de Épées inversé suggère de petits obstacles ou des retards. Révisez vos plans et abordez-les avec patience pour surmonter cette perturbation temporaire..",
+      "keywords": [
+        "page",
+        "swords",
+        "intellect",
+        "vérité",
+        "clarté",
+        "conflict"
+      ],
+      "connections": []
+    },
+    {
+      "id": 61,
+      "name": "Chevalier de Épées",
+      "arcana": "minor",
+      "suit": "swords",
+      "uprightMeaning": "Chevalier de Épées indique un mouvement positif et des opportunités dans votre vie quotidienne. Prêtez attention aux détails et prenez des mesures concrètes pour vous rapprocher du résultat souhaité..",
+      "reversedMeaning": "Chevalier de Épées inversé suggère de petits obstacles ou des retards. Révisez vos plans et abordez-les avec patience pour surmonter cette perturbation temporaire..",
+      "keywords": [
+        "knight",
+        "swords",
+        "intellect",
+        "vérité",
+        "clarté",
+        "conflict"
+      ],
+      "connections": []
+    },
+    {
+      "id": 62,
+      "name": "Reine de Épées",
+      "arcana": "minor",
+      "suit": "swords",
+      "uprightMeaning": "Reine de Épées indique un mouvement positif et des opportunités dans votre vie quotidienne. Prêtez attention aux détails et prenez des mesures concrètes pour vous rapprocher du résultat souhaité..",
+      "reversedMeaning": "Reine de Épées inversé suggère de petits obstacles ou des retards. Révisez vos plans et abordez-les avec patience pour surmonter cette perturbation temporaire..",
+      "keywords": [
+        "queen",
+        "swords",
+        "intellect",
+        "vérité",
+        "clarté",
+        "conflict"
+      ],
+      "connections": []
+    },
+    {
+      "id": 63,
+      "name": "Roi de Épées",
+      "arcana": "minor",
+      "suit": "swords",
+      "uprightMeaning": "Roi de Épées indique un mouvement positif et des opportunités dans votre vie quotidienne. Prêtez attention aux détails et prenez des mesures concrètes pour vous rapprocher du résultat souhaité..",
+      "reversedMeaning": "Roi de Épées inversé suggère de petits obstacles ou des retards. Révisez vos plans et abordez-les avec patience pour surmonter cette perturbation temporaire..",
+      "keywords": [
+        "king",
+        "swords",
+        "intellect",
+        "vérité",
+        "clarté",
+        "conflict"
+      ],
+      "connections": []
+    },
+    {
+      "id": 64,
+      "name": "As de Denier",
+      "arcana": "minor",
+      "suit": "pentacles",
+      "uprightMeaning": "As de Denier indique un mouvement positif et des opportunités dans votre vie quotidienne. Prêtez attention aux détails et prenez des mesures concrètes pour vous rapprocher du résultat souhaité..",
+      "reversedMeaning": "As de Denier inversé suggère de petits obstacles ou des retards. Révisez vos plans et abordez-les avec patience pour surmonter cette perturbation temporaire..",
+      "keywords": [
+        "ace",
+        "pentacles",
+        "material",
+        "santé",
+        "richesse",
+        "stability"
+      ],
+      "connections": []
+    },
+    {
+      "id": 65,
+      "name": "Deux de Deniers",
+      "arcana": "minor",
+      "suit": "pentacles",
+      "uprightMeaning": "Deux de Deniers indique un mouvement positif et des opportunités dans votre vie quotidienne. Prêtez attention aux détails et prenez des mesures concrètes pour vous rapprocher du résultat souhaité..",
+      "reversedMeaning": "Deux de Deniers inversé suggère de petits obstacles ou des retards. Révisez vos plans et abordez-les avec patience pour surmonter cette perturbation temporaire..",
+      "keywords": [
+        "two",
+        "pentacles",
+        "material",
+        "santé",
+        "richesse",
+        "stability"
+      ],
+      "connections": []
+    },
+    {
+      "id": 66,
+      "name": "Trois de Deniers",
+      "arcana": "minor",
+      "suit": "pentacles",
+      "uprightMeaning": "Trois de Deniers indique un mouvement positif et des opportunités dans votre vie quotidienne. Prêtez attention aux détails et prenez des mesures concrètes pour vous rapprocher du résultat souhaité..",
+      "reversedMeaning": "Trois de Deniers inversé suggère de petits obstacles ou des retards. Révisez vos plans et abordez-les avec patience pour surmonter cette perturbation temporaire..",
+      "keywords": [
+        "three",
+        "pentacles",
+        "material",
+        "santé",
+        "richesse",
+        "stability"
+      ],
+      "connections": []
+    },
+    {
+      "id": 67,
+      "name": "Quatre de Deniers",
+      "arcana": "minor",
+      "suit": "pentacles",
+      "uprightMeaning": "Quatre de Deniers indique un mouvement positif et des opportunités dans votre vie quotidienne. Prêtez attention aux détails et prenez des mesures concrètes pour vous rapprocher du résultat souhaité..",
+      "reversedMeaning": "Quatre de Deniers inversé suggère de petits obstacles ou des retards. Révisez vos plans et abordez-les avec patience pour surmonter cette perturbation temporaire..",
+      "keywords": [
+        "four",
+        "pentacles",
+        "material",
+        "santé",
+        "richesse",
+        "stability"
+      ],
+      "connections": []
+    },
+    {
+      "id": 68,
+      "name": "Cinq de Deniers",
+      "arcana": "minor",
+      "suit": "pentacles",
+      "uprightMeaning": "Cinq de Deniers indique un mouvement positif et des opportunités dans votre vie quotidienne. Prêtez attention aux détails et prenez des mesures concrètes pour vous rapprocher du résultat souhaité..",
+      "reversedMeaning": "Cinq de Deniers inversé suggère de petits obstacles ou des retards. Révisez vos plans et abordez-les avec patience pour surmonter cette perturbation temporaire..",
+      "keywords": [
+        "five",
+        "pentacles",
+        "material",
+        "santé",
+        "richesse",
+        "stability"
+      ],
+      "connections": []
+    },
+    {
+      "id": 69,
+      "name": "Six de Deniers",
+      "arcana": "minor",
+      "suit": "pentacles",
+      "uprightMeaning": "Six de Deniers indique un mouvement positif et des opportunités dans votre vie quotidienne. Prêtez attention aux détails et prenez des mesures concrètes pour vous rapprocher du résultat souhaité..",
+      "reversedMeaning": "Six de Deniers inversé suggère de petits obstacles ou des retards. Révisez vos plans et abordez-les avec patience pour surmonter cette perturbation temporaire..",
+      "keywords": [
+        "six",
+        "pentacles",
+        "material",
+        "santé",
+        "richesse",
+        "stability"
+      ],
+      "connections": []
+    },
+    {
+      "id": 70,
+      "name": "Sept de Deniers",
+      "arcana": "minor",
+      "suit": "pentacles",
+      "uprightMeaning": "Sept de Deniers indique un mouvement positif et des opportunités dans votre vie quotidienne. Prêtez attention aux détails et prenez des mesures concrètes pour vous rapprocher du résultat souhaité..",
+      "reversedMeaning": "Sept de Deniers inversé suggère de petits obstacles ou des retards. Révisez vos plans et abordez-les avec patience pour surmonter cette perturbation temporaire..",
+      "keywords": [
+        "seven",
+        "pentacles",
+        "material",
+        "santé",
+        "richesse",
+        "stability"
+      ],
+      "connections": []
+    },
+    {
+      "id": 71,
+      "name": "Huit de Deniers",
+      "arcana": "minor",
+      "suit": "pentacles",
+      "uprightMeaning": "Huit de Deniers indique un mouvement positif et des opportunités dans votre vie quotidienne. Prêtez attention aux détails et prenez des mesures concrètes pour vous rapprocher du résultat souhaité..",
+      "reversedMeaning": "Huit de Deniers inversé suggère de petits obstacles ou des retards. Révisez vos plans et abordez-les avec patience pour surmonter cette perturbation temporaire..",
+      "keywords": [
+        "eight",
+        "pentacles",
+        "material",
+        "santé",
+        "richesse",
+        "stability"
+      ],
+      "connections": []
+    },
+    {
+      "id": 72,
+      "name": "Neuf de Deniers",
+      "arcana": "minor",
+      "suit": "pentacles",
+      "uprightMeaning": "Neuf de Deniers indique un mouvement positif et des opportunités dans votre vie quotidienne. Prêtez attention aux détails et prenez des mesures concrètes pour vous rapprocher du résultat souhaité..",
+      "reversedMeaning": "Neuf de Deniers inversé suggère de petits obstacles ou des retards. Révisez vos plans et abordez-les avec patience pour surmonter cette perturbation temporaire..",
+      "keywords": [
+        "nine",
+        "pentacles",
+        "material",
+        "santé",
+        "richesse",
+        "stability"
+      ],
+      "connections": []
+    },
+    {
+      "id": 73,
+      "name": "Dix de Deniers",
+      "arcana": "minor",
+      "suit": "pentacles",
+      "uprightMeaning": "Dix de Deniers indique un mouvement positif et des opportunités dans votre vie quotidienne. Prêtez attention aux détails et prenez des mesures concrètes pour vous rapprocher du résultat souhaité..",
+      "reversedMeaning": "Dix de Deniers inversé suggère de petits obstacles ou des retards. Révisez vos plans et abordez-les avec patience pour surmonter cette perturbation temporaire..",
+      "keywords": [
+        "ten",
+        "pentacles",
+        "material",
+        "santé",
+        "richesse",
+        "stability"
+      ],
+      "connections": []
+    },
+    {
+      "id": 74,
+      "name": "Page de Deniers",
+      "arcana": "minor",
+      "suit": "pentacles",
+      "uprightMeaning": "Page de Deniers indique un mouvement positif et des opportunités dans votre vie quotidienne. Prêtez attention aux détails et prenez des mesures concrètes pour vous rapprocher du résultat souhaité..",
+      "reversedMeaning": "Page de Deniers inversé suggère de petits obstacles ou des retards. Révisez vos plans et abordez-les avec patience pour surmonter cette perturbation temporaire..",
+      "keywords": [
+        "page",
+        "pentacles",
+        "material",
+        "santé",
+        "richesse",
+        "stability"
+      ],
+      "connections": []
+    },
+    {
+      "id": 75,
+      "name": "Chevalier de Deniers",
+      "arcana": "minor",
+      "suit": "pentacles",
+      "uprightMeaning": "Chevalier de Deniers indique un mouvement positif et des opportunités dans votre vie quotidienne. Prêtez attention aux détails et prenez des mesures concrètes pour vous rapprocher du résultat souhaité..",
+      "reversedMeaning": "Chevalier de Deniers inversé suggère de petits obstacles ou des retards. Révisez vos plans et abordez-les avec patience pour surmonter cette perturbation temporaire..",
+      "keywords": [
+        "knight",
+        "pentacles",
+        "material",
+        "santé",
+        "richesse",
+        "stability"
+      ],
+      "connections": []
+    },
+    {
+      "id": 76,
+      "name": "Reine de Deniers",
+      "arcana": "minor",
+      "suit": "pentacles",
+      "uprightMeaning": "Reine de Deniers indique un mouvement positif et des opportunités dans votre vie quotidienne. Prêtez attention aux détails et prenez des mesures concrètes pour vous rapprocher du résultat souhaité..",
+      "reversedMeaning": "Reine de Deniers inversé suggère de petits obstacles ou des retards. Révisez vos plans et abordez-les avec patience pour surmonter cette perturbation temporaire..",
+      "keywords": [
+        "queen",
+        "pentacles",
+        "material",
+        "santé",
+        "richesse",
+        "stability"
+      ],
+      "connections": []
+    },
+    {
+      "id": 77,
+      "name": "Roi de Deniers",
+      "arcana": "minor",
+      "suit": "pentacles",
+      "uprightMeaning": "Roi de Deniers indique un mouvement positif et des opportunités dans votre vie quotidienne. Prêtez attention aux détails et prenez des mesures concrètes pour vous rapprocher du résultat souhaité..",
+      "reversedMeaning": "Roi de Deniers inversé suggère de petits obstacles ou des retards. Révisez vos plans et abordez-les avec patience pour surmonter cette perturbation temporaire..",
+      "keywords": [
+        "king",
+        "pentacles",
+        "material",
+        "santé",
+        "richesse",
+        "stability"
+      ],
+      "connections": []
+    }
+  ]
+}
