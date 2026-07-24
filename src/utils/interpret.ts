@@ -2,8 +2,11 @@ import type { DrawnCard, Interpretation, SpreadType } from "../types/tarot";
 import type { Locale } from "../context/LocaleContext";
 import { en, type TranslationKey } from "../i18n/en";
 import { zh } from "../i18n/zh";
+import { ja } from "../i18n/ja";
+import { fr } from "../i18n/fr";
+import { ru } from "../i18n/ru";
 
-const tMap = { en, zh };
+const tMap: Record<string, Record<TranslationKey, string>> = { zh, en, ja, fr, ru };
 
 function findConnections(drawnCards: DrawnCard[], locale: Locale): string[] {
   const drawnIds = new Set(drawnCards.map((dc) => dc.card.id));

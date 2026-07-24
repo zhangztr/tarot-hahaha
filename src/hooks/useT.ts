@@ -3,8 +3,11 @@ import { LocaleContext, type Locale } from "../context/LocaleContext";
 import { ModeContext } from "../context/ModeContext";
 import { en, type TranslationKey } from "../i18n/en";
 import { zh } from "../i18n/zh";
+import { ja } from "../i18n/ja";
+import { fr } from "../i18n/fr";
+import { ru } from "../i18n/ru";
 
-const translations: Record<Locale, Record<TranslationKey, string>> = { en, zh };
+const translations: Record<Locale, Record<TranslationKey, string>> = { zh, en, ja, fr, ru };
 
 export function useLocale() {
   const ctx = useContext(LocaleContext);

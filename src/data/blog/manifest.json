@@ -4,11 +4,17 @@
     "date": "2026-07-24",
     "title": {
       "zh": "塔罗新手入门指南",
-      "en": "Tarot Beginner's Guide"
+      "en": "Tarot Beginner's Guide",
+      "ja": "タロット初心者ガイド",
+      "fr": "Guide du débutant en Tarot",
+      "ru": "Руководство для начинающих по Таро"
     },
     "summary": {
       "zh": "了解塔罗牌的基础知识、常见牌阵以及如何使用本网站进行你的第一次抽牌。",
-      "en": "Learn the basics of tarot cards, common spreads, and how to do your first reading on this site."
+      "en": "Learn the basics of tarot cards, common spreads, and how to do your first reading on this site.",
+      "ja": "タロットカードの基礎知識、よく使われるスプレッド、そしてこのサイトでの初めてのリーディング方法を学びましょう。",
+      "fr": "Apprenez les bases des cartes de tarot, les tirages courants et comment faire votre premier tirage sur ce site.",
+      "ru": "Узнайте основы карт Таро, популярные расклады и как сделать ваше первое гадание на этом сайте."
     }
   }
 ]

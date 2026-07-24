@@ -1,6 +1,6 @@
 import { createContext, useState, useCallback, type ReactNode } from "react";
 
-export type Locale = "en" | "zh";
+export type Locale = "zh" | "en" | "ja" | "fr" | "ru";
 
 interface LocaleContextValue {
   locale: Locale;
@@ -11,9 +11,10 @@ interface LocaleContextValue {
 export const LocaleContext = createContext<LocaleContextValue | null>(null);
 
 function getInitialLocale(): Locale {
+  const valid: Locale[] = ["zh", "en", "ja", "fr", "ru"];
   try {
     const stored = localStorage.getItem("tarot-locale");
-    if (stored === "en" || stored === "zh") return stored;
+    if (valid.includes(stored as Locale)) return stored as Locale;
   } catch {}
   return "zh";
 }
