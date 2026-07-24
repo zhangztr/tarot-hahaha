@@ -1,5 +1,6 @@
 import type { ReactNode } from "react";
 import Header from "./Header";
+import Footer from "./Footer";
 import StarfieldBackground from "./StarfieldBackground";
 
 export default function Layout({ children }: { children: ReactNode }) {
@@ -11,6 +12,7 @@ export default function Layout({ children }: { children: ReactNode }) {
         <main className="flex-1 flex flex-col items-center px-6 pb-24">
           {children}
         </main>
+        <Footer />
       </div>
     </div>
   );
