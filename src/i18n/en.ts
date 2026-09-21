@@ -173,6 +173,10 @@ For privacy-related inquiries: ztry666@qq.com`,
   "blog.publishedOn": "Published on",
   "blog.postNotFound": "Post not found.",
   "blog.loading": "Loading...",
+
+  // 404 redirect page (GitHub Pages SPA fallback)
+  "redirect.message": "Redirecting…",
+  "redirect.goHome": "Go to home page",
 } as const;
 
 export type TranslationKey = keyof typeof en;

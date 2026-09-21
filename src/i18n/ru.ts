@@ -175,4 +175,8 @@ export const ru: Record<TranslationKey, string> = {
   "blog.publishedOn": "Опубликовано",
   "blog.postNotFound": "Статья не найдена.",
   "blog.loading": "Загрузка…",
+
+  // 404 redirect page (GitHub Pages SPA fallback)
+  "redirect.message": "Перенаправление…",
+  "redirect.goHome": "На главную",
 };

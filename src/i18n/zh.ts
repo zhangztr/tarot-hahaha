@@ -175,4 +175,8 @@ export const zh: Record<TranslationKey, string> = {
   "blog.publishedOn": "发布于",
   "blog.postNotFound": "未找到文章。",
   "blog.loading": "加载中…",
+
+  // 404 redirect page (GitHub Pages SPA fallback)
+  "redirect.message": "正在跳转…",
+  "redirect.goHome": "前往首页",
 };

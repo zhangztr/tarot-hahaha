@@ -175,4 +175,8 @@ Pour toute question relative à la confidentialité : ztry666@qq.com`,
   "blog.publishedOn": "Publié le",
   "blog.postNotFound": "Article introuvable.",
   "blog.loading": "Chargement…",
+
+  // 404 redirect page (GitHub Pages SPA fallback)
+  "redirect.message": "Redirection…",
+  "redirect.goHome": "Aller à l'accueil",
 };

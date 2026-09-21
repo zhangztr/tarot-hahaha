@@ -175,4 +175,8 @@ export const ja: Record<TranslationKey, string> = {
   "blog.publishedOn": "公開日：",
   "blog.postNotFound": "記事が見つかりません。",
   "blog.loading": "読み込み中…",
+
+  // 404 redirect page (GitHub Pages SPA fallback)
+  "redirect.message": "リダイレクト中…",
+  "redirect.goHome": "ホームページへ",
 };

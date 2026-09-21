@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="zh">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="noindex" />
+    <title>Arcana — Tarot Reading</title>
+    <style>
+      html,
+      body {
+        margin: 0;
+        height: 100%;
+        background-color: #0a0012;
+        color: rgba(255, 255, 255, 0.65);
+        font-family: ui-sans-serif, system-ui, sans-serif;
+      }
+      .wrap {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        gap: 14px;
+        text-align: center;
+        padding: 24px;
+      }
+      .star {
+        color: #d4a853;
+        font-size: 34px;
+      }
+      .message {
+        font-family: ui-serif, Georgia, serif;
+        font-size: 17px;
+        letter-spacing: 0.02em;
+      }
+      a {
+        color: rgba(212, 168, 83, 0.85);
+        font-size: 13px;
+        text-decoration: none;
+        border-bottom: 1px solid rgba(212, 168, 83, 0.35);
+        padding-bottom: 2px;
+      }
+      a:hover {
+        color: #d4a853;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrap">
+      <div class="star">&#9733;</div>
+      <p class="message" id="redirect-message">正在跳转…</p>
+      <noscript>
+        <p class="message">此页面需要 JavaScript 才能继续。</p>
+      </noscript>
+      <a id="redirect-home" href="/">前往首页</a>
+    </div>
+    __REDIRECT_SCRIPT__
+  </body>
+</html>
