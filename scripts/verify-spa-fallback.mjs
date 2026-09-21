@@ -216,5 +216,38 @@ for (const c of restoreCases) {
   }
 }
 
+// ---------------------------------------------------------------------------
+// Bundling order: the restore call must run BEFORE the app renders, otherwise a
+// deep link would resolve to the home page instead of the requested route.
+// Both are module-level calls at the end of the built bundle, so compare their
+// offsets. The markers below are the real call sites (React ships the literal
+// strings "createRoot"/"render(", so match the invocation with its arguments).
+// ---------------------------------------------------------------------------
+const mainChunkName = readdirSync(assetsDir).find((f) => f.startsWith("main-") && f.endsWith(".js"));
+if (!mainChunkName) throw new Error("main chunk not found in dist/assets");
+const mainBundle = readFileSync(join(assetsDir, mainChunkName), "utf8");
+
+// Match the restore body and the real root render invocation. React ships the
+// literal strings "createRoot"/"render(", so anchor on the call with arguments.
+const restoreBodyIdx = mainBundle.indexOf("sessionStorage.getItem(");
+const replaceStateIdx = mainBundle.indexOf('replaceState(null,"",');
+const rootCallIdx = mainBundle.indexOf("createRoot(document.getElementById(");
+const renderCallIdx = rootCallIdx >= 0 ? mainBundle.indexOf(".render(", rootCallIdx) : -1;
+
+const orderChecks = [
+  ["restore body located", restoreBodyIdx >= 0],
+  ["replaceState call located", replaceStateIdx >= 0],
+  ["real root render located", rootCallIdx >= 0 && renderCallIdx > rootCallIdx],
+  ["restore runs before render", restoreBodyIdx >= 0 && rootCallIdx > restoreBodyIdx],
+];
+for (const [label, ok] of orderChecks) {
+  if (ok) {
+    console.log(`ok    ${label}`);
+  } else {
+    failures++;
+    console.log(`FAIL  ${label}`);
+  }
+}
+
 console.log(failures ? `\n${failures} check(s) FAILED` : "\nall checks passed");
 process.exit(failures ? 1 : 0);
