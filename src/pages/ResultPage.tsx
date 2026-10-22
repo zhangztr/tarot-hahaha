@@ -1,4 +1,4 @@
-import { useState, useEffect, useMemo, useRef } from "react";
+import { useState, useEffect, useMemo } from "react";
 import { useNavigate, useLocation } from "react-router-dom";
 import { motion } from "motion/react";
 import { ArrowLeft, RotateCcw } from "lucide-react";
@@ -10,6 +10,7 @@ import { generateInterpretationFunny } from "../utils/interpret-funny";
 import type { Reading } from "../types/tarot";
 import CardGrid from "../components/CardGrid";
 import SummaryBlock from "../components/SummaryBlock";
+import AdSlot from "../components/AdSlot";
 
 export default function ResultPage() {
   const { reading: ctxReading, clearReading } = useReading();
@@ -28,29 +29,6 @@ export default function ResultPage() {
       navigate("/", { replace: true });
     }
   }, [reading, navigate]);
-
-  // Request the AdSense ad unit once the ad script is ready.
-  const adPushed = useRef(false);
-  useEffect(() => {
-    if (adPushed.current) return;
-    type AdsWindow = Window & { adsbygoogle?: unknown[] };
-    const w = window as AdsWindow;
-    const tryPush = () => {
-      if (adPushed.current) return true;
-      if (!w.adsbygoogle) return false;
-      w.adsbygoogle.push({});
-      adPushed.current = true;
-      return true;
-    };
-    if (tryPush()) return;
-    // Script is loaded with `async`, so poll briefly until it is available.
-    let elapsed = 0;
-    const timer = window.setInterval(() => {
-      elapsed += 200;
-      if (tryPush() || elapsed >= 10000) window.clearInterval(timer);
-    }, 200);
-    return () => window.clearInterval(timer);
-  }, [reading]);
 
   const resolvedCards = useResolvedCards(reading?.cards ?? []);
   const funnyDeck = useFunnyCards();
@@ -123,12 +101,7 @@ export default function ResultPage() {
       <SummaryBlock interpretation={interpretation} visible={showSummary} />
 
       <div className="w-full max-w-2xl mt-16">
-        <ins className="adsbygoogle"
-             style={{ display: "block" }}
-             data-ad-client="ca-pub-2039279198322464"
-             data-ad-slot="1234567890"
-             data-ad-format="auto"
-             data-full-width-responsive="true" />
+        <AdSlot />
       </div>
     </div>
   );
